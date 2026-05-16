@@ -1,0 +1,22 @@
+[
+  {
+    "product_id": "allianz-life-syariah-allisya-care",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/allianz/allianz-life-syariah/allisya-care/riplay-umum-allisya-care-final.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "prudential-life-assurance-pruwell-health",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/prudential/prudential-life-assurance/pruwell-health/Flayer-PS-PWH.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "prudential-sharia-life-assurance-pruwell-medical-syariah",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/prudential/prudential-sharia-life-assurance/pruwell-medical-syariah/FA-PS PRUWell Medical Syariah 24042026.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "prudential-sharia-life-assurance-pruwell-health-syariah",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/prudential/prudential-sharia-life-assurance/pruwell-health-syariah/FA-PS-PRUWell-Health-Syariah-15052025.tables.json",
+    "reason": "no tabel manfaat detected"
+  }
+]
