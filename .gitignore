@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# OS clutter
+.DS_Store
+
+# Regenerable data
+data/raw/
+data/parsed/

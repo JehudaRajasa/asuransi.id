@@ -1,0 +1,13 @@
+[project]
+name = "asuransi-id"
+version = "0.1.0"
+description = "AI-powered Indonesian health insurance data aggregator"
+requires-python = ">=3.14"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "curl-cffi>=0.15.0",
+    "docling>=2.93.0",
+    "opencv-python-headless>=4.13.0.92",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.3",
+]
