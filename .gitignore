@@ -15,3 +15,4 @@ wheels/
 # Regenerable data
 data/raw/
 data/parsed/
+scripts/parser_probe/out_*/
