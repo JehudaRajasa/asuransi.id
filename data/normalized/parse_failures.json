@@ -1,17 +1,9 @@
 [
   {
-    "product_id": "aia-financial-premier-hospital-surgical-saver",
-    "reason": "no riplay PDF in product metadata"
-  },
-  {
-    "product_id": "aia-financial-premier-hospital-surgical-extra-phse",
-    "reason": "no riplay PDF in product metadata"
-  },
-  {
     "product_id": "aia-financial-proteksi-kesehatan-ultima-pratama",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/aia-financial/aia-financial/proteksi-kesehatan-ultima-pratama/RIPLAY UMUM PRATAMA - RP116R04-1125.tables.json",
     "reason": "unmapped manfaat rows",
-    "unmapped_count": 3,
+    "unmapped_count": 11,
     "unmapped_samples": [
       {
         "label": "Pembebasan Premi",
@@ -48,71 +40,37 @@
           "Total Premi yang telah dibayarkan",
           "Total Premi yang telah dibayarkan"
         ]
+      },
+      {
+        "label": "- 30",
+        "penjelasan": "",
+        "row": [
+          "5 - 30",
+          "334.000",
+          "502.000",
+          "669.000",
+          "836.000",
+          "1.003.000"
+        ]
+      },
+      {
+        "label": "- 40",
+        "penjelasan": "",
+        "row": [
+          "31 - 40",
+          "418.000",
+          "627.000",
+          "836.000",
+          "1.045.000",
+          "1.254.000"
+        ]
       }
     ]
   },
   {
     "product_id": "aia-financial-aia-health-x",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/aia-financial/aia-financial/aia-health-x/RIPLAY Umum AIA Health X_Essential X & Essential X-Tra - RP167R02-1125.tables.json",
-    "reason": "unmapped manfaat rows",
-    "unmapped_count": 10,
-    "unmapped_samples": [
-      {
-        "label": "ASIA (Kecuali Singapura, Hong Kong, Jepang)",
-        "penjelasan": "",
-        "row": [
-          "",
-          "Area Pertanggungan",
-          "ASIA (Kecuali Singapura, Hong Kong, Jepang)",
-          "ASIA (Kecuali Singapura, Hong Kong, Jepang)",
-          "ASIA (Kecuali Singapura, Hong Kong, Jepang)"
-        ]
-      },
-      {
-        "label": "IDR 5.000.000.000",
-        "penjelasan": "",
-        "row": [
-          "",
-          "Batas Tahunan Total",
-          "IDR 5.000.000.000",
-          "IDR 5.000.000.000",
-          "IDR 5.000.000.000"
-        ]
-      },
-      {
-        "label": "IDR 12.000.000.000",
-        "penjelasan": "",
-        "row": [
-          "",
-          "Limit Booster (Selama Polis aktif dan berlaku sampai dengan Tertanggung berumur 99 tahun, maksimal manfaat yang diberikan adalah sebesar)",
-          "IDR 12.000.000.000",
-          "IDR 12.000.000.000",
-          "IDR 12.000.000.000"
-        ]
-      },
-      {
-        "label": "IDR 17.000.000.000",
-        "penjelasan": "",
-        "row": [
-          "",
-          "Total Manfaat",
-          "IDR 17.000.000.000",
-          "IDR 17.000.000.000",
-          "IDR 17.000.000.000"
-        ]
-      },
-      {
-        "label": "Sesuai kuitansi. Sesuai kuitansi.",
-        "penjelasan": "",
-        "row": [
-          "3 4",
-          "Biaya Kunjungan DokterUmum Biaya Kunjungan Dokter Spesialis",
-          "Sesuai kuitansi. Sesuai kuitansi.",
-          "Sesuai kuitansi. Sesuai kuitansi.",
-          "Sesuai kuitansi. Sesuai kuitansi."
-        ]
-      }
-    ]
+    "reason": "no tabel manfaat detected"
   },
   {
     "product_id": "allianz-life-smarthealth-maxi-violet",
@@ -155,10 +113,38 @@
     ]
   },
   {
+    "product_id": "allianz-life-syariah-allisya-preferred-medical",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/allianz/allianz-life-syariah/allisya-preferred-medical/riplay-umum-allisya-preferred-medical.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 2,
+    "unmapped_samples": [
+      {
+        "label": "4+",
+        "penjelasan": "",
+        "row": [
+          "4+",
+          "Xx%",
+          "Yy%",
+          "Zz%"
+        ]
+      },
+      {
+        "label": "4+",
+        "penjelasan": "",
+        "row": [
+          "4+",
+          "Xx%",
+          "Yy%",
+          "Zz%"
+        ]
+      }
+    ]
+  },
+  {
     "product_id": "allianz-life-syariah-allisya-care",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/allianz/allianz-life-syariah/allisya-care/riplay-umum-allisya-care-final.tables.json",
     "reason": "unmapped manfaat rows",
-    "unmapped_count": 1,
+    "unmapped_count": 3,
     "unmapped_samples": [
       {
         "label": "Keguguran yang Legal",
@@ -174,6 +160,28 @@
           "3.000",
           "3.750",
           "5.000"
+        ]
+      },
+      {
+        "label": "bulan setelah Bapak Doni memiliki Polis Alli Sya Care, Bapak Doni menderita sakit demamberdarah.",
+        "penjelasan": "",
+        "row": [
+          "1 bulan setelah Bapak Doni memiliki Polis AlliSya Care, Bapak Doni menderita sakit demamberdarah.",
+          "1 bulan setelah Bapak Doni memiliki Polis AlliSya Care, Bapak Doni menderita sakit demamberdarah.",
+          "Bapak Doni perlu menjalani perawatan Rawat Inap, kelas kamar yang menjadi hak Bapak Doni adalah Rp500.000 per hari.",
+          "Bapak Doni perlu menjalani perawatan Rawat Inap, kelas kamar yang menjadi hak Bapak Doni adalah Rp500.000 per hari.",
+          "Bapak Doni juga berhak atas biaya kunjungan Dokter yang Merawat sebesar Rp150.000 per hari."
+        ]
+      },
+      {
+        "label": "bulan setelah Ibu Indah memiliki Polis Alli Sya Care, Ibu Indah mengalami diare.",
+        "penjelasan": "",
+        "row": [
+          "2 bulan setelah Ibu Indah memiliki Polis AlliSya Care, Ibu Indah mengalami diare.",
+          "2 bulan setelah Ibu Indah memiliki Polis AlliSya Care, Ibu Indah mengalami diare.",
+          "Ibu Indah menjalani Rawat Jalan di rumah sakit dengan berkonsultasi pada Dokter Umum. Batas manfaat Dokter Umumyang menjadi hak Ibu Indah adalah Rp37.500 per kunjungan.",
+          "Ibu Indah menjalani Rawat Jalan di rumah sakit dengan berkonsultasi pada Dokter Umum. Batas manfaat Dokter Umumyang menjadi hak Ibu Indah adalah Rp37.500 per kunjungan.",
+          "Ibu Indah juga berhak atau biaya obat-obatan sebesar Rp1.600.000 per tahun."
         ]
       }
     ]
@@ -245,14 +253,6 @@
         ]
       }
     ]
-  },
-  {
-    "product_id": "bca-life-apply",
-    "reason": "no riplay PDF in product metadata"
-  },
-  {
-    "product_id": "bca-life-apply",
-    "reason": "no riplay PDF in product metadata"
   },
   {
     "product_id": "bca-life-bca-life-pelindung-penyakit-kritis",
@@ -389,7 +389,7 @@
     "product_id": "bca-life-bca-life-perlindungan-kritis-optima-bca-life-pelita",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/bca-life/bca-life/bca-life-perlindungan-kritis-optima-bca-life-pelita/bca-life-perlindungan-kritis-optima-bca-life-pelita-1737614567.tables.json",
     "reason": "unmapped manfaat rows",
-    "unmapped_count": 5,
+    "unmapped_count": 12,
     "unmapped_samples": [
       {
         "label": "Uang Pertanggungan",
@@ -495,71 +495,81 @@
     "product_id": "car-prevensia-pro-ultimate",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/car/car/prevensia-pro-ultimate/riplay-umum-asuransi-prevensia-pro-ultimate-052025.tables.json",
     "reason": "unmapped manfaat rows",
-    "unmapped_count": 49,
+    "unmapped_count": 89,
     "unmapped_samples": [
       {
-        "label": "Biaya Aneka Perawatan (Obat2an, Lab, dll)",
+        "label": "1-19",
         "penjelasan": "",
         "row": [
-          "5.",
-          "Biaya Aneka Perawatan (Obat2an, Lab, dll)",
-          "per perawatan",
-          "sesuai tagihan",
-          "sesuai tagihan",
-          "sesuai tagihan",
-          "sesuai tagihan"
+          "1-19",
+          "Rp",
+          "2.726.300",
+          "Rp",
+          "5.036.500",
+          "Rp",
+          "7.346.700",
+          "Rp",
+          "17.874.200"
         ]
       },
       {
-        "label": "Biaya Aneka Perawatan (Obat2an, Lab, dll)",
+        "label": "20-29",
         "penjelasan": "",
         "row": [
-          "5.",
-          "Biaya Aneka Perawatan (Obat2an, Lab, dll)",
-          "sesuai tagihan",
-          "",
-          "7.750.000 Rp",
-          "",
-          "7.750.000 Rp"
+          "20-29",
+          "Rp",
+          "3.427.900",
+          "Rp",
+          "6.439.800",
+          "Rp",
+          "9.451.600",
+          "Rp",
+          "23.355.100"
         ]
       },
       {
-        "label": "Pembedahantanpa rawat inap",
+        "label": "30-39",
         "penjelasan": "",
         "row": [
-          "9.",
-          "Pembedahantanpa rawat inap",
-          "6.000.000 Rp",
-          "",
-          "",
-          "",
-          ""
+          "30-39",
+          "Rp",
+          "4.119.800",
+          "Rp",
+          "7.823.600",
+          "Rp",
+          "11.527.300",
+          "Rp",
+          "28.760.100"
         ]
       },
       {
-        "label": "Perawatan Luka Bakar Karena Kecelakaan",
+        "label": "40-49",
         "penjelasan": "",
         "row": [
-          "12.",
-          "Perawatan Luka Bakar Karena Kecelakaan",
-          "1.000.000 Rp",
-          "",
-          "1.000.000 Rp",
-          "",
-          "1.000.000 Rp"
+          "40-49",
+          "Rp",
+          "5.213.000",
+          "Rp",
+          "10.010.000",
+          "Rp",
+          "14.806.900",
+          "Rp",
+          "37.299.800"
         ]
       },
       {
-        "label": "Perawatan Darurat akibat Keracunan Makanan",
+        "label": "50-59",
         "penjelasan": "",
         "row": [
-          "13.",
-          "Perawatan Darurat akibat Keracunan Makanan",
-          "1.000.000 Rp",
-          "",
-          "",
-          "",
-          ""
+          "50-59",
+          "Rp",
+          "6.853.100",
+          "Rp",
+          "13.290.100",
+          "Rp",
+          "19.727.100",
+          "Rp",
+          "50.111.500"
         ]
       }
     ]
@@ -568,81 +578,81 @@
     "product_id": "car-prevensia-care-ultimate",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/car/car/prevensia-care-ultimate/riplay-umum-asuransi-prevensia-care-ultimate-052025.tables.json",
     "reason": "unmapped manfaat rows",
-    "unmapped_count": 39,
+    "unmapped_count": 49,
     "unmapped_samples": [
       {
-        "label": "Biaya Aneka Perawatan (Obat2an, Lab, dll)",
+        "label": "1-19",
         "penjelasan": "",
         "row": [
-          "Biaya Aneka Perawatan (Obat2an, Lab, dll)",
-          "per perawatan",
+          "1-19",
           "Rp",
-          "7.500.000",
+          "2.240.700",
           "Rp",
-          "15.000.000",
+          "4.069.100",
           "Rp",
-          "22.500.000",
-          "75.000.000 Rp"
+          "5.897.500",
+          "Rp",
+          "17.648.300"
         ]
       },
       {
-        "label": "Pembedahantanpa rawat inap",
+        "label": "20-29",
         "penjelasan": "",
         "row": [
-          "Pembedahantanpa rawat inap",
-          "per perawatan",
+          "20-29",
           "Rp",
-          "6.000.000",
+          "2.780.500",
           "Rp",
-          "12.000.000",
+          "5.148.500",
           "Rp",
-          "18.000.000",
-          "60.000.000 Rp"
+          "7.516.600",
+          "Rp",
+          "23.053.500"
         ]
       },
       {
-        "label": "Perawatan Luka Bakar Karena Kecelakaan",
+        "label": "30-39",
         "penjelasan": "",
         "row": [
-          "Perawatan Luka Bakar Karena Kecelakaan",
-          "per perawatan",
+          "30-39",
           "Rp",
-          "1.000.000",
+          "3.312.700",
           "Rp",
-          "2.000.000",
+          "6.213.000",
           "Rp",
-          "Rp 3.000.000",
-          "10.000.000"
+          "9.113.300",
+          "Rp",
+          "28.383.900"
         ]
       },
       {
-        "label": "Perawatan Darurat akibat Keracunan Makanan",
+        "label": "40-49",
         "penjelasan": "",
         "row": [
-          "Perawatan Darurat akibat Keracunan Makanan",
-          "per perawatan",
+          "40-49",
           "Rp",
-          "1.000.000",
+          "4.153.600",
           "Rp",
-          "2.000.000",
+          "7.894.900",
           "Rp",
-          "3.000.000",
-          "10.000.000 Rp"
+          "11.636.100",
+          "Rp",
+          "36.805.700"
         ]
       },
       {
-        "label": "Manfaat Tambahan",
+        "label": "50-59",
         "penjelasan": "",
         "row": [
-          "ManfaatTambahan",
-          "ManfaatTambahan",
-          "ManfaatTambahan",
-          "ManfaatTambahan",
-          "ManfaatTambahan",
-          "ManfaatTambahan",
-          "ManfaatTambahan",
-          "ManfaatTambahan",
-          "ManfaatTambahan"
+          "50-59",
+          "Rp",
+          "5.415.200",
+          "Rp",
+          "10.418.000",
+          "Rp",
+          "15.420.800",
+          "Rp",
+          "49.440.500"
         ]
       }
     ]
@@ -651,86 +661,91 @@
     "product_id": "car-prevensia-carina",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/car/car/prevensia-carina/riplay-asuransi-prevensia-carina.tables.json",
     "reason": "unmapped manfaat rows",
-    "unmapped_count": 12,
+    "unmapped_count": 60,
     "unmapped_samples": [
       {
-        "label": "Biaya perawatan lain-lain",
+        "label": "- 17 th",
         "penjelasan": "",
         "row": [
-          "Biaya perawatan lain-lain",
-          "1.125.000",
-          "1.500.000",
-          "1.875.000",
-          "2.250.000",
-          "3.000.000",
-          "3.750.000",
-          "4.500.000",
-          "6.000.000",
-          "7.500.000"
+          "0 - 17 th",
+          "288.000",
+          "288.000",
+          "380.000",
+          "380.000",
+          "466.000",
+          "466.000",
+          "541.000",
+          "541.000",
+          "712.000",
+          "712.000"
         ]
       },
       {
-        "label": "Biaya anestesi",
+        "label": "- 30 th",
         "penjelasan": "",
         "row": [
-          "Biaya anestesi",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan"
+          "18 - 30 th",
+          "355.000",
+          "455.000",
+          "467.000",
+          "467.000",
+          "573.000",
+          "733.000",
+          "664.000",
+          "849.000",
+          "874.000",
+          "1.117.000"
         ]
       },
       {
-        "label": "Biaya ruang operasi",
+        "label": "- 40 th",
         "penjelasan": "",
         "row": [
-          "Biaya ruang operasi",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan",
-          "Maksimum40%daribiayapembedahan"
+          "31 - 40 th",
+          "362.000",
+          "464.000",
+          "477.000",
+          "477.000",
+          "586.000",
+          "750.000",
+          "679.000",
+          "869.000",
+          "895.000",
+          "1.145.000"
         ]
       },
       {
-        "label": "Batas maksimum penggantian per tahun",
+        "label": "- 45 th",
         "penjelasan": "",
         "row": [
-          "Batas maksimum penggantian per tahun",
-          "Tidakadabatasan",
-          "Tidakadabatasan",
-          "Tidakadabatasan",
-          "Tidakadabatasan",
-          "Tidakadabatasan",
-          "Tidakadabatasan",
-          "Tidakadabatasan",
-          "Tidakadabatasan",
-          "Tidakadabatasan"
+          "41 - 45 th",
+          "372.000",
+          "477.000",
+          "490.000",
+          "490.000",
+          "602.000",
+          "771.000",
+          "698.000",
+          "893.000",
+          "920.000",
+          "1.176.000"
         ]
       },
       {
-        "label": "Biaya perawatan lain-lain",
+        "label": "- 50 th",
         "penjelasan": "",
         "row": [
-          "Biaya perawatan lain-lain",
-          "9.000.000",
-          "10.500.000",
-          "12.000.000",
-          "13.500.000",
-          "15.000.000",
-          "18.750.000",
-          "22.500.000",
-          "26.250.000",
-          "30.000.000"
+          "46 - 50 th",
+          "457.000",
+          "586.000",
+          "602.000",
+          "602.000",
+          "739.000",
+          "945.000",
+          "856.000",
+          "1.095.000",
+          "1.127.000",
+          "1.441.000"
         ]
       }
     ]
@@ -739,73 +754,71 @@
     "product_id": "car-family-prevensia-care",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/car/car/family-prevensia-care/riplay-asuransi-family-prevensia-care-201123.tables.json",
     "reason": "unmapped manfaat rows",
-    "unmapped_count": 10,
+    "unmapped_count": 19,
     "unmapped_samples": [
       {
-        "label": "Perawatan Darurat akibat Keracunan Makanan",
+        "label": "Keluarga Bahagia (Suami & Istri)",
         "penjelasan": "",
         "row": [
-          "Perawatan Darurat akibat Keracunan Makanan",
-          "100% Kwitansi",
-          "100% Kwitansi",
-          "100% Kwitansi",
-          "100% Kwitansi",
-          "100% Kwitansi",
-          "100% Kwitansi"
+          "Keluarga Bahagia (Suami & Istri)",
+          "1.680.800 Rp",
+          "3.201.500 Rp",
+          "4.722.300 Rp",
+          "6.243.000 Rp",
+          "7.763.800 Rp",
+          "9.284.500 Rp"
         ]
       },
       {
-        "label": "Biaya Perawatan Luka Bakar",
+        "label": "Premi Keluarga Setia",
         "penjelasan": "",
         "row": [
-          "Biaya Perawatan Luka Bakar",
-          "100% Kwitansi",
-          "100% Kwitansi",
-          "100% Kwitansi",
-          "100% Kwitansi",
-          "100% Kwitansi",
-          "100% Kwitansi"
+          "Premi Keluarga Setia",
+          "Plan 100",
+          "Plan 200",
+          "Plan 300",
+          "Plan 400",
+          "Plan 500",
+          "Plan 600"
         ]
       },
       {
-        "label": "Batas Manfaat Maksimum Per Ketidakmampuan",
+        "label": "Keluarga Setia (Janda / Duda & 1 anak)",
         "penjelasan": "",
         "row": [
-          "Batas Manfaat Maksimum Per Ketidakmampuan",
-          "4.000.000 Rp",
-          "8.000.000 Rp",
-          "12.000.000 Rp",
-          "16.000.000 Rp",
-          "20.000.000 Rp",
-          "24.000.000 Rp"
+          "Keluarga Setia (Janda / Duda & 1 anak)",
+          "2.037.700 Rp",
+          "3.771.000 Rp",
+          "5.505.000 Rp",
+          "7.238.700 Rp",
+          "8.972.300 Rp",
+          "10.706.000 Rp"
         ]
       },
       {
-        "label": "Perawatan Darurat akibat Keracunan Makanan",
+        "label": "Keluarga Setia (Janda / Duda & 2 anak)",
         "penjelasan": "",
         "row": [
-          "Perawatan Darurat akibat Keracunan Makanan",
-          "100% Kwitansi",
-          "",
-          "",
-          "-",
-          "",
-          "",
-          "-"
+          "Keluarga Setia (Janda / Duda & 2 anak)",
+          "2.091.300 Rp",
+          "3.870.600 Rp",
+          "5.649.900 Rp",
+          "7.429.200 Rp",
+          "9.208.400 Rp",
+          "10.987.700 Rp"
         ]
       },
       {
-        "label": "Biaya Perawatan Luka Bakar",
+        "label": "Keluarga Setia (Janda / Duda & 3 anak)",
         "penjelasan": "",
         "row": [
-          "Biaya Perawatan Luka Bakar",
-          "100% Kwitansi",
-          "",
-          "",
-          "-",
-          "",
-          "",
-          "-"
+          "Keluarga Setia (Janda / Duda & 3 anak)",
+          "2.144.900 Rp",
+          "3.969.800 Rp",
+          "5.794.700 Rp",
+          "7.619.600 Rp",
+          "9.444.500 Rp",
+          "11.269.400 Rp"
         ]
       }
     ]
@@ -866,8 +879,18 @@
     "product_id": "generali-generali-lite-healthcare",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/generali/generali/generali-lite-healthcare/RIPLAY Umum Generali Lite HealthCare.tables.json",
     "reason": "unmapped manfaat rows",
-    "unmapped_count": 13,
+    "unmapped_count": 14,
     "unmapped_samples": [
+      {
+        "label": "Plan",
+        "penjelasan": "",
+        "row": [
+          "Plan",
+          "Diamond",
+          "Platinum",
+          "Titanium"
+        ]
+      },
       {
         "label": "Indonesia, Malaysia",
         "penjelasan": "",
@@ -922,20 +945,6 @@
           "20%",
           "40%",
           "100%"
-        ]
-      },
-      {
-        "label": "PICU,",
-        "penjelasan": "",
-        "row": [
-          "PICU,",
-          "Maksimal sesuai dengan hari kalender per tahun",
-          "1.000.000/hari",
-          "1.500.000/hari",
-          "2.000.000/hari",
-          "3.000.000/hari",
-          "4.000.000/hari",
-          "6.000.000/hari"
         ]
       }
     ]
@@ -1019,9 +1028,155 @@
     "reason": "no tabel manfaat detected"
   },
   {
+    "product_id": "jiwa-manulife-proteksi-prima-medika",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/manulife/jiwa-manulife/proteksi-prima-medika/Proteksi Prima Medika - Ringkasan Informasi Produk dan Layanan Versi Umum.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 5,
+    "unmapped_samples": [
+      {
+        "label": "18-29",
+        "penjelasan": "",
+        "row": [
+          "18-29",
+          "90.000",
+          "180.000",
+          "270.000",
+          "450.000",
+          "630.000"
+        ]
+      },
+      {
+        "label": "30-39",
+        "penjelasan": "",
+        "row": [
+          "30-39",
+          "100.000",
+          "200.000",
+          "300.000",
+          "500.000",
+          "700.000"
+        ]
+      },
+      {
+        "label": "40-49",
+        "penjelasan": "",
+        "row": [
+          "40-49",
+          "140.000",
+          "280.000",
+          "420.000",
+          "700.000",
+          "980.000"
+        ]
+      },
+      {
+        "label": "50-54",
+        "penjelasan": "",
+        "row": [
+          "50-54",
+          "170.000",
+          "340.000",
+          "510.000",
+          "850.000",
+          "1.190.000"
+        ]
+      },
+      {
+        "label": "55-59",
+        "penjelasan": "",
+        "row": [
+          "55-59",
+          "175.000",
+          "350.000",
+          "525.000",
+          "875.000",
+          "1.225.000"
+        ]
+      }
+    ]
+  },
+  {
     "product_id": "prudential-life-assurance-pruwell-health",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/prudential/prudential-life-assurance/pruwell-health/Flayer-PS-PWH.tables.json",
-    "reason": "no tabel manfaat detected"
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 7,
+    "unmapped_samples": [
+      {
+        "label": "Penjelasan Per hari; maksimal sesuai dengan hari kalender per tahun",
+        "penjelasan": "",
+        "row": [
+          "No Manfaat Rawat Inap & Pembedahan 1 Biaya Kamar",
+          "Penjelasan Per hari; maksimal sesuai dengan hari kalender per tahun",
+          "harga kamar terendah dengan 2 tempat tidur harga dengan 1 dengan di",
+          "kamar terendah tempat tidur kamar mandi dalam",
+          "harga kamar terendah dengan 2 tempat tidur",
+          "harga kamar terendah dengan 1 tempat tidur dengan kamar mandi di dalam",
+          "harga kamar terendah",
+          "dengan 1 tempat tidur di dalam",
+          "dengan kamar mandi"
+        ]
+      },
+      {
+        "label": "Penjelasan Per hari; maksimal sesuai dengan hari kalender per tahun",
+        "penjelasan": "",
+        "row": [
+          "No Manfaat Rawat Inap & Pembedahan 1 Biaya Kamar",
+          "Penjelasan Per hari; maksimal sesuai dengan hari kalender per tahun",
+          "atau sebesar Batas Harga Kamar",
+          "atau sebesar Batas Harga Kamar",
+          "atau sebesar Batas Harga Kamar",
+          "atau sebesar Batas Harga Kamar",
+          "atau sebesar Batas Harga Kamar",
+          "atau sebesar Batas Harga Kamar",
+          "atau sebesar Batas Harga Kamar"
+        ]
+      },
+      {
+        "label": "Maksimal 120 hari per tahun",
+        "penjelasan": "",
+        "row": [
+          "6 Biaya Aneka Perawatan Rumah Sakit 7 Biaya Perawatan Oleh Juru Rawat Setelah Rawat Inap",
+          "Maksimal 120 hari per tahun",
+          "",
+          "",
+          "",
+          "Sesuai Tagihan",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "label": "Bedah Rekonstruksi Payudara harus dilakukan oleh Dokter Medis dalam waktu 6 bulan sejak tanggal operasi pengangkatan payudara (Mastektomi)",
+        "penjelasan": "",
+        "row": [
+          "15 Biaya Bedah Rekonstruksi Payudara (setelah Tindakan Mastektomi akibat Kanker atau Kecelakaan)",
+          "Bedah Rekonstruksi Payudara harus dilakukan oleh Dokter Medis dalam waktu 6 bulan sejak tanggal operasi pengangkatan payudara (Mastektomi)",
+          "",
+          "",
+          "",
+          "Sesuai Tagihan",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "label": "Perawatan Tradisional",
+        "penjelasan": "",
+        "row": [
+          "20 Perawatan Tradisional",
+          "Selama Rawat Inap atau maksimal 90 hari setelah Rawat Inap atau Tindakan Bedah atas rekomendasi oleh Dokter yang merawat",
+          "1,000 per hari/15,000 per tahun",
+          "1,000 per hari/15,000 per tahun",
+          "1,000 per hari/15,000 per tahun",
+          "1,000 per hari/30,000 per tahun",
+          "1,000 per hari/30,000 per tahun",
+          "1,000 per hari/50,000 per tahun",
+          "1,000 per hari/50,000 per tahun"
+        ]
+      }
+    ]
   },
   {
     "product_id": "prudential-sharia-life-assurance-pruwell-medical-syariah",
@@ -1031,7 +1186,55 @@
   {
     "product_id": "prudential-sharia-life-assurance-pruwell-health-syariah",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/prudential/prudential-sharia-life-assurance/pruwell-health-syariah/FA-PS-PRUWell-Health-Syariah-15052025.tables.json",
-    "reason": "no tabel manfaat detected"
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 3,
+    "unmapped_samples": [
+      {
+        "label": "Penjelasan",
+        "penjelasan": "",
+        "row": [
+          "No Manfaat Rawat Inap & Pembedahan",
+          "Penjelasan",
+          "",
+          "",
+          "(000)",
+          "Maksimal Rp",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "label": "Manfaat Santunan Dana Marhamah",
+        "penjelasan": "",
+        "row": [
+          "3 ManfaatSantunanDanaMarhamah",
+          "Santunan yang dibayarkan sekaligus untuk meninggal akibat sakit atau Kecelakaan sebagai santunan untuk Penerima Manfaat sesuai dengan Ketentuan Polis",
+          "15.000",
+          "15.000",
+          "15.000",
+          "15.000",
+          "15.000",
+          "15.000",
+          "15.000"
+        ]
+      },
+      {
+        "label": "PRUWell Saver*",
+        "penjelasan": "",
+        "row": [
+          "PRUWell Saver*",
+          "Per rawat inap",
+          "4.000",
+          "5.000",
+          "4.000",
+          "5.000",
+          "10.000",
+          "15.000",
+          "20.000"
+        ]
+      }
+    ]
   },
   {
     "product_id": "sequis-Sequis-Q-Infinite-Medcare-Shield-Rider",
@@ -1156,10 +1359,6 @@
     "reason": "no tabel manfaat detected"
   },
   {
-    "product_id": "sequis-SOFI-Series",
-    "reason": "no riplay PDF in product metadata"
-  },
-  {
     "product_id": "sequis-asuransi-sequis-critical-care-plus",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/asuransi-sequis-critical-care-plus/RIPLAY Umum Sequis Critical Care Plus_SQL_V2.tables.json",
     "reason": "unmapped manfaat rows",
@@ -1182,10 +1381,6 @@
         ]
       }
     ]
-  },
-  {
-    "product_id": "sequis-sequis-critical-illness-program",
-    "reason": "no riplay PDF in product metadata"
   },
   {
     "product_id": "sun-life-sun-health-care-solution",

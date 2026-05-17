@@ -137,164 +137,6 @@
     ]
   },
   {
-    "product_id": "aia-financial-aia-health-x",
-    "product_name": "AIA Health X",
-    "insurer_slug": "aia-financial",
-    "insurer_name": "PT AIA Financial",
-    "insurer_category": "asuransi_jiwa",
-    "product_type": "kesehatan_individu",
-    "jenis": "konvensional",
-    "product_page_url": "https://www.aia-financial.co.id/id/our-products/kesehatan/aia-health-x",
-    "source_pdfs": {
-      "riplay": "data/raw/insurers/aia-financial/aia-financial/aia-health-x/RIPLAY Umum AIA Health X_Essential X & Essential X-Tra - RP167R02-1125.pdf",
-      "brosur": "data/raw/insurers/aia-financial/aia-financial/aia-health-x/Brosur AIA Health X.pdf"
-    },
-    "source_pdf_urls": {
-      "riplay": "https://www.aia-financial.co.id/content/dam/id-wise/id/pdf/our-products/kesehatan/RIPLAY%20Umum%20AIA%20Health%20X_Essential%20X%20&%20Essential%20X-Tra%20-%20RP167R02-1125.pdf",
-      "brosur": "https://www.aia-financial.co.id/content/dam/id-wise/id/pdf/our-products/kesehatan/Brosur%20AIA%20Health%20X.pdf"
-    },
-    "scraped_at": "2026-05-17T14:29:11.644081+00:00",
-    "currency": "IDR",
-    "plans": [
-      {
-        "plan_name": "Essential X-Tra -",
-        "manfaat": [
-          {
-            "category": "kamar_rs",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "1 (satu) tempat tidur di Rumah Sakit dan terdapat kamar mandi di dalamnya",
-            "raw_label": "(satu) tempat tidur di Rumah Sakit dan terdapat kamar mandi di dalamnya",
-            "penjelasan": null
-          },
-          {
-            "category": "kamar_rs",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Sesuai kuitansi, maksimal 365 (tiga termasuk untuk Biaya Unit Perawatan Kamar Rawat Jalan ( Day Ward ), kamar kamar mandi dalam senilai, mana yang 1. Harga kamar terendah dengan",
-            "raw_label": "Sesuai kuitansi, maksimal 365 (tiga termasuk untuk Biaya Unit Perawatan Kamar Rawat Jalan ( Day Ward ), kamar kamar mandi dalam senilai, mana yang 1. Harga kamar terendah dengan",
-            "penjelasan": null
-          },
-          {
-            "category": "kamar_rs",
-            "amount_rp": null,
-            "unit": "per_day",
-            "note": null,
-            "raw_cell": "2. Maksimal Nilai Penggantian per hari sebesar: Sesuai kuitansi selama Rawat Inap, maksimal 365 (tiga ratus enam puluh lima) hari kalender per tahun termasuk untuk Biaya Kamar. Khusus untuk Kondisi Vegetatif maksimal 150 (seratus lima puluh) hari kalender per Tahun Polis.",
-            "raw_label": "2. Maksimal Nilai Penggantian per hari sebesar: Sesuai kuitansi selama Rawat Inap, maksimal 365 (tiga ratus enam puluh lima) hari kalender per tahun termasuk untuk Biaya Kamar. Khusus untuk Kondisi Vegetatif maksimal 150 (seratus lima puluh) hari kalender per Tahun Polis.",
-            "penjelasan": null
-          },
-          {
-            "category": "obat_inpatient",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Sesuai kuitansi, termasuk biaya profesional Ahli Bedah, asisten operator, Ahli Anestesi, ruang bedah, ruang pemulihan, peralatan bedah dan Obat-obatan yang dilakukan sesuai dengan prosedur yang berlaku umum dan standar untuk pembedahan.",
-            "raw_label": "Sesuai kuitansi, termasuk biaya profesional Ahli Bedah, asisten operator, Ahli Anestesi, ruang bedah, ruang pemulihan, peralatan bedah dan Obat-obatan yang dilakukan sesuai dengan prosedur yang berlaku umum dan standar untuk pembedahan.",
-            "penjelasan": null
-          },
-          {
-            "category": "prostesis_implan",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Sesuai kuitansi. Prostesis dan/atau Implantasi tersebut mencakup: (i) Alat pacu jantung; (ii) Cincin untuk Percutaneous Transluminal Coronary Angioplasty ; (iii) Lensa buatan intraokular; (iv) Katup jantung buatan; (v) Sendi buatan atau sendi metalik; (vi) Implantasi ligamen buatan antar tulang; dan (vii) Cakram sendi intervertebral buatan.",
-            "raw_label": "Sesuai kuitansi. Prostesis dan/atau Implantasi tersebut mencakup: (i) Alat pacu jantung; (ii) Cincin untuk Percutaneous Transluminal Coronary Angioplasty ; (iii) Lensa buatan intraokular; (iv) Katup jantung buatan; (v) Sendi buatan atau sendi metalik; (vi) Implantasi ligamen buatan antar tulang; dan (vii) Cakram sendi intervertebral buatan.",
-            "penjelasan": null
-          },
-          {
-            "category": "obat_inpatient",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Sesuai kuitansi selama Rawat Inap, termasuk biaya pemeriksaan laboratorium / diagnostik, biaya Obat- obatan, biaya pelayanan umum, biaya Alat dan Suplai sesuai daftar yang ditanggung dalam Ketentuan Tambahan Polis.",
-            "raw_cell": "Sesuai kuitansi selama Rawat Inap, termasuk biaya pemeriksaan laboratorium / diagnostik, biaya Obat- obatan, biaya pelayanan umum, biaya Alat dan Suplai sesuai daftar yang ditanggung dalam Ketentuan Tambahan Polis.",
-            "raw_label": "Sesuai kuitansi selama Rawat Inap, termasuk biaya pemeriksaan laboratorium / diagnostik, biaya Obat- obatan, biaya pelayanan umum, biaya Alat dan Suplai sesuai daftar yang ditanggung dalam Ketentuan Tambahan Polis.",
-            "penjelasan": null
-          },
-          {
-            "category": "kamar_rs",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Sesuai kuitansi selama Rawat Inap, sebesar biaya makanan yang disediakan Sakit dan biaya menginap bagi 1 (satu) orang dewasa yang menemani di kamar yang sama selama menjalani Rawat Inap; dengan maksimal",
-            "raw_label": "Sesuai kuitansi selama Rawat Inap, sebesar biaya makanan yang disediakan Sakit dan biaya menginap bagi 1 (satu) orang dewasa yang menemani di kamar yang sama selama menjalani Rawat Inap; dengan maksimal",
-            "penjelasan": null
-          },
-          {
-            "category": "rawat_jalan",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Manfaat Rawat Jalan",
-            "raw_label": "Manfaat Rawat Jalan",
-            "penjelasan": null
-          },
-          {
-            "category": "rehabilitasi",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Sesuai kuitansi, termasuk biaya konsultasi Dokter, Obat-obatan, pemeriksaan penunjang diagnostik dan biaya tindakan Perawatan (tidak termasuk biaya Fisioterapi); dengan maksimal 30 (tiga puluh) hari kalender sebelum Tertanggung menjalani Rawat Inap.",
-            "raw_label": "Sesuai kuitansi, termasuk biaya konsultasi Dokter, Obat-obatan, pemeriksaan penunjang diagnostik dan biaya tindakan Perawatan (tidak termasuk biaya Fisioterapi); dengan maksimal 30 (tiga puluh) hari kalender sebelum Tertanggung menjalani Rawat Inap.",
-            "penjelasan": null
-          },
-          {
-            "category": "rehabilitasi",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Sesuai kuitansi, termasuk biaya konsultasi Dokter, Obat-obatan, pemeriksaan penunjang diagnostik dan biaya tindakan Perawatan (tidak termasuk biaya Fisioterapi); dengan maksimal 90 (sembilan puluh) hari kalender sesudah Tertanggung selesai menjalani Rawat Inap.",
-            "raw_label": "Sesuai kuitansi, termasuk biaya konsultasi Dokter, Obat-obatan, pemeriksaan penunjang diagnostik dan biaya tindakan Perawatan (tidak termasuk biaya Fisioterapi); dengan maksimal 90 (sembilan puluh) hari kalender sesudah Tertanggung selesai menjalani Rawat Inap.",
-            "penjelasan": null
-          },
-          {
-            "category": "obat_inpatient",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Sesuai kuitansi; termasuk biaya Dokter, Obat-obatan, pemeriksaan penunjang diagnostik, dan biaya tindakan Perawatan yang berhubungan dengan Kecelakaan tersebut; Perawatan atau pelayanan yang dijalani tersebut harus dilakukan dalam waktu maksimal 48 (empat puluh delapan) jam setelah terjadinya Kecelakaan, dan termasuk biaya perawatan lanjutan selama 30 (tiga puluh hari) kalender setelah Kecelakaan.",
-            "raw_label": "Sesuai kuitansi; termasuk biaya Dokter, Obat-obatan, pemeriksaan penunjang diagnostik, dan biaya tindakan Perawatan yang berhubungan dengan Kecelakaan tersebut; Perawatan atau pelayanan yang dijalani tersebut harus dilakukan dalam waktu maksimal 48 (empat puluh delapan) jam setelah terjadinya Kecelakaan, dan termasuk biaya perawatan lanjutan selama 30 (tiga puluh hari) kalender setelah Kecelakaan.",
-            "penjelasan": null
-          },
-          {
-            "category": "perawatan_di_rumah",
-            "amount_rp": null,
-            "unit": "per_day",
-            "note": null,
-            "raw_cell": "Sesuai kuitansi, dengan Ketentuan Tertanggung telah di Rawat Inap minimal 5 (lima) hari berturut- turut di Rumah Sakit; termasuk Perawatan yang membutuhkan keahlian khusus oleh Perawat seperti terapi, Perawatan luka, penggunaan alat pernapasan, Perawatan diabetes, Perawatan kolostomi, penggunaan sonde ( tube feeding ), suntikan dan administrasi pengobatan lainnya kepada Tertanggung selama menjalani Perawatan di rumah; Perawatan adalah minimum 4 (empat) jam per hari dan dengan maksimal 180 (seratus delapan puluh) hari kalender per Tahun Polis.",
-            "raw_label": "Sesuai kuitansi, dengan Ketentuan Tertanggung telah di Rawat Inap minimal 5 (lima) hari berturut- turut di Rumah Sakit; termasuk Perawatan yang membutuhkan keahlian khusus oleh Perawat seperti terapi, Perawatan luka, penggunaan alat pernapasan, Perawatan diabetes, Perawatan kolostomi, penggunaan sonde ( tube feeding ), suntikan dan administrasi pengobatan lainnya kepada Tertanggung selama menjalani Perawatan di rumah; Perawatan adalah minimum 4 (empat) jam per hari dan dengan maksimal 180 (seratus delapan puluh) hari kalender per Tahun Polis.",
-            "penjelasan": null
-          },
-          {
-            "category": "dokter_inpatient",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Sesuai kuitansi, termasuk biaya konsultasi, pengobatan pendahuluan dan lanjutan, pemeriksaaan diagnostik, laboratorium, pemeriksaan patologi dan radiologi, Perawatan dan/atau Tindakan Bedah Rawat Jalan, Obat-obatan; dalam kurun waktu 30 (tiga puluh) hari kalender sebelum Tertanggung menjalani Perawatan dan/atau Tindakan Bedah Rawat Jalan, selama Perawatan dan/atau Tindakan Bedah Rawat Jalan, dan 90 (sembilan puluh) hari kalender setelah Tertanggung selesai menjalani Perawatan dan/atau Tindakan Bedah Rawat Jalan.",
-            "raw_label": "Sesuai kuitansi, termasuk biaya konsultasi, pengobatan pendahuluan dan lanjutan, pemeriksaaan diagnostik, laboratorium, pemeriksaan patologi dan radiologi, Perawatan dan/atau Tindakan Bedah Rawat Jalan, Obat-obatan; dalam kurun waktu 30 (tiga puluh) hari kalender sebelum Tertanggung menjalani Perawatan dan/atau Tindakan Bedah Rawat Jalan, selama Perawatan dan/atau Tindakan Bedah Rawat Jalan, dan 90 (sembilan puluh) hari kalender setelah Tertanggung selesai menjalani Perawatan dan/atau Tindakan Bedah Rawat Jalan.",
-            "penjelasan": null
-          }
-        ]
-      },
-      {
-        "plan_name": "Essential X Essential X-Tra",
-        "manfaat": [
-          {
-            "category": "dokter_inpatient",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Sesuai kuitansi, termasuk biaya konsultasi Dokter, pemeriksaan laboratorium / diagnostik, Obat - obatan, Biaya pelayanan umum, Biaya Alat dan Suplai dan perawatan (Manfaat ini berlaku untuk Rawat Inap dan Rawat Jalan). Perawatan kanker tersebut mencakup: (i) Kemoterapi; (ii) Radioterapi; (iii) Terapi Target (Targeted Therapy); dan (iv) Terapi Hormon; dan (v) Terapi Imun. Khusus untuk Perawatan Paliatif yang sehubungan dengan Penyakit kanker hanya dapat diberikan",
-            "raw_label": "Sesuai kuitansi, termasuk biaya konsultasi Dokter, pemeriksaan laboratorium / diagnostik, Obat - obatan, Biaya pelayanan umum, Biaya Alat dan Suplai dan perawatan (Manfaat ini berlaku untuk Rawat Inap dan Rawat Jalan). Perawatan kanker tersebut mencakup: (i) Kemoterapi; (ii) Radioterapi; (iii) Terapi Target (Targeted Therapy); dan (iv) Terapi Hormon; dan (v) Terapi Imun. Khusus untuk Perawatan Paliatif yang sehubungan dengan Penyakit kanker hanya dapat diberikan",
-            "penjelasan": null
-          }
-        ]
-      }
-    ]
-  },
-  {
     "product_id": "allianz-life-allianz-preferred-medical",
     "product_name": "Allianz Preferred Medical",
     "insurer_slug": "allianz-life",
@@ -13258,6 +13100,24 @@
         "plan_name": "Gold Standard",
         "manfaat": [
           {
+            "category": "annual_limit",
+            "amount_rp": 5000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp5.000.000,00",
+            "raw_label": "Batas Tahunan",
+            "penjelasan": null
+          },
+          {
+            "category": "annual_limit",
+            "amount_rp": 15000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp15.000.000,00",
+            "raw_label": "Batas Tahunan",
+            "penjelasan": null
+          },
+          {
             "category": "kamar_rs",
             "amount_rp": null,
             "unit": "per_day",
@@ -13388,6 +13248,42 @@
       {
         "plan_name": "Gold",
         "manfaat": [
+          {
+            "category": "annual_limit",
+            "amount_rp": 7500000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp7.500.000,00",
+            "raw_label": "Batas Tahunan",
+            "penjelasan": null
+          },
+          {
+            "category": "annual_limit",
+            "amount_rp": 10000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp10.000.000,00",
+            "raw_label": "Batas Tahunan",
+            "penjelasan": null
+          },
+          {
+            "category": "annual_limit",
+            "amount_rp": 20000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp20.000.000,00",
+            "raw_label": "Batas Tahunan",
+            "penjelasan": null
+          },
+          {
+            "category": "annual_limit",
+            "amount_rp": 30000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp30.000.000,00",
+            "raw_label": "Batas Tahunan",
+            "penjelasan": null
+          },
           {
             "category": "kamar_rs",
             "amount_rp": null,
@@ -18245,6 +18141,315 @@
     ]
   },
   {
+    "product_id": "prudential-life-assurance-pruwell-health",
+    "product_name": "PRU Well Health",
+    "insurer_slug": "prudential-life-assurance",
+    "insurer_name": "PT Prudential Life Assurance",
+    "insurer_category": "asuransi_jiwa",
+    "product_type": "kesehatan_individu",
+    "jenis": "konvensional",
+    "product_page_url": "https://www.prudential.co.id/id/products/asuransi-kesehatan/pruwell-health/",
+    "source_pdfs": {
+      "riplay": "data/raw/insurers/prudential/prudential-life-assurance/pruwell-health/Flayer-PS-PWH.pdf",
+      "brosur": "data/raw/insurers/prudential/prudential-life-assurance/pruwell-health/Brochure-PRUWell-Health.pdf"
+    },
+    "source_pdf_urls": {
+      "riplay": "https://www.prudential.co.id/content/dam/prudential-aem-lbu/plai/pdf/Flayer-PS-PWH.pdf",
+      "brosur": "https://www.prudential.co.id/content/dam/prudential-aem-lbu/plai/pdf/Brochure-PRUWell-Health.pdf"
+    },
+    "scraped_at": "2026-05-16T13:48:57.818839+00:00",
+    "currency": "IDR",
+    "plans": [
+      {
+        "plan_name": "Bronze A",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": 600000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "600",
+            "raw_label": "Pilihan Batas Harga Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "per_event",
+            "note": null,
+            "raw_cell": "Tidak",
+            "raw_label": "perawatan kanker sebelum atau sesudah keluar dari Rumah Sakit atau Klinik; Maksimal 30 hari sebelum Rawat Inap atau 90 hari setelah Rawat Inap atau Tindakan Bedah Rawat Jalan Maksimal 1kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Penanggungdi Malaysia atau Singapuradalam Wilayah Pertanggungan yang tercantum di Tabel Manfaat PRU Well Health yang disediakan Penanggung; Maksimal 30hari sebelum Rawat Inap kanker atau 90hari setelah Rawat Inap kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "limit_booster",
+            "amount_rp": 8000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "8.000.000",
+            "raw_label": "PRU Well Limit Booster",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Bronze B",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": 1200000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "1.200",
+            "raw_label": "Pilihan Batas Harga Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "per_event",
+            "note": null,
+            "raw_cell": "Tersedia",
+            "raw_label": "perawatan kanker sebelum atau sesudah keluar dari Rumah Sakit atau Klinik; Maksimal 30 hari sebelum Rawat Inap atau 90 hari setelah Rawat Inap atau Tindakan Bedah Rawat Jalan Maksimal 1kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Penanggungdi Malaysia atau Singapuradalam Wilayah Pertanggungan yang tercantum di Tabel Manfaat PRU Well Health yang disediakan Penanggung; Maksimal 30hari sebelum Rawat Inap kanker atau 90hari setelah Rawat Inap kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "limit_booster",
+            "amount_rp": 12000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "12.000.000",
+            "raw_label": "PRU Well Limit Booster",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Silver A",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": 600000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "600",
+            "raw_label": "Pilihan Batas Harga Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan (Malaysia",
+            "raw_cell": "Sesuai Tagihan (Malaysia",
+            "raw_label": "perawatan kanker sebelum atau sesudah keluar dari Rumah Sakit atau Klinik; Maksimal 30 hari sebelum Rawat Inap atau 90 hari setelah Rawat Inap atau Tindakan Bedah Rawat Jalan Maksimal 1kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Penanggungdi Malaysia atau Singapuradalam Wilayah Pertanggungan yang tercantum di Tabel Manfaat PRU Well Health yang disediakan Penanggung; Maksimal 30hari sebelum Rawat Inap kanker atau 90hari setelah Rawat Inap kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "limit_booster",
+            "amount_rp": 8000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "8.000.000",
+            "raw_label": "PRU Well Limit Booster",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan Pemakaman",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Silver B",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": 1200000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "1.200",
+            "raw_label": "Pilihan Batas Harga Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "per_event",
+            "note": null,
+            "raw_cell": "saja)",
+            "raw_label": "perawatan kanker sebelum atau sesudah keluar dari Rumah Sakit atau Klinik; Maksimal 30 hari sebelum Rawat Inap atau 90 hari setelah Rawat Inap atau Tindakan Bedah Rawat Jalan Maksimal 1kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Penanggungdi Malaysia atau Singapuradalam Wilayah Pertanggungan yang tercantum di Tabel Manfaat PRU Well Health yang disediakan Penanggung; Maksimal 30hari sebelum Rawat Inap kanker atau 90hari setelah Rawat Inap kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "kanker",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan",
+            "raw_cell": "Sesuai Tagihan",
+            "raw_label": "Biaya Bedah Rekonstruksi Lainnya akibat Kanker atau Kecelakaan selain Payudara dan Rekonstruksi Wajah",
+            "penjelasan": null
+          },
+          {
+            "category": "rawat_jalan",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan",
+            "raw_cell": "Sesuai Tagihan",
+            "raw_label": "Biaya Perawatan Sebelum Tindakan Bedah Rawat Jalan",
+            "penjelasan": null
+          },
+          {
+            "category": "limit_booster",
+            "amount_rp": 12000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "12.000.000",
+            "raw_label": "PRU Well Limit Booster",
+            "penjelasan": null
+          },
+          {
+            "category": "hiv_aids",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan HIV/AIDS",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Gold",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": 1800000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "1.800",
+            "raw_label": "Pilihan Batas Harga Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan (Singapura atau Malaysia saja)",
+            "raw_cell": "Sesuai Tagihan (Singapura atau Malaysia saja)",
+            "raw_label": "perawatan kanker sebelum atau sesudah keluar dari Rumah Sakit atau Klinik; Maksimal 30 hari sebelum Rawat Inap atau 90 hari setelah Rawat Inap atau Tindakan Bedah Rawat Jalan Maksimal 1kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Penanggungdi Malaysia atau Singapuradalam Wilayah Pertanggungan yang tercantum di Tabel Manfaat PRU Well Health yang disediakan Penanggung; Maksimal 30hari sebelum Rawat Inap kanker atau 90hari setelah Rawat Inap kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "limit_booster",
+            "amount_rp": 30000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "30.000.000",
+            "raw_label": "PRU Well Limit Booster",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Platinum",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": 2000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "2.000",
+            "raw_label": "Pilihan Batas Harga Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan (Singapura atau Malaysia saja)",
+            "raw_cell": "Sesuai Tagihan (Singapura atau Malaysia saja)",
+            "raw_label": "perawatan kanker sebelum atau sesudah keluar dari Rumah Sakit atau Klinik; Maksimal 30 hari sebelum Rawat Inap atau 90 hari setelah Rawat Inap atau Tindakan Bedah Rawat Jalan Maksimal 1kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Penanggungdi Malaysia atau Singapuradalam Wilayah Pertanggungan yang tercantum di Tabel Manfaat PRU Well Health yang disediakan Penanggung; Maksimal 30hari sebelum Rawat Inap kanker atau 90hari setelah Rawat Inap kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "limit_booster",
+            "amount_rp": 40000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "40.000.000",
+            "raw_label": "PRU Well Limit Booster",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": 30000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "30.000",
+            "raw_label": "Manfaat Santunan Pemakaman",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Diamond",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": 2500000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "2.500",
+            "raw_label": "Pilihan Batas Harga Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan (Singapura atau Malaysia saja)",
+            "raw_cell": "Sesuai Tagihan (Singapura atau Malaysia saja)",
+            "raw_label": "perawatan kanker sebelum atau sesudah keluar dari Rumah Sakit atau Klinik; Maksimal 30 hari sebelum Rawat Inap atau 90 hari setelah Rawat Inap atau Tindakan Bedah Rawat Jalan Maksimal 1kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Penanggungdi Malaysia atau Singapuradalam Wilayah Pertanggungan yang tercantum di Tabel Manfaat PRU Well Health yang disediakan Penanggung; Maksimal 30hari sebelum Rawat Inap kanker atau 90hari setelah Rawat Inap kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "limit_booster",
+            "amount_rp": 50000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "50.000.000",
+            "raw_label": "PRU Well Limit Booster",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": 30000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "30.000",
+            "raw_label": "Manfaat Santunan Pemakaman",
+            "penjelasan": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "product_id": "prudential-sharia-life-assurance-prusehat-syariah",
     "product_name": "PRU Sehat Syariah",
     "insurer_slug": "prudential-sharia-life-assurance",
@@ -18568,6 +18773,513 @@
             "raw_cell": "12.000",
             "raw_label": "Biaya Perawatan Demam Berdarah dan/ atau Tifus",
             "penjelasan": "Maksimal per tahun Polis, memenuhi kriteria sebagai berikut: • Untuk Demam Berdarah: laboratorium NS1 dengan hasil positif (+) atau Dengue IgM dengan hasil positif (+), dan Trombosit kurang dari atau sama dengan 150.000 per mikroliter darah; atau • Untuk Tifus/ Paratifus: pemeriksaan laboratorium Tubex dengan hasil positif (+) bernilai lebih besar atau sama dengan 6, atau Widal bernilai lebih dari atau sama dengan 1/160, atau kultur Salmonella typhoidal dengan hasil positif (+)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "prudential-sharia-life-assurance-pruwell-health-syariah",
+    "product_name": "PRU Well Health Syariah",
+    "insurer_slug": "prudential-sharia-life-assurance",
+    "insurer_name": "PT. Prudential Sharia Life Assurance",
+    "insurer_category": "asuransi_jiwa",
+    "product_type": "kesehatan_individu",
+    "jenis": "syariah",
+    "product_page_url": "https://www.prudentialsyariah.co.id/id/products/asuransi-kesehatan/pruwell-health-syariah/",
+    "source_pdfs": {
+      "riplay": "data/raw/insurers/prudential/prudential-sharia-life-assurance/pruwell-health-syariah/FA-PS-PRUWell-Health-Syariah-15052025.pdf",
+      "brosur": "data/raw/insurers/prudential/prudential-sharia-life-assurance/pruwell-health-syariah/FA-20250515-Brochure-PRUWell-Health-Syariah-AO-CLEAN.pdf"
+    },
+    "source_pdf_urls": {
+      "riplay": "https://www.prudentialsyariah.co.id/content/dam/prudential-aem-lbu/psla/files/FA-PS-PRUWell-Health-Syariah-15052025.pdf",
+      "brosur": "https://www.prudentialsyariah.co.id/content/dam/prudential-aem-lbu/psla/files/FA-20250515-Brochure-PRUWell-Health-Syariah-AO-CLEAN.pdf"
+    },
+    "scraped_at": "2026-05-16T13:56:27.472063+00:00",
+    "currency": "IDR",
+    "plans": [
+      {
+        "plan_name": "Bronze A",
+        "manfaat": [
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "harga kamar terendah dengan 2 tempat tidur",
+            "raw_label": "Biaya Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "per_event",
+            "note": null,
+            "raw_cell": "Tidak Tersedia",
+            "raw_label": "Maksimal 1 kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Pengelola di Malaysia atau Singapura dalam Cakupan Wilayah Asuransi yang tercantum di Tabel Manfaat PRU Well Health Syariah yang disediakan pengelola; Maksimal 30 hari sebelum Rawat Inap kanker atau 90 hari setelah Rawat Inap kanker atau perawatan kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan Pemakaman",
+            "penjelasan": null
+          },
+          {
+            "category": "hiv_aids",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan HIV/AIDS",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Bronze B",
+        "manfaat": [
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "harga kamar terendah dengan 1 tempat tidur dengan kamar mandi di dalam",
+            "raw_label": "Biaya Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 1000,
+            "unit": "per_day",
+            "note": null,
+            "raw_cell": "1,000 per hari / 15,000 per tahun",
+            "raw_label": "Selama Rawat Inap atau maksimal 90 hari setelah Rawat Inap atau Tindakan Bedah atas rekomendasi oleh Dokter yang merawat",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan Pemakaman",
+            "penjelasan": null
+          },
+          {
+            "category": "hiv_aids",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan HIV/AIDS",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Silver A",
+        "manfaat": [
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "harga kamar terendah dengan 2 tempat tidur",
+            "raw_label": "Biaya Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "per_event",
+            "note": null,
+            "raw_cell": "Sesuai",
+            "raw_label": "Maksimal 3 kali Telehealth per Rawat Inap atau Tindakan Bedah Rawat Jalan atau perawatan kanker sebelum atau sesudah keluar dari Rumah Sakit atau Klinik; Maksimal 30 hari sebelum Rawat Inap atau 90 hari setelah Rawat Inap atau Tindakan Bedah Rawat Jalan.",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan (Malaysia",
+            "raw_cell": "Sesuai Tagihan (Malaysia",
+            "raw_label": "Maksimal 1 kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Pengelola di Malaysia atau Singapura dalam Cakupan Wilayah Asuransi yang tercantum di Tabel Manfaat PRU Well Health Syariah yang disediakan pengelola; Maksimal 30 hari sebelum Rawat Inap kanker atau 90 hari setelah Rawat Inap kanker atau perawatan kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan Pemakaman",
+            "penjelasan": null
+          },
+          {
+            "category": "hiv_aids",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan HIV/AIDS",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Silver B",
+        "manfaat": [
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "harga kamar terendah dengan 1 tempat tidur dengan kamar mandi di dalam",
+            "raw_label": "Biaya Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan",
+            "raw_cell": "Sesuai Tagihan",
+            "raw_label": "Biaya Tindakan Bedah",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "per_event",
+            "note": null,
+            "raw_cell": "Tagihan",
+            "raw_label": "Maksimal 3 kali Telehealth per Rawat Inap atau Tindakan Bedah Rawat Jalan atau perawatan kanker sebelum atau sesudah keluar dari Rumah Sakit atau Klinik; Maksimal 30 hari sebelum Rawat Inap atau 90 hari setelah Rawat Inap atau Tindakan Bedah Rawat Jalan.",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "per_event",
+            "note": null,
+            "raw_cell": "saja)",
+            "raw_label": "Maksimal 1 kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Pengelola di Malaysia atau Singapura dalam Cakupan Wilayah Asuransi yang tercantum di Tabel Manfaat PRU Well Health Syariah yang disediakan pengelola; Maksimal 30 hari sebelum Rawat Inap kanker atau 90 hari setelah Rawat Inap kanker atau perawatan kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan",
+            "raw_cell": "Sesuai Tagihan",
+            "raw_label": "Bedah Rekonstruksi Wajah harus dilakukan oleh Dokter Medis dalam waktu 6 bulan sejak tanggal Tindakan Bedah akibat kanker atau Kecelakaan",
+            "penjelasan": null
+          },
+          {
+            "category": "rawat_jalan",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan",
+            "raw_cell": "Sesuai Tagihan",
+            "raw_label": "Maksimal 30hari sebelum Tindakan Bedah Rawat Jalan",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan Pemakaman",
+            "penjelasan": null
+          },
+          {
+            "category": "hiv_aids",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan HIV/AIDS",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Gold",
+        "manfaat": [
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "harga kamar terendah dengan 1 tempat tidur dengan kamar mandi di dalam",
+            "raw_label": "Biaya Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan (Singapura atau Malaysia saja)",
+            "raw_cell": "Sesuai Tagihan (Singapura atau Malaysia saja)",
+            "raw_label": "Maksimal 1 kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Pengelola di Malaysia atau Singapura dalam Cakupan Wilayah Asuransi yang tercantum di Tabel Manfaat PRU Well Health Syariah yang disediakan pengelola; Maksimal 30 hari sebelum Rawat Inap kanker atau 90 hari setelah Rawat Inap kanker atau perawatan kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 1000,
+            "unit": "per_day",
+            "note": null,
+            "raw_cell": "1,000 per hari / 30,000 per tahun",
+            "raw_label": "Selama Rawat Inap atau maksimal 90 hari setelah Rawat Inap atau Tindakan Bedah atas rekomendasi oleh Dokter yang merawat",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan Pemakaman",
+            "penjelasan": null
+          },
+          {
+            "category": "hiv_aids",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan HIV/AIDS",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Platinum",
+        "manfaat": [
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "harga kamar terendah dengan 1 tempat tidur dengan kamar mandi di dalam",
+            "raw_label": "Biaya Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan (Singapura atau Malaysia saja)",
+            "raw_cell": "Sesuai Tagihan (Singapura atau Malaysia saja)",
+            "raw_label": "Maksimal 1 kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Pengelola di Malaysia atau Singapura dalam Cakupan Wilayah Asuransi yang tercantum di Tabel Manfaat PRU Well Health Syariah yang disediakan pengelola; Maksimal 30 hari sebelum Rawat Inap kanker atau 90 hari setelah Rawat Inap kanker atau perawatan kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 1000,
+            "unit": "per_day",
+            "note": null,
+            "raw_cell": "1,000 per hari / 50,000 per tahun",
+            "raw_label": "Selama Rawat Inap atau maksimal 90 hari setelah Rawat Inap atau Tindakan Bedah atas rekomendasi oleh Dokter yang merawat",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": 30000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "30.000",
+            "raw_label": "Manfaat Santunan Pemakaman",
+            "penjelasan": null
+          },
+          {
+            "category": "hiv_aids",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan HIV/AIDS",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Diamond",
+        "manfaat": [
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "harga kamar terendah dengan 1 tempat tidur dengan kamar mandi di dalam",
+            "raw_label": "Biaya Kamar",
+            "penjelasan": null
+          },
+          {
+            "category": "telehealth",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan (Singapura atau Malaysia saja)",
+            "raw_cell": "Sesuai Tagihan (Singapura atau Malaysia saja)",
+            "raw_label": "Maksimal 1 kali Telehealth untuk diagnosis kanker per Rawat Inap atau perawatan kanker setelah keluar dari Rumah Sakit atau Klinik. Penyedia Telehealth di Malaysia atau Singapura untuk Diagnosis Kanker hanya berlaku di Rumah Sakit Rekanan Pengelola di Malaysia atau Singapura dalam Cakupan Wilayah Asuransi yang tercantum di Tabel Manfaat PRU Well Health Syariah yang disediakan pengelola; Maksimal 30 hari sebelum Rawat Inap kanker atau 90 hari setelah Rawat Inap kanker atau perawatan kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 1000,
+            "unit": "per_day",
+            "note": null,
+            "raw_cell": "1,000 per hari / 50,000 per tahun",
+            "raw_label": "Selama Rawat Inap atau maksimal 90 hari setelah Rawat Inap atau Tindakan Bedah atas rekomendasi oleh Dokter yang merawat",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 0,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Maksimal Rp (000)",
+            "raw_label": "No Manfaat Rawat Inap & Pembedahan",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": 30000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "30.000",
+            "raw_label": "Manfaat Santunan Pemakaman",
+            "penjelasan": null
+          },
+          {
+            "category": "hiv_aids",
+            "amount_rp": 15000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "15.000",
+            "raw_label": "Manfaat Santunan HIV/AIDS",
+            "penjelasan": null
           }
         ]
       }
