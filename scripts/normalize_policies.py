@@ -74,11 +74,14 @@ UNIT_PATTERNS: list[tuple[str, re.Pattern]] = [
 TABEL_MANFAAT_HEADER_TOKENS = ("manfaat", "jenis manfaat", "no.")
 PLAN_COLUMN_REGEX = re.compile(
     r"\b("
-    r"(plan\s+(a|b|c|d|e|f|g|h|i|standar|standard|extra|premier|premium))"
-    r"|(sehat\s+[a-z])"
+    r"plan\s*\d+"
+    r"|plan\s+[ivx]+\b"
+    r"|plan\s+(a|b|c|d|e|f|g|h|i|standar|standard|extra|premier|premium)\b"
+    r"|sehat\s+[a-z]\b"
     r"|(diamond|ruby|emerald|topaz|jade|sapphire|bronze|silver|gold|platinum)\b"
     r"|maxi\s+\w+"
     r"|as\s+charged"
+    r"|plan\s+[a-z][a-z0-9-]*\b"
     r")",
     re.IGNORECASE,
 )
@@ -93,10 +96,52 @@ def is_manfaat_header(col: str) -> bool:
 
 
 _PLAN_QUALIFIER_RE = re.compile(
-    r"^(?P<core>(plan\s+[a-z0-9]+|sehat\s+[a-z]|bronze\s+[ab]|silver\s+[ab]|diamond|ruby|emerald|topaz|jade|sapphire|gold|platinum|bronze|silver|maxi\s+\w+|as\s+charged)"
+    r"^(?P<core>(plan\s*[a-z0-9ivx]+|sehat\s+[a-z]|bronze\s+[ab]|silver\s+[ab]|diamond|ruby|emerald|topaz|jade|sapphire|gold|platinum|bronze|silver|maxi\s+\w+|as\s+charged)"
     r"(?:\s+(?:indonesia|smart|premier|extra|standard))*)",
     re.IGNORECASE,
 )
+
+
+_PLAN_PARENT_RE = re.compile(r"^plan(\s*\([^)]*\))?$", re.IGNORECASE)
+_PLAN_TIER_VALUE_RE = re.compile(r"^([a-z]|\d+|[ivx]+|\d+[a-z]|[a-z]\d+)$", re.IGNORECASE)
+
+
+def _synth_parent_child_plan(col: str) -> str | None:
+    # Docling renders cluster headers like "Plan (Rp).I" as parent.child.
+    # Only fire when a segment is literally "Plan" (optionally with a currency
+    # tag) and the last segment is a bare tier value (letter / digits / roman).
+    # Refuses noisy parent.child headers where last segment is a benefit label.
+    parts = [p.strip() for p in col.split(".") if p.strip()]
+    if len(parts) < 2:
+        return None
+    if not any(_PLAN_PARENT_RE.match(p) for p in parts):
+        return None
+    if not _PLAN_TIER_VALUE_RE.match(parts[-1]):
+        return None
+    return "Plan " + parts[-1]
+
+
+_BODY_PROSE_WORDS_RE = re.compile(
+    r"\b(atau|yang|dari|untuk|dengan|sesuai|pilih|salah|tertanggung|kalender|tagihan)\b",
+    re.IGNORECASE,
+)
+_PAREN_PHRASE_RE = re.compile(r"\(\s*\w+\s+\w+")
+
+
+def _is_plausible_plan_header_part(p: str) -> bool:
+    # Reject docling header parts that read like penjelasan / body text.
+    # Real plan-tier headers are short tokens: "Plan A", "Diamond",
+    # "Topaz Indonesia / Topaz Indonesia Smart". Body text leaks contain
+    # commas, sentence connectives, or parenthesized phrases.
+    if len(p) > 60:
+        return False
+    if "," in p:
+        return False
+    if _PAREN_PHRASE_RE.search(p):
+        return False
+    if _BODY_PROSE_WORDS_RE.search(p):
+        return False
+    return True
 
 
 def plan_name_from_col(col: str) -> str:
@@ -105,6 +150,8 @@ def plan_name_from_col(col: str) -> str:
     if not parts:
         return col.strip()
     for p in parts:
+        if not _is_plausible_plan_header_part(p):
+            continue
         m = PLAN_COLUMN_REGEX.search(p)
         if not m:
             continue
@@ -113,13 +160,24 @@ def plan_name_from_col(col: str) -> str:
         if qm:
             return re.sub(r"\s+", " ", qm.group("core")).strip().title()
         return m.group(0).title()
+    synth = _synth_parent_child_plan(col)
+    if synth and PLAN_COLUMN_REGEX.search(synth):
+        tier = synth.split(" ", 1)[1]
+        if re.fullmatch(r"[ivx]+", tier, re.IGNORECASE):
+            return "Plan " + tier.upper()
+        return synth.title()
     return parts[0]
 
 
 def is_plan_header(col: str) -> bool:
     for p in col.split("."):
+        if not _is_plausible_plan_header_part(p.strip()):
+            continue
         if PLAN_COLUMN_REGEX.search(p):
             return True
+    synth = _synth_parent_child_plan(col)
+    if synth and PLAN_COLUMN_REGEX.search(synth):
+        return True
     return False
 
 
