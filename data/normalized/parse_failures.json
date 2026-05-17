@@ -10,67 +10,112 @@
   {
     "product_id": "aia-financial-proteksi-kesehatan-ultima-pratama",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/aia-financial/aia-financial/proteksi-kesehatan-ultima-pratama/RIPLAY UMUM PRATAMA - RP116R04-1125.tables.json",
-    "reason": "no tabel manfaat detected"
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 3,
+    "unmapped_samples": [
+      {
+        "label": "Pembebasan Premi",
+        "penjelasan": "",
+        "row": [
+          "Pembebasan Premi",
+          "Apabila Anda Cacat Tetap Total",
+          "Apabila Anda Cacat Tetap Total",
+          "Apabila Anda Cacat Tetap Total",
+          "Apabila Anda Cacat Tetap Total",
+          "Apabila Anda Cacat Tetap Total"
+        ]
+      },
+      {
+        "label": "Pengembalian Premi",
+        "penjelasan": "",
+        "row": [
+          "Pengembalian Premi",
+          "Bulanan : Total Premi Tahun Polis ke-1 x 10 x 100% Tahunan : Total Premi Tahun Polis ke-1 x 10 x 108%",
+          "Bulanan : Total Premi Tahun Polis ke-1 x 10 x 100% Tahunan : Total Premi Tahun Polis ke-1 x 10 x 108%",
+          "Bulanan : Total Premi Tahun Polis ke-1 x 10 x 100% Tahunan : Total Premi Tahun Polis ke-1 x 10 x 108%",
+          "Bulanan : Total Premi Tahun Polis ke-1 x 10 x 100% Tahunan : Total Premi Tahun Polis ke-1 x 10 x 108%",
+          "Bulanan : Total Premi Tahun Polis ke-1 x 10 x 100% Tahunan : Total Premi Tahun Polis ke-1 x 10 x 108%"
+        ]
+      },
+      {
+        "label": "Meninggal",
+        "penjelasan": "",
+        "row": [
+          "Meninggal",
+          "Total Premi yang telah dibayarkan",
+          "Total Premi yang telah dibayarkan",
+          "Total Premi yang telah dibayarkan",
+          "Total Premi yang telah dibayarkan",
+          "Total Premi yang telah dibayarkan"
+        ]
+      }
+    ]
   },
   {
     "product_id": "aia-financial-aia-health-x",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/aia-financial/aia-financial/aia-health-x/RIPLAY Umum AIA Health X_Essential X & Essential X-Tra - RP167R02-1125.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "allianz-life-smarthealth-maxi-violet",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/allianz/allianz-life/smarthealth-maxi-violet/riplay-umum-maxi-violet-final.tables.json",
     "reason": "unmapped manfaat rows",
-    "unmapped_count": 8,
+    "unmapped_count": 2,
     "unmapped_samples": [
       {
-        "label": "ASIA (Kecuali Singapura, Hong Kong, Jepang)",
+        "label": "Keguguran yang Legal",
         "penjelasan": "",
         "row": [
-          "",
-          "Area Pertanggungan",
-          "ASIA (Kecuali Singapura, Hong Kong, Jepang)",
-          "ASIA (Kecuali Singapura, Hong Kong, Jepang)",
-          "ASIA (Kecuali Singapura, Hong Kong, Jepang)"
+          "Keguguran yang Legal",
+          "Per kehamilan",
+          "500",
+          "750",
+          "1.000",
+          "1.750",
+          "2.500",
+          "3.000",
+          "3.750",
+          "5.000"
         ]
       },
       {
-        "label": "IDR 5.000.000.000",
+        "label": "Keguguran yang Legal",
         "penjelasan": "",
         "row": [
-          "",
-          "Batas Tahunan Total",
-          "IDR 5.000.000.000",
-          "IDR 5.000.000.000",
-          "IDR 5.000.000.000"
+          "Keguguran yang Legal",
+          "Per kehamilan",
+          "500",
+          "1.250",
+          "1.500",
+          "2.000",
+          "2.500",
+          "3.500",
+          "4.000",
+          "5.000"
         ]
-      },
+      }
+    ]
+  },
+  {
+    "product_id": "allianz-life-syariah-allisya-care",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/allianz/allianz-life-syariah/allisya-care/riplay-umum-allisya-care-final.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 1,
+    "unmapped_samples": [
       {
-        "label": "IDR 12.000.000.000",
+        "label": "Keguguran yang Legal",
         "penjelasan": "",
         "row": [
-          "",
-          "Limit Booster (Selama Polis aktif dan berlaku sampai dengan Tertanggung berumur 99 tahun, maksimal manfaat yang diberikan adalah sebesar)",
-          "IDR 12.000.000.000",
-          "IDR 12.000.000.000",
-          "IDR 12.000.000.000"
-        ]
-      },
-      {
-        "label": "IDR 17.000.000.000",
-        "penjelasan": "",
-        "row": [
-          "",
-          "Total Manfaat",
-          "IDR 17.000.000.000",
-          "IDR 17.000.000.000",
-          "IDR 17.000.000.000"
-        ]
-      },
-      {
-        "label": "Sesuai kuitansi. Sesuai kuitansi.",
-        "penjelasan": "",
-        "row": [
-          "3 4",
-          "Biaya Kunjungan DokterUmum Biaya Kunjungan Dokter Spesialis",
-          "Sesuai kuitansi. Sesuai kuitansi.",
-          "Sesuai kuitansi. Sesuai kuitansi.",
-          "Sesuai kuitansi. Sesuai kuitansi."
+          "Keguguran yang Legal",
+          "Per kehamilan",
+          "500",
+          "750",
+          "1.000",
+          "1.750",
+          "2.500",
+          "3.000",
+          "3.750",
+          "5.000"
         ]
       }
     ]
@@ -79,7 +124,7 @@
     "product_id": "bca-life-bca-life-perlindungan-kesehatan-ultima",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/bca-life/bca-life/bca-life-perlindungan-kesehatan-ultima/bca-life-perlindungan-kesehatan-ultima-1759287424.tables.json",
     "reason": "unmapped manfaat rows",
-    "unmapped_count": 15,
+    "unmapped_count": 17,
     "unmapped_samples": [
       {
         "label": "Besar Penggantian Biaya",
@@ -494,12 +539,165 @@
   {
     "product_id": "car-prevensia-carina",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/car/car/prevensia-carina/riplay-asuransi-prevensia-carina.tables.json",
-    "reason": "no tabel manfaat detected"
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 12,
+    "unmapped_samples": [
+      {
+        "label": "Biaya perawatan lain-lain",
+        "penjelasan": "",
+        "row": [
+          "Biaya perawatan lain-lain",
+          "1.125.000",
+          "1.500.000",
+          "1.875.000",
+          "2.250.000",
+          "3.000.000",
+          "3.750.000",
+          "4.500.000",
+          "6.000.000",
+          "7.500.000"
+        ]
+      },
+      {
+        "label": "Biaya anestesi",
+        "penjelasan": "",
+        "row": [
+          "Biaya anestesi",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan"
+        ]
+      },
+      {
+        "label": "Biaya ruang operasi",
+        "penjelasan": "",
+        "row": [
+          "Biaya ruang operasi",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan",
+          "Maksimum40%daribiayapembedahan"
+        ]
+      },
+      {
+        "label": "Batas maksimum penggantian per tahun",
+        "penjelasan": "",
+        "row": [
+          "Batas maksimum penggantian per tahun",
+          "Tidakadabatasan",
+          "Tidakadabatasan",
+          "Tidakadabatasan",
+          "Tidakadabatasan",
+          "Tidakadabatasan",
+          "Tidakadabatasan",
+          "Tidakadabatasan",
+          "Tidakadabatasan",
+          "Tidakadabatasan"
+        ]
+      },
+      {
+        "label": "Biaya perawatan lain-lain",
+        "penjelasan": "",
+        "row": [
+          "Biaya perawatan lain-lain",
+          "9.000.000",
+          "10.500.000",
+          "12.000.000",
+          "13.500.000",
+          "15.000.000",
+          "18.750.000",
+          "22.500.000",
+          "26.250.000",
+          "30.000.000"
+        ]
+      }
+    ]
   },
   {
     "product_id": "car-family-prevensia-care",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/car/car/family-prevensia-care/riplay-asuransi-family-prevensia-care-201123.tables.json",
-    "reason": "no tabel manfaat detected"
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 10,
+    "unmapped_samples": [
+      {
+        "label": "Perawatan Darurat akibat Keracunan Makanan",
+        "penjelasan": "",
+        "row": [
+          "Perawatan Darurat akibat Keracunan Makanan",
+          "100% Kwitansi",
+          "100% Kwitansi",
+          "100% Kwitansi",
+          "100% Kwitansi",
+          "100% Kwitansi",
+          "100% Kwitansi"
+        ]
+      },
+      {
+        "label": "Biaya Perawatan Luka Bakar",
+        "penjelasan": "",
+        "row": [
+          "Biaya Perawatan Luka Bakar",
+          "100% Kwitansi",
+          "100% Kwitansi",
+          "100% Kwitansi",
+          "100% Kwitansi",
+          "100% Kwitansi",
+          "100% Kwitansi"
+        ]
+      },
+      {
+        "label": "Batas Manfaat Maksimum Per Ketidakmampuan",
+        "penjelasan": "",
+        "row": [
+          "Batas Manfaat Maksimum Per Ketidakmampuan",
+          "4.000.000 Rp",
+          "8.000.000 Rp",
+          "12.000.000 Rp",
+          "16.000.000 Rp",
+          "20.000.000 Rp",
+          "24.000.000 Rp"
+        ]
+      },
+      {
+        "label": "Perawatan Darurat akibat Keracunan Makanan",
+        "penjelasan": "",
+        "row": [
+          "Perawatan Darurat akibat Keracunan Makanan",
+          "100% Kwitansi",
+          "",
+          "",
+          "-",
+          "",
+          "",
+          "-"
+        ]
+      },
+      {
+        "label": "Biaya Perawatan Luka Bakar",
+        "penjelasan": "",
+        "row": [
+          "Biaya Perawatan Luka Bakar",
+          "100% Kwitansi",
+          "",
+          "",
+          "-",
+          "",
+          "",
+          "-"
+        ]
+      }
+    ]
   },
   {
     "product_id": "generali-gen-medicare-protection",
@@ -710,30 +908,6 @@
     "reason": "no tabel manfaat detected"
   },
   {
-    "product_id": "jiwa-manulife-syariah-miultimate-healthcare-syariah",
-    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/manulife/jiwa-manulife-syariah/miultimate-healthcare-syariah/MiUltimate HealthCare Syariah-Ringkasan Informasi Produk dan Layanan Versi Umum.tables.json",
-    "reason": "unmapped manfaat rows",
-    "unmapped_count": 2,
-    "unmapped_samples": [
-      {
-        "label": "dengan tetap memperhatikan Ketentuan Polis. Pembayaran Manfaat Asuransi akan dilakukan paling lambat 30 (tiga puluh) hari kalender sejak tanggal klaim disetujui oleh Manulife Syariah Indonesia serta apabila dokumen yang diperlukan sebagaimana yang tercantum pada bagian pengajuan klaim diatas, telah secara lengkap diterima dan setelah melalui proses pengujian kebenaran Polis/investigasi.",
-        "penjelasan": "",
-        "row": [
-          "Pembayaran Klaim",
-          "dengan tetap memperhatikan Ketentuan Polis. Pembayaran Manfaat Asuransi akan dilakukan paling lambat 30 (tiga puluh) hari kalender sejak tanggal klaim disetujui oleh Manulife Syariah Indonesia serta apabila dokumen yang diperlukan sebagaimana yang tercantum pada bagian pengajuan klaim diatas, telah secara lengkap diterima dan setelah melalui proses pengujian kebenaran Polis/investigasi."
-        ]
-      },
-      {
-        "label": "a) Pengaduan Secara Lisan Pengaduan secara lisan dapat diajukan secara langsung (tatap muka) kepada Manulife Syariah Indonesia ke Customer Service di alamat sebagaimana yang tercantum pada website Manulife Syariah Indonesia atau dapat diajukan melalui daring telepon ke nomor telepon yang tercantum pada website Manulife Syariah Indonesia. Pengelola akan melakukan tindak lanjut dan menyelesaikan pengaduan secara lisan paling lama dalam waktu 5 (lima) hari kerja sejak pengaduan diterima oleh Pengelola.",
-        "penjelasan": "",
-        "row": [
-          "Pengajuan Keluhan/Pertanyaan",
-          "a) Pengaduan Secara Lisan Pengaduan secara lisan dapat diajukan secara langsung (tatap muka) kepada Manulife Syariah Indonesia ke Customer Service di alamat sebagaimana yang tercantum pada website Manulife Syariah Indonesia atau dapat diajukan melalui daring telepon ke nomor telepon yang tercantum pada website Manulife Syariah Indonesia. Pengelola akan melakukan tindak lanjut dan menyelesaikan pengaduan secara lisan paling lama dalam waktu 5 (lima) hari kerja sejak pengaduan diterima oleh Pengelola."
-        ]
-      }
-    ]
-  },
-  {
     "product_id": "prudential-life-assurance-pruwell-health",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/prudential/prudential-life-assurance/pruwell-health/Flayer-PS-PWH.tables.json",
     "reason": "no tabel manfaat detected"
@@ -756,7 +930,58 @@
   {
     "product_id": "sequis-Sequis-Q-Infinite-Medcare-Rider-Series-Plan-X-Booster-",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/Sequis-Q-Infinite-Medcare-Rider-Series-Plan-X-Booster-/RIPLay Umum Sequis Q Infinite MedCare Rider X Booster_v1.3_102025.tables.json",
-    "reason": "no tabel manfaat detected"
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 4,
+    "unmapped_samples": [
+      {
+        "label": "Informasi Dasar:",
+        "penjelasan": "",
+        "row": [
+          "Informasi Dasar:",
+          "Informasi Dasar:",
+          "Informasi Dasar:",
+          "Informasi Dasar:",
+          "Informasi Dasar:",
+          "Informasi Dasar:"
+        ]
+      },
+      {
+        "label": "Manfaat Utama:",
+        "penjelasan": "",
+        "row": [
+          "Manfaat Utama:",
+          "Manfaat Utama:",
+          "Manfaat Utama:",
+          "Manfaat Utama:",
+          "Manfaat Utama:",
+          "Manfaat Utama:"
+        ]
+      },
+      {
+        "label": "(IGD) Biaya Harian",
+        "penjelasan": "",
+        "row": [
+          "(IGD) Biaya Harian",
+          "Perawatan Intensif",
+          "Perawatan Intensif",
+          "Perawatan Intensif",
+          "Perawatan Intensif",
+          ""
+        ]
+      },
+      {
+        "label": "Biaya Rumah",
+        "penjelasan": "",
+        "row": [
+          "Biaya Rumah",
+          "Sakit Lain - lain",
+          "Sakit Lain - lain",
+          "Sakit Lain - lain",
+          "Sakit Lain - lain",
+          ""
+        ]
+      }
+    ]
   },
   {
     "product_id": "sequis-Sequis-Q-Infinite-Medcare-Rider-Series-Plan-Lite",
@@ -766,7 +991,34 @@
   {
     "product_id": "sequis-Q-Hospital-Rider",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/Q-Hospital-Rider/RIPLAY Umum Sequis Q Hospital Rider_SQL_V1_.tables.json",
-    "reason": "no tabel manfaat detected"
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 2,
+    "unmapped_samples": [
+      {
+        "label": "Biaya Rumah Sakit Lain - lain",
+        "penjelasan": "Sesuai Tagihan Biaya Wajar dan Biasa sesuai dengan Plan yang dipilih, terbatas pada Batas Tahunan Keseluruhan Obat-obatan, pemeriksaan laboratorium, elektrokardiogram, transfusi darah dan lain-lain",
+        "row": [
+          "Biaya Rumah Sakit Lain - lain",
+          "Sesuai Tagihan Biaya Wajar dan Biasa sesuai dengan Plan yang dipilih, terbatas pada Batas Tahunan Keseluruhan Obat-obatan, pemeriksaan laboratorium, elektrokardiogram, transfusi darah dan lain-lain",
+          "Sesuai Tagihan Biaya Wajar dan Biasa sesuai dengan Plan yang dipilih, terbatas pada Batas Tahunan Keseluruhan Obat-obatan, pemeriksaan laboratorium, elektrokardiogram, transfusi darah dan lain-lain",
+          "Sesuai Tagihan Biaya Wajar dan Biasa sesuai dengan Plan yang dipilih, terbatas pada Batas Tahunan Keseluruhan Obat-obatan, pemeriksaan laboratorium, elektrokardiogram, transfusi darah dan lain-lain",
+          "Sesuai Tagihan Biaya Wajar dan Biasa sesuai dengan Plan yang dipilih, terbatas pada Batas Tahunan Keseluruhan Obat-obatan, pemeriksaan laboratorium, elektrokardiogram, transfusi darah dan lain-lain",
+          "Sesuai Tagihan Biaya Wajar dan Biasa sesuai dengan Plan yang dipilih, terbatas pada Batas Tahunan Keseluruhan Obat-obatan, pemeriksaan laboratorium, elektrokardiogram, transfusi darah dan lain-lain"
+        ]
+      },
+      {
+        "label": "Biaya Tambahan Penginapan",
+        "penjelasan": "Maks 14 hari kalender per Tahun Polis (Matras dan Makanan untuk 1 orang bagi orang tua atau keluarga jika usia tertanggung dibawah 18 tahun)",
+        "row": [
+          "Biaya Tambahan Penginapan",
+          "Maks 14 hari kalender per Tahun Polis (Matras dan Makanan untuk 1 orang bagi orang tua atau keluarga jika usia tertanggung dibawah 18 tahun)",
+          "500.000",
+          "750.000",
+          "1.000.000",
+          "1.500.000"
+        ]
+      }
+    ]
   },
   {
     "product_id": "sequis-CI-Coverage-Insurance",
