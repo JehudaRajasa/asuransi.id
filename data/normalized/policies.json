@@ -6286,92 +6286,6 @@
     "currency": "IDR",
     "plans": [
       {
-        "plan_name": "Plan Plan",
-        "manfaat": [
-          {
-            "category": "tindakan_bedah",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Manfaat Rawat Inap & Pembedahan",
-            "raw_label": "Manfaat Rawat Inap & Pembedahan",
-            "penjelasan": null
-          },
-          {
-            "category": "kamar_rs",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Kamar Perawatan",
-            "raw_label": "Biaya Kamar Perawatan",
-            "penjelasan": null
-          },
-          {
-            "category": "kamar_rs",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Kamar Perawatan",
-            "raw_label": "Biaya Kamar Perawatan",
-            "penjelasan": null
-          },
-          {
-            "category": "icu",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Unit Perawatan Intensif/Isolasi",
-            "raw_label": "Biaya Unit Perawatan Intensif/Isolasi",
-            "penjelasan": null
-          },
-          {
-            "category": "tindakan_bedah",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Tindakan Bedah",
-            "raw_label": "Biaya Tindakan Bedah",
-            "penjelasan": null
-          },
-          {
-            "category": "dokter_umum",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Kunjungan Dokter Umum",
-            "raw_label": "Biaya Kunjungan Dokter Umum",
-            "penjelasan": null
-          },
-          {
-            "category": "dokter_spesialis",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Kunjungan Dokter Spesialis",
-            "raw_label": "Biaya Kunjungan Dokter Spesialis",
-            "penjelasan": null
-          },
-          {
-            "category": "tindakan_bedah",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Pembedahan Implan dan Protesis",
-            "raw_label": "Biaya Pembedahan Implan dan Protesis",
-            "penjelasan": null
-          },
-          {
-            "category": "ambulans",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Transportasi Ambulans",
-            "raw_label": "Biaya Transportasi Ambulans",
-            "penjelasan": null
-          }
-        ]
-      },
-      {
         "plan_name": "Platinum",
         "manfaat": [
           {
@@ -6454,7 +6368,7 @@
         ]
       },
       {
-        "plan_name": "Plan Silver",
+        "plan_name": "Silver",
         "manfaat": [
           {
             "category": "tindakan_bedah",
@@ -6534,376 +6448,6 @@
             "penjelasan": null
           }
         ]
-      },
-      {
-        "plan_name": "Plan Biaya",
-        "manfaat": [
-          {
-            "category": "rawat_jalan",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Manfaat Rawat Jalan",
-            "raw_label": "Manfaat Rawat Jalan",
-            "penjelasan": null
-          },
-          {
-            "category": "tindakan_bedah",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Perawatan Sebelum Rawat Inap atau Pembedahan",
-            "raw_label": "Biaya Perawatan Sebelum Rawat Inap atau Pembedahan",
-            "penjelasan": null
-          },
-          {
-            "category": "tindakan_bedah",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Perawatan Sesudah Rawat Inap atau Pembedahan",
-            "raw_label": "Biaya Perawatan Sesudah Rawat Inap atau Pembedahan",
-            "penjelasan": null
-          },
-          {
-            "category": "rawat_jalan",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Pembedahan Rawat Jalan",
-            "raw_label": "Pembedahan Rawat Jalan",
-            "penjelasan": null
-          },
-          {
-            "category": "rehabilitasi",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Fisioterapi",
-            "raw_label": "Biaya Fisioterapi",
-            "penjelasan": null
-          },
-          {
-            "category": "pengobatan_tradisional",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Pengobatan Tradisional Tiongkok",
-            "raw_label": "Pengobatan Tradisional Tiongkok",
-            "penjelasan": null
-          },
-          {
-            "category": "penyakit_kritis",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Manfaat Perawatan Penyakit Kritis",
-            "raw_label": "Manfaat Perawatan Penyakit Kritis",
-            "penjelasan": null
-          },
-          {
-            "category": "dialisis",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Perawatan Cuci Darah (Dialisis)",
-            "raw_label": "Biaya Perawatan Cuci Darah (Dialisis)",
-            "penjelasan": null
-          },
-          {
-            "category": "kanker",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Perawatan Kanker",
-            "raw_label": "Biaya Perawatan Kanker",
-            "penjelasan": null
-          },
-          {
-            "category": "kanker",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Perawatan untuk Efek Samping Perawatan Kanker",
-            "raw_label": "Biaya Perawatan untuk Efek Samping Perawatan Kanker",
-            "penjelasan": null
-          },
-          {
-            "category": "obat_inpatient",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Obat atas Penyakit Kronis",
-            "raw_label": "Biaya Obat atas Penyakit Kronis",
-            "penjelasan": null
-          },
-          {
-            "category": "hiv_aids",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Perawatan HIV/AIDS",
-            "raw_label": "Perawatan HIV/AIDS",
-            "penjelasan": null
-          },
-          {
-            "category": "rawat_jalan",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Rawat Jalan Gigi karena Kecelakaan",
-            "raw_label": "Biaya Rawat Jalan Gigi karena Kecelakaan",
-            "penjelasan": null
-          },
-          {
-            "category": "gawat_darurat",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Biaya Rawat Jalan Darurat karena Kecelakaan",
-            "raw_label": "Biaya Rawat Jalan Darurat karena Kecelakaan",
-            "penjelasan": null
-          },
-          {
-            "category": "pemakaman",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Santunan Kematian",
-            "raw_label": "Santunan Kematian",
-            "penjelasan": null
-          },
-          {
-            "category": "annual_limit",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Limit Manfaat Tahunan",
-            "raw_label": "Limit Manfaat Tahunan",
-            "penjelasan": null
-          },
-          {
-            "category": "limit_booster",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Limit Booster",
-            "raw_label": "Limit Booster",
-            "penjelasan": null
-          }
-        ]
-      },
-      {
-        "plan_name": "Plan Rp1",
-        "manfaat": [
-          {
-            "category": "rawat_jalan",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Sesuai Tagihan",
-            "raw_cell": "Sesuai Tagihan",
-            "raw_label": "Pembedahan Rawat Jalan",
-            "penjelasan": null
-          },
-          {
-            "category": "pengobatan_tradisional",
-            "amount_rp": 25000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp25.000.000",
-            "raw_label": "Pengobatan Tradisional Tiongkok",
-            "penjelasan": null
-          },
-          {
-            "category": "pengobatan_tradisional",
-            "amount_rp": 15000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp15.000.000",
-            "raw_label": "Pengobatan Tradisional Tiongkok",
-            "penjelasan": null
-          },
-          {
-            "category": "pengobatan_tradisional",
-            "amount_rp": 10000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp10.000.000",
-            "raw_label": "Pengobatan Tradisional Tiongkok",
-            "penjelasan": null
-          },
-          {
-            "category": "kanker",
-            "amount_rp": 5000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp5.000.000",
-            "raw_label": "Biaya Perawatan untuk Efek Samping Perawatan Kanker",
-            "penjelasan": null
-          },
-          {
-            "category": "kanker",
-            "amount_rp": 3000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp3.000.000",
-            "raw_label": "Biaya Perawatan untuk Efek Samping Perawatan Kanker",
-            "penjelasan": null
-          },
-          {
-            "category": "kanker",
-            "amount_rp": 2500000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp2.500.000",
-            "raw_label": "Biaya Perawatan untuk Efek Samping Perawatan Kanker",
-            "penjelasan": null
-          },
-          {
-            "category": "obat_inpatient",
-            "amount_rp": 2000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp2.000.000",
-            "raw_label": "Biaya Obat atas Penyakit Kronis",
-            "penjelasan": null
-          },
-          {
-            "category": "obat_inpatient",
-            "amount_rp": 1250000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp1.250.000",
-            "raw_label": "Biaya Obat atas Penyakit Kronis",
-            "penjelasan": null
-          },
-          {
-            "category": "obat_inpatient",
-            "amount_rp": 1000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp1.000.000",
-            "raw_label": "Biaya Obat atas Penyakit Kronis",
-            "penjelasan": null
-          },
-          {
-            "category": "hiv_aids",
-            "amount_rp": 25000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp25.000.000",
-            "raw_label": "Perawatan HIV/AIDS",
-            "penjelasan": null
-          },
-          {
-            "category": "hiv_aids",
-            "amount_rp": 25000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp25.000.000",
-            "raw_label": "Perawatan HIV/AIDS",
-            "penjelasan": null
-          },
-          {
-            "category": "hiv_aids",
-            "amount_rp": 15000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp15.000.000",
-            "raw_label": "Perawatan HIV/AIDS",
-            "penjelasan": null
-          },
-          {
-            "category": "gawat_darurat",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Sesuai Tagihan",
-            "raw_cell": "Sesuai Tagihan",
-            "raw_label": "Biaya Rawat Jalan Darurat karena Kecelakaan",
-            "penjelasan": null
-          },
-          {
-            "category": "pemakaman",
-            "amount_rp": 25000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp25.000.000",
-            "raw_label": "Santunan Kematian",
-            "penjelasan": null
-          },
-          {
-            "category": "pemakaman",
-            "amount_rp": 25000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp25.000.000",
-            "raw_label": "Santunan Kematian",
-            "penjelasan": null
-          },
-          {
-            "category": "pemakaman",
-            "amount_rp": 25000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp25.000.000",
-            "raw_label": "Santunan Kematian",
-            "penjelasan": null
-          },
-          {
-            "category": "annual_limit",
-            "amount_rp": 15000000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp15.000.000.000",
-            "raw_label": "Limit Manfaat Tahunan",
-            "penjelasan": null
-          },
-          {
-            "category": "annual_limit",
-            "amount_rp": 10000000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp10.000.000.000",
-            "raw_label": "Limit Manfaat Tahunan",
-            "penjelasan": null
-          },
-          {
-            "category": "annual_limit",
-            "amount_rp": 5000000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp5.000.000.000",
-            "raw_label": "Limit Manfaat Tahunan",
-            "penjelasan": null
-          },
-          {
-            "category": "limit_booster",
-            "amount_rp": 45000000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp45.000.000.000",
-            "raw_label": "Limit Booster",
-            "penjelasan": null
-          },
-          {
-            "category": "limit_booster",
-            "amount_rp": 35000000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp35.000.000.000",
-            "raw_label": "Limit Booster",
-            "penjelasan": null
-          },
-          {
-            "category": "limit_booster",
-            "amount_rp": 25000000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Rp25.000.000.000",
-            "raw_label": "Limit Booster",
-            "penjelasan": null
-          }
-        ]
       }
     ]
   },
@@ -6926,7 +6470,7 @@
     "currency": "IDR",
     "plans": [
       {
-        "plan_name": "Plan Silver",
+        "plan_name": "Silver",
         "manfaat": [
           {
             "category": "penyakit_kritis",
@@ -7685,6 +7229,167 @@
     ]
   },
   {
+    "product_id": "bni-life-spectra-health-care",
+    "product_name": "Proteksi, Asuransi Kesehatan, Proteksi Keluarga, Kesehatan. | BNI Life Insurance",
+    "insurer_slug": "bni-life",
+    "insurer_name": "PT BNI Life Insurance",
+    "insurer_category": "asuransi_jiwa",
+    "product_type": "kesehatan_individu",
+    "jenis": "konvensional",
+    "product_page_url": "https://www.bni-life.co.id/id/perlindungan/detail/spectra-health-care",
+    "source_pdfs": {
+      "riplay": "data/raw/insurers/bni-life/bni-life/spectra-health-care/RIPLAY_Umum_-_Spectra_Health_Care.pdf"
+    },
+    "source_pdf_urls": {
+      "riplay": "https://www.bni-life.co.id/uploads/product/RIPLAY_Umum_-_Spectra_Health_Care.pdf"
+    },
+    "scraped_at": "2026-05-17T16:18:35.351200+00:00",
+    "currency": "IDR",
+    "plans": [
+      {
+        "plan_name": "Santunan Ri 100",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": 100000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "100,000",
+            "raw_label": "Biaya kamar danmakanperhari",
+            "penjelasan": null
+          },
+          {
+            "category": "icu",
+            "amount_rp": 200000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "200,000",
+            "raw_label": "Biaya Kamar Semi ICu/lsolasiperhari",
+            "penjelasan": null
+          },
+          {
+            "category": "icu",
+            "amount_rp": 300000,
+            "unit": "per_day",
+            "note": null,
+            "raw_cell": "300,000",
+            "raw_label": "Unit Perawatan Intensif (Ic U) per hari",
+            "penjelasan": null
+          },
+          {
+            "category": "perawatan_di_rumah",
+            "amount_rp": 2500,
+            "unit": null,
+            "note": null,
+            "raw_cell": "2,500,000",
+            "raw_label": "Biaya aneka perawatan di Rumah Sakit",
+            "penjelasan": null
+          },
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": 1000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "1,000,000",
+            "raw_label": "e.Bedah Sehari (One Day Surgery)",
+            "penjelasan": null
+          },
+          {
+            "category": "dokter_inpatient",
+            "amount_rp": 25000,
+            "unit": "per_day",
+            "note": null,
+            "raw_cell": "25,000",
+            "raw_label": "Biaya kunjungan dokter per hari",
+            "penjelasan": null
+          },
+          {
+            "category": "dokter_spesialis",
+            "amount_rp": 50000,
+            "unit": "per_day",
+            "note": null,
+            "raw_cell": "50,000",
+            "raw_label": "Konsultasi dengan dokter spesialis per hari",
+            "penjelasan": null
+          },
+          {
+            "category": "ambulans",
+            "amount_rp": 150000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "150,000",
+            "raw_label": "Biaya Ambulan",
+            "penjelasan": null
+          },
+          {
+            "category": "gawat_darurat",
+            "amount_rp": 1000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "1,000,000",
+            "raw_label": "Biaya rawat jalan darurat & perawatan gigi khusus akibat kecelakaan",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": 2000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "2,000,000",
+            "raw_label": "Santunan Kematian",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Santunan Rj100",
+        "manfaat": [
+          {
+            "category": "dokter_umum",
+            "amount_rp": 25000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "25,000",
+            "raw_label": "Konsultasi dokter umum",
+            "penjelasan": null
+          },
+          {
+            "category": "dokter_spesialis",
+            "amount_rp": 50000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "50,000",
+            "raw_label": "Konsultasi dokter spesialis",
+            "penjelasan": null
+          },
+          {
+            "category": "diagnostik_inpatient",
+            "amount_rp": 750000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "750,000",
+            "raw_label": "Biaya laboratorium atas perintah dokter",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Santunan Rm100",
+        "manfaat": [
+          {
+            "category": "maternity",
+            "amount_rp": 2000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "2,000,000",
+            "raw_label": "Manfaat Melahirkan",
+            "penjelasan": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "product_id": "bpjs-kesehatan-jkn",
     "product_name": "Jaminan Kesehatan Nasional (JKN)",
     "insurer_slug": "bpjs-kesehatan",
@@ -8001,7 +7706,7 @@
     "currency": "IDR",
     "plans": [
       {
-        "plan_name": "Plan Silver",
+        "plan_name": "Silver",
         "manfaat": [
           {
             "category": "kamar_rs",
@@ -8735,7 +8440,7 @@
         ]
       },
       {
-        "plan_name": "Plan Gold",
+        "plan_name": "Gold",
         "manfaat": [
           {
             "category": "kamar_rs",
@@ -8794,7 +8499,7 @@
         ]
       },
       {
-        "plan_name": "Plan Platinum",
+        "plan_name": "Platinum",
         "manfaat": [
           {
             "category": "kamar_rs",
@@ -8853,7 +8558,7 @@
         ]
       },
       {
-        "plan_name": "Plan Diamond",
+        "plan_name": "Diamond",
         "manfaat": [
           {
             "category": "kamar_rs",
@@ -8934,7 +8639,7 @@
     "currency": "IDR",
     "plans": [
       {
-        "plan_name": "Plan Silver",
+        "plan_name": "Silver",
         "manfaat": [
           {
             "category": "kamar_rs",
@@ -9776,7 +9481,7 @@
         ]
       },
       {
-        "plan_name": "Plan Gold",
+        "plan_name": "Gold",
         "manfaat": [
           {
             "category": "kamar_rs",
@@ -10015,7 +9720,7 @@
         ]
       },
       {
-        "plan_name": "Plan Plan",
+        "plan_name": "Platinum",
         "manfaat": [
           {
             "category": "kamar_rs",
@@ -15345,164 +15050,6 @@
         ]
       },
       {
-        "plan_name": "Topaz",
-        "manfaat": [
-          {
-            "category": "kamar_rs",
-            "amount_rp": 200000000,
-            "unit": "per_year",
-            "note": null,
-            "raw_cell": "200.000",
-            "raw_label": "Wilayah di Luar Pertanggungan (maks. Biaya Kamar 30 hari per tahun)",
-            "penjelasan": null
-          },
-          {
-            "category": "tindakan_bedah",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Manfaat Rawat Inap dan Tindakan Bedah / Pembedahan",
-            "raw_label": "Manfaat Rawat Inap dan Tindakan Bedah / Pembedahan",
-            "penjelasan": null
-          },
-          {
-            "category": "icu",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Unit Perawatan Intensif",
-            "penjelasan": null
-          },
-          {
-            "category": "dokter_umum",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Kunjungan Dokter Umum (Maks. 1 kunjungan per hari)",
-            "penjelasan": null
-          },
-          {
-            "category": "rawat_jalan",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Manfaat Rawat Jalan Yang Berkaitan Dengan Rawat Inap",
-            "raw_label": "Manfaat Rawat Jalan Yang Berkaitan Dengan Rawat Inap",
-            "penjelasan": null
-          },
-          {
-            "category": "post_hospitalization",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Perawatan Setelah Rawat Inap atau Tindakan Bedah Rawat Jalan ( One Day Surgery ) , 90 hari sejak tanggal keluar dari Rumah Sakit",
-            "penjelasan": null
-          },
-          {
-            "category": "kanker",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Perawatan Kanker (Kemoterapi, Radioterapi, Targeted Therapy, immunotherapy , dan hormonal Therapy )",
-            "penjelasan": null
-          },
-          {
-            "category": "kanker",
-            "amount_rp": 10000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "10.000/ tahun",
-            "raw_label": "Biaya Pemantauan Kanker",
-            "penjelasan": null
-          },
-          {
-            "category": "dialisis",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Perawatan Cuci Darah (Gagal Ginjal)",
-            "penjelasan": null
-          },
-          {
-            "category": "annual_limit",
-            "amount_rp": 10000000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "10.000.000/ tahun",
-            "raw_label": "Manfaat Tahunan",
-            "penjelasan": null
-          },
-          {
-            "category": "deductible",
-            "amount_rp": 8000000,
-            "unit": "per_event",
-            "note": null,
-            "raw_cell": "8.000",
-            "raw_label": "Deductible per Perawatan* (Opsional)",
-            "penjelasan": null
-          },
-          {
-            "category": "dokter_inpatient",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Konsultasi",
-            "penjelasan": null
-          },
-          {
-            "category": "obat_inpatient",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Obat Resep dan Bahan Habis Pakai",
-            "penjelasan": null
-          },
-          {
-            "category": "diagnostik_inpatient",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Tes Diagnostik dan Laboratorium",
-            "penjelasan": null
-          },
-          {
-            "category": "pengobatan_tradisional",
-            "amount_rp": 500000,
-            "unit": "per_visit",
-            "note": null,
-            "raw_cell": "Maks. 500/kunjungan",
-            "raw_label": "Pengobatan Tradisional Tiongkok (termasuk Akupuntur)",
-            "penjelasan": null
-          },
-          {
-            "category": "rehabilitasi",
-            "amount_rp": 500000,
-            "unit": "per_visit",
-            "note": null,
-            "raw_cell": "Maks.500/kunjungan",
-            "raw_label": "Biaya Fisioterapi dan Chiropractic",
-            "penjelasan": null
-          },
-          {
-            "category": "annual_limit",
-            "amount_rp": 10000000,
-            "unit": null,
-            "note": null,
-            "raw_cell": "10.000",
-            "raw_label": "Manfaat Tahunan",
-            "penjelasan": null
-          }
-        ]
-      },
-      {
         "plan_name": "Topaz Indonesia",
         "manfaat": [
           {
@@ -15973,78 +15520,6 @@
             "raw_cell": "10.000",
             "raw_label": "Manfaat Tahunan",
             "penjelasan": null
-          },
-          {
-            "category": "tindakan_bedah",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Manfaat Rawat Inap dan Tindakan Bedah",
-            "raw_label": "Manfaat Rawat Inap dan Tindakan Bedah",
-            "penjelasan": null
-          },
-          {
-            "category": "kamar_rs",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "500 / hari atau Double Standard Room , mana yang lebih tinggi",
-            "raw_label": "Biaya Kamar Harian di Indonesia",
-            "penjelasan": null
-          },
-          {
-            "category": "icu",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Unit Perawatan Intensif",
-            "penjelasan": null
-          },
-          {
-            "category": "dokter_umum",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Kunjungan Dokter Umum (Maks. 1 kunjungan per hari)",
-            "penjelasan": null
-          },
-          {
-            "category": "dokter_spesialis",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Kunjungan Dokter Spesialis (Maks. 2 kunjungan per tipe Spesialis per hari)",
-            "penjelasan": null
-          },
-          {
-            "category": "obat_inpatient",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Aneka Perawatan Rumah Sakit",
-            "penjelasan": null
-          },
-          {
-            "category": "tindakan_bedah",
-            "amount_rp": null,
-            "unit": "no_cap",
-            "note": "Ditanggung",
-            "raw_cell": "Ditanggung",
-            "raw_label": "Biaya Tindakan Bedah (Termasuk Biaya Dokter Bedah, Ruang Operasi, dan Biaya Anestesi)",
-            "penjelasan": null
-          },
-          {
-            "category": "akomodasi_pendamping",
-            "amount_rp": 500000,
-            "unit": "per_year",
-            "note": null,
-            "raw_cell": "500/hari",
-            "raw_label": "Biaya Akomodasi Pendamping (Untuk Penginapan Pendamping Tertanggung dan/atau Tanggungan Dewasa atau Anak-anak, berlaku untuk 150 hari per tahun)",
-            "penjelasan": null
           }
         ]
       },
@@ -16139,6 +15614,146 @@
             "note": null,
             "raw_cell": "2.000.000/ tahun",
             "raw_label": "Manfaat Tahunan",
+            "penjelasan": null
+          },
+          {
+            "category": "dokter_inpatient",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Ditanggung",
+            "raw_cell": "Ditanggung",
+            "raw_label": "Biaya Konsultasi",
+            "penjelasan": null
+          },
+          {
+            "category": "obat_inpatient",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Ditanggung",
+            "raw_cell": "Ditanggung",
+            "raw_label": "Biaya Obat Resep dan Bahan Habis Pakai",
+            "penjelasan": null
+          },
+          {
+            "category": "diagnostik_inpatient",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Ditanggung",
+            "raw_cell": "Ditanggung",
+            "raw_label": "Biaya Tes Diagnostik dan Laboratorium",
+            "penjelasan": null
+          },
+          {
+            "category": "pengobatan_tradisional",
+            "amount_rp": 500000,
+            "unit": "per_visit",
+            "note": null,
+            "raw_cell": "Maks. 500/kunjungan",
+            "raw_label": "Pengobatan Tradisional Tiongkok (termasuk Akupuntur)",
+            "penjelasan": null
+          },
+          {
+            "category": "rehabilitasi",
+            "amount_rp": 500000,
+            "unit": "per_visit",
+            "note": null,
+            "raw_cell": "Maks.500/kunjungan",
+            "raw_label": "Biaya Fisioterapi dan Chiropractic",
+            "penjelasan": null
+          },
+          {
+            "category": "annual_limit",
+            "amount_rp": 10000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "10.000",
+            "raw_label": "Manfaat Tahunan",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Topaz",
+        "manfaat": [
+          {
+            "category": "icu",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Ditanggung",
+            "raw_cell": "Ditanggung",
+            "raw_label": "Biaya Unit Perawatan Intensif",
+            "penjelasan": null
+          },
+          {
+            "category": "dokter_umum",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Ditanggung",
+            "raw_cell": "Ditanggung",
+            "raw_label": "Biaya Kunjungan Dokter Umum (Maks. 1 kunjungan per hari)",
+            "penjelasan": null
+          },
+          {
+            "category": "rawat_jalan",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Manfaat Rawat Jalan Yang Berkaitan Dengan Rawat Inap",
+            "raw_label": "Manfaat Rawat Jalan Yang Berkaitan Dengan Rawat Inap",
+            "penjelasan": null
+          },
+          {
+            "category": "post_hospitalization",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Ditanggung",
+            "raw_cell": "Ditanggung",
+            "raw_label": "Biaya Perawatan Setelah Rawat Inap atau Tindakan Bedah Rawat Jalan ( One Day Surgery ) , 90 hari sejak tanggal keluar dari Rumah Sakit",
+            "penjelasan": null
+          },
+          {
+            "category": "kanker",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Ditanggung",
+            "raw_cell": "Ditanggung",
+            "raw_label": "Biaya Perawatan Kanker (Kemoterapi, Radioterapi, Targeted Therapy, immunotherapy , dan hormonal Therapy )",
+            "penjelasan": null
+          },
+          {
+            "category": "kanker",
+            "amount_rp": 10000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "10.000/ tahun",
+            "raw_label": "Biaya Pemantauan Kanker",
+            "penjelasan": null
+          },
+          {
+            "category": "dialisis",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Ditanggung",
+            "raw_cell": "Ditanggung",
+            "raw_label": "Biaya Perawatan Cuci Darah (Gagal Ginjal)",
+            "penjelasan": null
+          },
+          {
+            "category": "annual_limit",
+            "amount_rp": 10000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "10.000.000/ tahun",
+            "raw_label": "Manfaat Tahunan",
+            "penjelasan": null
+          },
+          {
+            "category": "deductible",
+            "amount_rp": 8000000,
+            "unit": "per_event",
+            "note": null,
+            "raw_cell": "8.000",
+            "raw_label": "Deductible per Perawatan* (Opsional)",
             "penjelasan": null
           },
           {
@@ -17534,29 +17149,6 @@
             "note": null,
             "raw_cell": "20.000",
             "raw_label": "Manfaat Tahunan",
-            "penjelasan": null
-          }
-        ]
-      },
-      {
-        "plan_name": "Jade Smart",
-        "manfaat": [
-          {
-            "category": "tindakan_bedah",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "Manfaat Rawat Inap dan Tindakan Bedah",
-            "raw_label": "Manfaat Rawat Inap dan Tindakan Bedah",
-            "penjelasan": null
-          },
-          {
-            "category": "kamar_rs",
-            "amount_rp": null,
-            "unit": null,
-            "note": null,
-            "raw_cell": "500 / hari atau double standard room , mana yang lebih tinggi",
-            "raw_label": "Biaya Kamar di Indonesia, Malaysia , Asia Kecuali Singapura, Hongkong, dan Jepang.",
             "penjelasan": null
           }
         ]
@@ -21291,6 +20883,94 @@
             "note": null,
             "raw_cell": "30,000",
             "raw_label": "Manfaat Meninggal Dunia",
+            "penjelasan": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "zurich-topas-asuransi-kesehatan-medicillin",
+    "product_name": "Asuransi Kesehatan Medicillin",
+    "insurer_slug": "zurich-topas",
+    "insurer_name": "PT Zurich Topas Life",
+    "insurer_category": "asuransi_jiwa",
+    "product_type": "kesehatan_individu",
+    "jenis": "konvensional",
+    "product_page_url": "https://www.zurich.co.id/produk-asuransi/untuk-kesehatan/asuransi-kesehatan-medicillin",
+    "source_pdfs": {
+      "riplay": "data/raw/insurers/zurich-topas/zurich-topas/asuransi-kesehatan-medicillin/riplay-asuransi-medicillin.pdf"
+    },
+    "source_pdf_urls": {
+      "riplay": "https://www.zurich.co.id/-/media-assets/project/zurich-headless/indonesia/docs/upload/riplay-asuransi-medicillin.pdf"
+    },
+    "scraped_at": "2026-05-17T15:20:43.787116+00:00",
+    "currency": "IDR",
+    "plans": [
+      {
+        "plan_name": "Ip-1000",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": 1000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp1.000.000,-",
+            "raw_label": "Biaya Kamar dan Menginap di Rumah Sakit",
+            "penjelasan": null
+          },
+          {
+            "category": "dokter_inpatient",
+            "amount_rp": 500000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp500.000,-",
+            "raw_label": "Biaya kunjungan dokter",
+            "penjelasan": null
+          },
+          {
+            "category": "dokter_spesialis",
+            "amount_rp": 1000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp1.000.000,-",
+            "raw_label": "Biaya konsultasi dokter spesialis",
+            "penjelasan": null
+          },
+          {
+            "category": "dental",
+            "amount_rp": 3000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp3.000.000,-",
+            "raw_label": "Biaya Rawat Darurat Gigi",
+            "penjelasan": null
+          },
+          {
+            "category": "ambulans",
+            "amount_rp": 900000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp900.000,-",
+            "raw_label": "Biaya Ambulans",
+            "penjelasan": null
+          },
+          {
+            "category": "post_hospitalization",
+            "amount_rp": 5000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp5.000.000,-",
+            "raw_label": "Biaya Perawatan Sebelum dan Sesudah Rawat Inap",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": 10000000000,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Rp10.000.000,-",
+            "raw_label": "Manfaat Biaya Pemakaman (apabila Peserta meninggal dunia akibat Kecelakaan)",
             "penjelasan": null
           }
         ]

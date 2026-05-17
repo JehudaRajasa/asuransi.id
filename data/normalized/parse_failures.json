@@ -124,7 +124,7 @@
     "product_id": "bca-life-bca-life-perlindungan-kesehatan-ultima",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/bca-life/bca-life/bca-life-perlindungan-kesehatan-ultima/bca-life-perlindungan-kesehatan-ultima-1759287424.tables.json",
     "reason": "unmapped manfaat rows",
-    "unmapped_count": 17,
+    "unmapped_count": 5,
     "unmapped_samples": [
       {
         "label": "Besar Penggantian Biaya",
@@ -378,7 +378,60 @@
   {
     "product_id": "bni-life-spectra-health-care",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/bni-life/bni-life/spectra-health-care/RIPLAY_Umum_-_Spectra_Health_Care.tables.json",
-    "reason": "no tabel manfaat detected"
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 9,
+    "unmapped_samples": [
+      {
+        "label": "a. Operasi Kompleks",
+        "penjelasan": "",
+        "row": [
+          "",
+          "a. Operasi Kompleks",
+          "per periode rawat inap",
+          "20,000,000"
+        ]
+      },
+      {
+        "label": "b. Operasi Besar",
+        "penjelasan": "",
+        "row": [
+          "",
+          "b. Operasi Besar",
+          "per periode rawat inap",
+          "12,500,000"
+        ]
+      },
+      {
+        "label": "c. Operasi Sedang",
+        "penjelasan": "",
+        "row": [
+          "",
+          "c. Operasi Sedang",
+          "per periode rawat inap",
+          "8,500,000"
+        ]
+      },
+      {
+        "label": "d. Operasi Kecil",
+        "penjelasan": "",
+        "row": [
+          "",
+          "d. Operasi Kecil",
+          "per periode rawat inap",
+          "5,000,000"
+        ]
+      },
+      {
+        "label": "Biaya untukperawatpribadiperhari",
+        "penjelasan": "",
+        "row": [
+          "10",
+          "Biayauntukperawatpribadiperhari",
+          "180hari / tahun",
+          "40,000"
+        ]
+      }
+    ]
   },
   {
     "product_id": "car-prevensia-pro-ultimate",
@@ -1222,6 +1275,54 @@
   {
     "product_id": "zurich-topas-asuransi-kesehatan-medicillin",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/zurich-topas/zurich-topas/asuransi-kesehatan-medicillin/riplay-asuransi-medicillin.tables.json",
-    "reason": "no tabel manfaat detected"
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 6,
+    "unmapped_samples": [
+      {
+        "label": "Biaya Perawatan Intensif",
+        "penjelasan": "",
+        "row": [
+          "2",
+          "Biaya Perawatan Intensif",
+          "Rp2.000.000,-"
+        ]
+      },
+      {
+        "label": "Biaya aneka perawatan",
+        "penjelasan": "",
+        "row": [
+          "5",
+          "Biaya aneka perawatan",
+          "Rp30.000.000,-"
+        ]
+      },
+      {
+        "label": "a. Operasi khusus b. Operasi besar",
+        "penjelasan": "",
+        "row": [
+          "6",
+          "a. Operasi khusus b. Operasi besar",
+          "Rp60.000.000,-"
+        ]
+      },
+      {
+        "label": "Biaya Perawat Pribadi",
+        "penjelasan": "",
+        "row": [
+          "9",
+          "Biaya Perawat Pribadi",
+          "Rp400.000,-"
+        ]
+      },
+      {
+        "label": "Batasan Manfaat Per Tahun",
+        "penjelasan": "",
+        "row": [
+          "Batasan Manfaat Per Tahun",
+          "Batasan Manfaat Per Tahun",
+          "Tidak Terbatas"
+        ]
+      }
+    ]
   }
 ]
