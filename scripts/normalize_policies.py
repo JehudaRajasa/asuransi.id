@@ -219,7 +219,30 @@ def should_skip_label(s: str) -> bool:
     return False
 
 
+INTEGER_HEADER_RE = re.compile(r"^\d+$")
+BARE_PLAN_LETTER_RE = re.compile(r"^[A-H]$")
+
+
+def promote_header_if_integer_indexed(table: dict) -> dict:
+    columns = table["columns"]
+    if not columns or not all(INTEGER_HEADER_RE.match(c) for c in columns):
+        return table
+    for idx, row in enumerate(table["rows"]):
+        joined = " ".join(row).lower()
+        if "manfaat" not in joined:
+            continue
+        has_explicit_plan = any(PLAN_COLUMN_REGEX.search(c) for c in row)
+        bare_letter_count = sum(1 for c in row if BARE_PLAN_LETTER_RE.match(c.strip()))
+        if not has_explicit_plan and bare_letter_count < 2:
+            continue
+        # Rewrite bare letters to "Plan X" so downstream PLAN_COLUMN_REGEX matches.
+        new_cols = ["Plan " + c.strip() if BARE_PLAN_LETTER_RE.match(c.strip()) else c for c in row]
+        return {**table, "columns": new_cols, "rows": table["rows"][idx + 1:]}
+    return table
+
+
 def build_plans(tables: list[dict]) -> tuple[list[dict], list[dict]]:
+    tables = [promote_header_if_integer_indexed(t) for t in tables]
     canonical = [t for t in tables if looks_like_tabel_manfaat(t["columns"])]
     if not canonical:
         raise ValueError("no tabel manfaat detected")
