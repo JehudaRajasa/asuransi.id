@@ -81,7 +81,9 @@ PLAN_COLUMN_REGEX = re.compile(
     r"|(diamond|ruby|emerald|topaz|jade|sapphire|bronze|silver|gold|platinum)\b"
     r"|maxi\s+\w+"
     r"|as\s+charged"
-    r"|plan\s+[a-z][a-z0-9-]*\b"
+    r"|plan\s+(?!(diamond|ruby|emerald|topaz|jade|sapphire|bronze|silver|gold|platinum|rp\d|rp\b|manfaat|biaya|kamar|plan)\b)[a-z][a-z0-9-]*\b"
+    r"|santunan\s+\w+\d*"
+    r"|ip[-\s]\d+"
     r")",
     re.IGNORECASE,
 )
@@ -96,7 +98,7 @@ def is_manfaat_header(col: str) -> bool:
 
 
 _PLAN_QUALIFIER_RE = re.compile(
-    r"^(?P<core>(plan\s*[a-z0-9ivx]+|sehat\s+[a-z]|bronze\s+[ab]|silver\s+[ab]|diamond|ruby|emerald|topaz|jade|sapphire|gold|platinum|bronze|silver|maxi\s+\w+|as\s+charged)"
+    r"^(?P<core>(plan\s*[a-z0-9ivx]+|sehat\s+[a-z]|bronze\s+[ab]|silver\s+[ab]|diamond|ruby|emerald|topaz|jade|sapphire|gold|platinum|bronze|silver|maxi\s+\w+|as\s+charged|santunan\s+\w+\d*(\s+\d+)?|ip[-\s]\d+)"
     r"(?:\s+(?:indonesia|smart|premier|extra|standard))*)",
     re.IGNORECASE,
 )
@@ -152,6 +154,8 @@ def plan_name_from_col(col: str) -> str:
     for p in parts:
         if not _is_plausible_plan_header_part(p):
             continue
+        if "manfaat" in p.lower():
+            continue
         m = PLAN_COLUMN_REGEX.search(p)
         if not m:
             continue
@@ -171,7 +175,11 @@ def plan_name_from_col(col: str) -> str:
 
 def is_plan_header(col: str) -> bool:
     for p in col.split("."):
-        if not _is_plausible_plan_header_part(p.strip()):
+        ps = p.strip()
+        if not _is_plausible_plan_header_part(ps):
+            continue
+        # Parts that contain "manfaat" are benefit-label columns, not plan tiers.
+        if "manfaat" in ps.lower():
             continue
         if PLAN_COLUMN_REGEX.search(p):
             return True
@@ -191,12 +199,21 @@ def detect_plan_columns(columns: list[str]) -> list[int]:
     return [i for i, c in enumerate(columns) if is_plan_header(c)]
 
 
-def detect_manfaat_column(columns: list[str]) -> int:
-    for i, c in enumerate(columns):
-        cl = c.strip().lower()
-        if "manfaat" in cl or cl == "no." or "jenis manfaat" in cl:
-            if cl != "no.":
-                return i
+def detect_manfaat_column(columns: list[str], plan_cols: list[int] | None = None) -> int:
+    plan_cols = plan_cols or []
+    candidates = [
+        i for i, c in enumerate(columns)
+        if i not in plan_cols and ("manfaat" in c.strip().lower() or "jenis manfaat" in c.strip().lower())
+    ]
+    # Docling renders both the "No." column and the real benefit-name column
+    # with header "MANFAAT" when the source PDF merges them. When the first
+    # two manfaat-tagged columns have identical labels, that's the merge
+    # signature — prefer the second column, since it carries the benefit
+    # text and not the row numbers.
+    if len(candidates) >= 2 and columns[candidates[0]].strip().lower() == columns[candidates[1]].strip().lower():
+        return candidates[1]
+    if candidates:
+        return candidates[0]
     for i, c in enumerate(columns):
         if c.strip().lower() == "no.":
             return i + 1 if i + 1 < len(columns) else i
@@ -311,7 +328,7 @@ def build_plans(tables: list[dict]) -> tuple[list[dict], list[dict]]:
         plan_cols = detect_plan_columns(columns)
         if not plan_cols:
             continue
-        manfaat_col = detect_manfaat_column(columns)
+        manfaat_col = detect_manfaat_column(columns, plan_cols)
         penjelasan_col = detect_penjelasan_column(columns, manfaat_col, plan_cols)
         for row in t["rows"]:
             if manfaat_col >= len(row):
