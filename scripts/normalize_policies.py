@@ -316,55 +316,143 @@ def promote_header_if_integer_indexed(table: dict) -> dict:
     return table
 
 
+_AMOUNT_KEYWORDS = ("sesuai tagihan", "as charged", "ditanggung", "tidak", "rp ")
+_NON_PLAN_HEADER_TOKENS = ("keterangan", "penjelasan", "deskripsi", "jadwal", "no.", "no ")
+
+
+def _looks_like_amount(cell: str) -> bool:
+    s = cell.strip().lower()
+    if not s or s in ("-", "—", "n/a"):
+        return False
+    if any(t in s for t in _AMOUNT_KEYWORDS):
+        return True
+    return bool(re.search(r"\d[\d.,]*", s))
+
+
+_BAD_FALLBACK_HEADERS_RE = re.compile(
+    r"^(no\.?|sebesar|maksimum|maksimal|total|premi|biaya|harga|status|tahun|umur|\d+)$",
+    re.IGNORECASE,
+)
+
+
+def _fallback_plan_name(col: str) -> str | None:
+    # When a column wins via amount-cell sniffing rather than a tier-name
+    # regex hit, lift the plan label from the column header itself (last
+    # short, non-manfaat segment). Reject obvious non-plan headers like
+    # "No" / "Sebesar" / bare numbers — those mark row index, body prose,
+    # or premi tables, not plan tiers.
+    parts = [p.strip() for p in col.split(".") if p.strip()]
+    for p in reversed(parts):
+        if "manfaat" in p.lower():
+            continue
+        if not _is_plausible_plan_header_part(p):
+            continue
+        if _BAD_FALLBACK_HEADERS_RE.match(p):
+            continue
+        return re.sub(r"\s+", " ", p).strip().title()
+    return None
+
+
+def _sniff_amount_plan_cols(table: dict, manfaat_col_guess: int) -> tuple[list[int], dict[int, str]]:
+    columns = table["columns"]
+    rows = table["rows"]
+    if not rows:
+        return [], {}
+    plan_cols: list[int] = []
+    overrides: dict[int, str] = {}
+    for i, c in enumerate(columns):
+        if i == manfaat_col_guess:
+            continue
+        cl = c.strip().lower()
+        if any(tok in cl for tok in _NON_PLAN_HEADER_TOKENS):
+            continue
+        if "manfaat" in cl and not any(_is_plausible_plan_header_part(p.strip()) and "manfaat" not in p.lower() for p in c.split(".")):
+            continue
+        sample = [row[i] for row in rows[:12] if i < len(row) and row[i].strip()]
+        if not sample:
+            continue
+        n_amounts = sum(1 for s in sample if _looks_like_amount(s))
+        if n_amounts < max(1, len(sample) // 2):
+            continue
+        name = _fallback_plan_name(c)
+        if name is None:
+            continue
+        plan_cols.append(i)
+        overrides[i] = name
+    return plan_cols, overrides
+
+
+def _extract_table_rows(table: dict, plan_cols: list[int], plan_name_overrides: dict[int, str], plans: dict[str, list[dict]], unmapped: list[dict]) -> None:
+    columns = table["columns"]
+    manfaat_col = detect_manfaat_column(columns, plan_cols)
+    penjelasan_col = detect_penjelasan_column(columns, manfaat_col, plan_cols)
+    for row in table["rows"]:
+        if manfaat_col >= len(row):
+            continue
+        if is_section_header_row(row, manfaat_col, penjelasan_col, plan_cols):
+            continue
+        label = normalize_label(row[manfaat_col])
+        if not label or should_skip_label(label):
+            continue
+        cat = map_category(label)
+        penjelasan = row[penjelasan_col].strip() if penjelasan_col is not None and penjelasan_col < len(row) else ""
+        unit = parse_unit(label + " " + penjelasan)
+        if cat is None:
+            unmapped.append({"label": label, "penjelasan": penjelasan, "row": row})
+            continue
+        for i in plan_cols:
+            cell = row[i].strip() if i < len(row) else ""
+            if not cell or cell in ("-", "—"):
+                continue
+            amount = parse_amount(cell)
+            cell_unit = unit or parse_unit(cell)
+            note = None
+            if any(kw in cell.lower() for kw in ("sesuai tagihan", "as charged", "ditanggung")):
+                note = cell
+                amount = None
+                cell_unit = "no_cap"
+            plan_name = plan_name_overrides.get(i) or plan_name_from_col(columns[i])
+            plans.setdefault(plan_name, []).append({
+                "category": cat,
+                "amount_rp": amount,
+                "unit": cell_unit,
+                "note": note,
+                "raw_cell": cell,
+                "raw_label": label,
+                "penjelasan": penjelasan or None,
+            })
+
+
 def build_plans(tables: list[dict]) -> tuple[list[dict], list[dict]]:
     tables = [promote_header_if_integer_indexed(t) for t in tables]
-    canonical = [t for t in tables if looks_like_tabel_manfaat(t["columns"])]
-    if not canonical:
-        raise ValueError("no tabel manfaat detected")
     plans: dict[str, list[dict]] = {}
     unmapped: list[dict] = []
-    for t in canonical:
-        columns = t["columns"]
-        plan_cols = detect_plan_columns(columns)
+    # Strict path: tables that match canonical "Tabel Manfaat" (manfaat header
+    # AND plan-tier columns). When at least one strict table is found, do not
+    # fall back to amount-cell sniffing — that path is greedy and pulls plans
+    # out of premi / co-pay / illustration tables.
+    strict = [(t, detect_plan_columns(t["columns"])) for t in tables if looks_like_tabel_manfaat(t["columns"])]
+    if strict:
+        for table, plan_cols in strict:
+            _extract_table_rows(table, plan_cols, {}, plans, unmapped)
+        if not plans:
+            raise ValueError("no tabel manfaat detected")
+        return [{"plan_name": name, "manfaat": items} for name, items in plans.items()], unmapped
+    # Fallback path: no strict table. Try amount-cell sniffing across all
+    # tables that at least have a manfaat header.
+    candidates = [t for t in tables if any(is_manfaat_header(c) for c in t["columns"])]
+    if not candidates:
+        raise ValueError("no tabel manfaat detected")
+    matched_any = False
+    for table in candidates:
+        manfaat_col_guess = detect_manfaat_column(table["columns"], [])
+        plan_cols, plan_name_overrides = _sniff_amount_plan_cols(table, manfaat_col_guess)
         if not plan_cols:
             continue
-        manfaat_col = detect_manfaat_column(columns, plan_cols)
-        penjelasan_col = detect_penjelasan_column(columns, manfaat_col, plan_cols)
-        for row in t["rows"]:
-            if manfaat_col >= len(row):
-                continue
-            if is_section_header_row(row, manfaat_col, penjelasan_col, plan_cols):
-                continue
-            label = normalize_label(row[manfaat_col])
-            if not label or should_skip_label(label):
-                continue
-            cat = map_category(label)
-            penjelasan = row[penjelasan_col].strip() if penjelasan_col is not None and penjelasan_col < len(row) else ""
-            unit = parse_unit(label + " " + penjelasan)
-            if cat is None:
-                unmapped.append({"label": label, "penjelasan": penjelasan, "row": row})
-                continue
-            for i in plan_cols:
-                cell = row[i].strip() if i < len(row) else ""
-                if not cell or cell in ("-", "—"):
-                    continue
-                amount = parse_amount(cell)
-                cell_unit = unit or parse_unit(cell)
-                note = None
-                if any(t in cell.lower() for t in ("sesuai tagihan", "as charged", "ditanggung")):
-                    note = cell
-                    amount = None
-                    cell_unit = "no_cap"
-                plan_name = plan_name_from_col(columns[i])
-                plans.setdefault(plan_name, []).append({
-                    "category": cat,
-                    "amount_rp": amount,
-                    "unit": cell_unit,
-                    "note": note,
-                    "raw_cell": cell,
-                    "raw_label": label,
-                    "penjelasan": penjelasan or None,
-                })
+        matched_any = True
+        _extract_table_rows(table, plan_cols, plan_name_overrides, plans, unmapped)
+    if not matched_any or not plans:
+        raise ValueError("no tabel manfaat detected")
     return [{"plan_name": name, "manfaat": items} for name, items in plans.items()], unmapped
 
 
