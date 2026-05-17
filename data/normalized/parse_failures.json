@@ -1,8 +1,737 @@
 [
   {
-    "product_id": "allianz-life-syariah-allisya-care",
-    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/allianz/allianz-life-syariah/allisya-care/riplay-umum-allisya-care-final.tables.json",
+    "product_id": "aia-financial-premier-hospital-surgical-saver",
+    "reason": "no riplay PDF in product metadata"
+  },
+  {
+    "product_id": "aia-financial-premier-hospital-surgical-extra-phse",
+    "reason": "no riplay PDF in product metadata"
+  },
+  {
+    "product_id": "aia-financial-proteksi-kesehatan-ultima-pratama",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/aia-financial/aia-financial/proteksi-kesehatan-ultima-pratama/RIPLAY UMUM PRATAMA - RP116R04-1125.tables.json",
     "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "aia-financial-aia-health-x",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/aia-financial/aia-financial/aia-health-x/RIPLAY Umum AIA Health X_Essential X & Essential X-Tra - RP167R02-1125.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 8,
+    "unmapped_samples": [
+      {
+        "label": "ASIA (Kecuali Singapura, Hong Kong, Jepang)",
+        "penjelasan": "",
+        "row": [
+          "",
+          "Area Pertanggungan",
+          "ASIA (Kecuali Singapura, Hong Kong, Jepang)",
+          "ASIA (Kecuali Singapura, Hong Kong, Jepang)",
+          "ASIA (Kecuali Singapura, Hong Kong, Jepang)"
+        ]
+      },
+      {
+        "label": "IDR 5.000.000.000",
+        "penjelasan": "",
+        "row": [
+          "",
+          "Batas Tahunan Total",
+          "IDR 5.000.000.000",
+          "IDR 5.000.000.000",
+          "IDR 5.000.000.000"
+        ]
+      },
+      {
+        "label": "IDR 12.000.000.000",
+        "penjelasan": "",
+        "row": [
+          "",
+          "Limit Booster (Selama Polis aktif dan berlaku sampai dengan Tertanggung berumur 99 tahun, maksimal manfaat yang diberikan adalah sebesar)",
+          "IDR 12.000.000.000",
+          "IDR 12.000.000.000",
+          "IDR 12.000.000.000"
+        ]
+      },
+      {
+        "label": "IDR 17.000.000.000",
+        "penjelasan": "",
+        "row": [
+          "",
+          "Total Manfaat",
+          "IDR 17.000.000.000",
+          "IDR 17.000.000.000",
+          "IDR 17.000.000.000"
+        ]
+      },
+      {
+        "label": "Sesuai kuitansi. Sesuai kuitansi.",
+        "penjelasan": "",
+        "row": [
+          "3 4",
+          "Biaya Kunjungan DokterUmum Biaya Kunjungan Dokter Spesialis",
+          "Sesuai kuitansi. Sesuai kuitansi.",
+          "Sesuai kuitansi. Sesuai kuitansi.",
+          "Sesuai kuitansi. Sesuai kuitansi."
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "bca-life-bca-life-perlindungan-kesehatan-ultima",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/bca-life/bca-life/bca-life-perlindungan-kesehatan-ultima/bca-life-perlindungan-kesehatan-ultima-1759287424.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 15,
+    "unmapped_samples": [
+      {
+        "label": "Besar Penggantian Biaya",
+        "penjelasan": "",
+        "row": [
+          "Besar Penggantian Biaya",
+          "Besar Penggantian Biaya",
+          "Biaya yang Layak dan Lazim dan Diperlukan Secara Medis",
+          "Biaya yang Layak dan Lazim dan Diperlukan Secara Medis",
+          "Biaya yang Layak dan Lazim dan Diperlukan Secara Medis",
+          "Biaya yang Layak dan Lazim dan Diperlukan Secara Medis"
+        ]
+      },
+      {
+        "label": "Faktor Prorata Pembayaran Manfaat berdasarkan Wilayah Pertanggungan yang Ditanggung ('Faktor Persentase Wilayah')",
+        "penjelasan": "",
+        "row": [
+          "Faktor Prorata Pembayaran Manfaat berdasarkan Wilayah Pertanggungan yang Ditanggung ('Faktor Persentase Wilayah')",
+          "Indonesia",
+          "100%",
+          "100%",
+          "100%",
+          "100%"
+        ]
+      },
+      {
+        "label": "Faktor Prorata Pembayaran Manfaat berdasarkan Wilayah Pertanggungan yang Ditanggung ('Faktor Persentase Wilayah')",
+        "penjelasan": "",
+        "row": [
+          "Faktor Prorata Pembayaran Manfaat berdasarkan Wilayah Pertanggungan yang Ditanggung ('Faktor Persentase Wilayah')",
+          "Asia, kecuali Singapura, Jepang dan Hongkong",
+          "100%",
+          "100%",
+          "100%",
+          "60%"
+        ]
+      },
+      {
+        "label": "Faktor Prorata Pembayaran Manfaat berdasarkan Wilayah Pertanggungan yang Ditanggung ('Faktor Persentase Wilayah')",
+        "penjelasan": "",
+        "row": [
+          "Faktor Prorata Pembayaran Manfaat berdasarkan Wilayah Pertanggungan yang Ditanggung ('Faktor Persentase Wilayah')",
+          "Asia",
+          "100%",
+          "100%",
+          "30%",
+          "20%"
+        ]
+      },
+      {
+        "label": "Faktor Prorata Pembayaran Manfaat berdasarkan Wilayah Pertanggungan yang Ditanggung ('Faktor Persentase Wilayah')",
+        "penjelasan": "",
+        "row": [
+          "Faktor Prorata Pembayaran Manfaat berdasarkan Wilayah Pertanggungan yang Ditanggung ('Faktor Persentase Wilayah')",
+          "Seluruh Dunia, Kecuali Amerika Serikat",
+          "100%",
+          "60%",
+          "20%",
+          "10%"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "bca-life-apply",
+    "reason": "no riplay PDF in product metadata"
+  },
+  {
+    "product_id": "bca-life-apply",
+    "reason": "no riplay PDF in product metadata"
+  },
+  {
+    "product_id": "bca-life-bca-life-pelindung-penyakit-kritis",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/bca-life/bca-life/bca-life-pelindung-penyakit-kritis/bca-life-pelindung-penyakit-kritis-1749797890.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 8,
+    "unmapped_samples": [
+      {
+        "label": "Uang Pertanggungan",
+        "penjelasan": "",
+        "row": [
+          "Uang Pertanggungan",
+          "Rp300.000.000,-"
+        ]
+      },
+      {
+        "label": "Tahun Polis ke-1 Tahun Polis ke-2 dst",
+        "penjelasan": "",
+        "row": [
+          "Tahun Polis ke-1 Tahun Polis ke-2 dst",
+          "100% Premi yang telah dibayarkan dan selanjutnya Polis berakhir Rp90.000.000,-"
+        ]
+      },
+      {
+        "label": "Tahun Polis ke-1 Tahun Polis ke-2 dst 2)",
+        "penjelasan": "",
+        "row": [
+          "Tahun Polis ke-1 Tahun Polis ke-2 dst 2)",
+          "100% Premi yang telah dibayarkan Rp300.000.000,-"
+        ]
+      },
+      {
+        "label": "Tahun Polis ke-1 Tahun Polis ke-2 dst 3)",
+        "penjelasan": "",
+        "row": [
+          "Tahun Polis ke-1 Tahun Polis ke-2 dst 3)",
+          "100% Premi yang telah dibayarkan Rp300.000.000,-"
+        ]
+      },
+      {
+        "label": "Uang Pertanggungan",
+        "penjelasan": "",
+        "row": [
+          "Uang Pertanggungan",
+          "50.000",
+          "100.000",
+          "300.000",
+          "500.000"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "bca-life-hospital-100-refundable",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/bca-life/bca-life/hospital-100-refundable/hospital-100-refundable-1685520676.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 2,
+    "unmapped_samples": [
+      {
+        "label": "Manfaat Pengembalian Premi pada akhir tahun ke-10 (kesepuluh) (apabila Polis masih berlaku, ada maupun tidak ada klaim Manfaat Rawat Inap)",
+        "penjelasan": "",
+        "row": [
+          "Manfaat Pengembalian Premi pada akhir tahun ke-10 (kesepuluh) (apabila Polis masih berlaku, ada maupun tidak ada klaim Manfaat Rawat Inap)",
+          "Pengembalian 100% Premi yang telah dibayarkan sejak Tanggal Mulai Asuransi"
+        ]
+      },
+      {
+        "label": "Manfaat Pengembalian Premi pada akhir tahun ke-10 (kesepuluh) (apabila Polis masih berlaku, ada maupun tidak ada Klaim Manfaat Rawat Inap)",
+        "penjelasan": "",
+        "row": [
+          "Manfaat Pengembalian Premi pada akhir tahun ke-10 (kesepuluh) (apabila Polis masih berlaku, ada maupun tidak ada Klaim Manfaat Rawat Inap)",
+          "Pengembalian 100% Premi yang telah dibayarkan sejak Tanggal Mulai Asuransi",
+          "Pengembalian 100% Premi yang telah dibayarkan sejak Tanggal Mulai Asuransi",
+          "Pengembalian 100% Premi yang telah dibayarkan sejak Tanggal Mulai Asuransi",
+          "Pengembalian 100% Premi yang telah dibayarkan sejak Tanggal Mulai Asuransi",
+          "Pengembalian 100% Premi yang telah dibayarkan sejak Tanggal Mulai Asuransi"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "bca-life-bima-proteksi-kesehatanku",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/bca-life/bca-life/bima-proteksi-kesehatanku/bima-proteksi-kesehatanku-1741925479.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 2,
+    "unmapped_samples": [
+      {
+        "label": "b. Tahun ke-2 dan seterusnya",
+        "penjelasan": "",
+        "row": [
+          "b. Tahun ke-2 dan seterusnya",
+          "10.000.000"
+        ]
+      },
+      {
+        "label": "b. Tahun ke-2 dan seterusnya",
+        "penjelasan": "",
+        "row": [
+          "b. Tahun ke-2 dan seterusnya",
+          "10.000.000",
+          "15.000.000",
+          "25.000.000",
+          "37.500.000"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "bca-life-blu-health-protection",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/bca-life/bca-life/blu-health-protection/blu-health-protection-1740723646.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 2,
+    "unmapped_samples": [
+      {
+        "label": "Manfaat Santunan Duka",
+        "penjelasan": "",
+        "row": [
+          "Manfaat Santunan Duka",
+          "Rp5.000.000,-"
+        ]
+      },
+      {
+        "label": "Manfaat Santunan Duka",
+        "penjelasan": "",
+        "row": [
+          "Manfaat Santunan Duka",
+          "5.000",
+          "5.000"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "bca-life-bca-life-perlindungan-kritis-optima-bca-life-pelita",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/bca-life/bca-life/bca-life-perlindungan-kritis-optima-bca-life-pelita/bca-life-perlindungan-kritis-optima-bca-life-pelita-1737614567.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 5,
+    "unmapped_samples": [
+      {
+        "label": "Uang Pertanggungan",
+        "penjelasan": "",
+        "row": [
+          "Uang Pertanggungan",
+          "Rp300.000.000,-"
+        ]
+      },
+      {
+        "label": "c. Manfaat santunan pendapatan",
+        "penjelasan": "",
+        "row": [
+          "c. Manfaat santunan pendapatan",
+          "Rp30.000.000,-"
+        ]
+      },
+      {
+        "label": "a. Karena Sakit/Penyakit",
+        "penjelasan": "",
+        "row": [
+          "a. Karena Sakit/Penyakit",
+          "Rp300.000.000,-"
+        ]
+      },
+      {
+        "label": "b. Karena Kecelakaan",
+        "penjelasan": "",
+        "row": [
+          "b. Karena Kecelakaan",
+          "Rp300.000.000,-"
+        ]
+      },
+      {
+        "label": "3. Manfaat No Claim Bonus pada akhir Tahun Polis ke-10",
+        "penjelasan": "",
+        "row": [
+          "3. Manfaat No Claim Bonus pada akhir Tahun Polis ke-10",
+          "Rp20.078.400,-"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "bni-life-spectra-health-care",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/bni-life/bni-life/spectra-health-care/RIPLAY_Umum_-_Spectra_Health_Care.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "car-prevensia-pro-ultimate",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/car/car/prevensia-pro-ultimate/riplay-umum-asuransi-prevensia-pro-ultimate-052025.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 49,
+    "unmapped_samples": [
+      {
+        "label": "Biaya Aneka Perawatan (Obat2an, Lab, dll)",
+        "penjelasan": "",
+        "row": [
+          "5.",
+          "Biaya Aneka Perawatan (Obat2an, Lab, dll)",
+          "per perawatan",
+          "sesuai tagihan",
+          "sesuai tagihan",
+          "sesuai tagihan",
+          "sesuai tagihan"
+        ]
+      },
+      {
+        "label": "Biaya Aneka Perawatan (Obat2an, Lab, dll)",
+        "penjelasan": "",
+        "row": [
+          "5.",
+          "Biaya Aneka Perawatan (Obat2an, Lab, dll)",
+          "sesuai tagihan",
+          "",
+          "7.750.000 Rp",
+          "",
+          "7.750.000 Rp"
+        ]
+      },
+      {
+        "label": "Pembedahantanpa rawat inap",
+        "penjelasan": "",
+        "row": [
+          "9.",
+          "Pembedahantanpa rawat inap",
+          "6.000.000 Rp",
+          "",
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "label": "Perawatan Luka Bakar Karena Kecelakaan",
+        "penjelasan": "",
+        "row": [
+          "12.",
+          "Perawatan Luka Bakar Karena Kecelakaan",
+          "1.000.000 Rp",
+          "",
+          "1.000.000 Rp",
+          "",
+          "1.000.000 Rp"
+        ]
+      },
+      {
+        "label": "Perawatan Darurat akibat Keracunan Makanan",
+        "penjelasan": "",
+        "row": [
+          "13.",
+          "Perawatan Darurat akibat Keracunan Makanan",
+          "1.000.000 Rp",
+          "",
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "car-prevensia-care-ultimate",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/car/car/prevensia-care-ultimate/riplay-umum-asuransi-prevensia-care-ultimate-052025.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 39,
+    "unmapped_samples": [
+      {
+        "label": "Biaya Aneka Perawatan (Obat2an, Lab, dll)",
+        "penjelasan": "",
+        "row": [
+          "Biaya Aneka Perawatan (Obat2an, Lab, dll)",
+          "per perawatan",
+          "Rp",
+          "7.500.000",
+          "Rp",
+          "15.000.000",
+          "Rp",
+          "22.500.000",
+          "75.000.000 Rp"
+        ]
+      },
+      {
+        "label": "Pembedahantanpa rawat inap",
+        "penjelasan": "",
+        "row": [
+          "Pembedahantanpa rawat inap",
+          "per perawatan",
+          "Rp",
+          "6.000.000",
+          "Rp",
+          "12.000.000",
+          "Rp",
+          "18.000.000",
+          "60.000.000 Rp"
+        ]
+      },
+      {
+        "label": "Perawatan Luka Bakar Karena Kecelakaan",
+        "penjelasan": "",
+        "row": [
+          "Perawatan Luka Bakar Karena Kecelakaan",
+          "per perawatan",
+          "Rp",
+          "1.000.000",
+          "Rp",
+          "2.000.000",
+          "Rp",
+          "Rp 3.000.000",
+          "10.000.000"
+        ]
+      },
+      {
+        "label": "Perawatan Darurat akibat Keracunan Makanan",
+        "penjelasan": "",
+        "row": [
+          "Perawatan Darurat akibat Keracunan Makanan",
+          "per perawatan",
+          "Rp",
+          "1.000.000",
+          "Rp",
+          "2.000.000",
+          "Rp",
+          "3.000.000",
+          "10.000.000 Rp"
+        ]
+      },
+      {
+        "label": "Manfaat Tambahan",
+        "penjelasan": "",
+        "row": [
+          "ManfaatTambahan",
+          "ManfaatTambahan",
+          "ManfaatTambahan",
+          "ManfaatTambahan",
+          "ManfaatTambahan",
+          "ManfaatTambahan",
+          "ManfaatTambahan",
+          "ManfaatTambahan",
+          "ManfaatTambahan"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "car-prevensia-carina",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/car/car/prevensia-carina/riplay-asuransi-prevensia-carina.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "car-family-prevensia-care",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/car/car/family-prevensia-care/riplay-asuransi-family-prevensia-care-201123.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "generali-gen-medicare-protection",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/generali/generali/gen-medicare-protection/RIPLAY Umum GEN MediCare Protection.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 4,
+    "unmapped_samples": [
+      {
+        "label": "Biaya Laporan Medis",
+        "penjelasan": "- Maksimumper laporan medis - Maksimum1 laporan medis per Rawat Inap",
+        "row": [
+          "Biaya Laporan Medis",
+          "- Maksimumper laporan medis - Maksimum1 laporan medis per Rawat Inap",
+          "250.000",
+          "500.000",
+          "750.000"
+        ]
+      },
+      {
+        "label": "c. Physiotherapy dan/atau Ultrasound",
+        "penjelasan": "Maksimum1 kunjungan per hari",
+        "row": [
+          "c. Physiotherapy dan/atau Ultrasound",
+          "Maksimum1 kunjungan per hari",
+          "250.000",
+          "500.000",
+          "Sesuai Tagihan"
+        ]
+      },
+      {
+        "label": "Biaya Perawat di Rumah",
+        "penjelasan": "- Maksimum1 kunjungan per hari - Maksimum1 perawat per hari",
+        "row": [
+          "Biaya Perawat di Rumah",
+          "- Maksimum1 kunjungan per hari - Maksimum1 perawat per hari",
+          "Tidak",
+          "Tersedia",
+          ""
+        ]
+      },
+      {
+        "label": "Biaya Laporan Medis",
+        "penjelasan": "- Maksimumper laporan medis - Maksimum1 laporan medis per Rawat Inap",
+        "row": [
+          "Biaya Laporan Medis",
+          "- Maksimumper laporan medis - Maksimum1 laporan medis per Rawat Inap",
+          "750.000",
+          "Sesuai Tagihan",
+          "Sesuai Tagihan"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "generali-generali-lite-healthcare",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/generali/generali/generali-lite-healthcare/RIPLAY Umum Generali Lite HealthCare.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 13,
+    "unmapped_samples": [
+      {
+        "label": "Indonesia, Malaysia",
+        "penjelasan": "",
+        "row": [
+          "Indonesia, Malaysia",
+          "",
+          "100%",
+          "100%",
+          "100%",
+          "100%",
+          "100%",
+          "100%"
+        ]
+      },
+      {
+        "label": "Asia (kecuali Singapura, Jepang, dan Hong Kong)",
+        "penjelasan": "",
+        "row": [
+          "Asia (kecuali Singapura, Jepang, dan Hong Kong)",
+          "Asia (kecuali Singapura, Jepang, dan Hong Kong)",
+          "60%",
+          "60%",
+          "60%",
+          "100%",
+          "100%",
+          "100%"
+        ]
+      },
+      {
+        "label": "Singapura, Jepang, dan Hong Kong",
+        "penjelasan": "",
+        "row": [
+          "Singapura, Jepang, dan Hong Kong",
+          "Singapura, Jepang, dan Hong Kong",
+          "30%",
+          "30%",
+          "30%",
+          "30%",
+          "100%",
+          "100%"
+        ]
+      },
+      {
+        "label": "Seluruh Dunia",
+        "penjelasan": "",
+        "row": [
+          "Seluruh Dunia",
+          "",
+          "Tidak ditanggung",
+          "Tidak ditanggung",
+          "Tidak ditanggung",
+          "20%",
+          "40%",
+          "100%"
+        ]
+      },
+      {
+        "label": "PICU,",
+        "penjelasan": "",
+        "row": [
+          "PICU,",
+          "Maksimal sesuai dengan hari kalender per tahun",
+          "1.000.000/hari",
+          "1.500.000/hari",
+          "2.000.000/hari",
+          "3.000.000/hari",
+          "4.000.000/hari",
+          "6.000.000/hari"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "generali-generali-healthcare-solution",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/generali/generali/generali-healthcare-solution/RIPLAY Umum Generali HealthCare Solution.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 25,
+    "unmapped_samples": [
+      {
+        "label": "Batas Seumur Hidup Awal",
+        "penjelasan": "",
+        "row": [
+          "Batas Seumur Hidup Awal",
+          "",
+          "4.000.000.000",
+          "8.000.000.000",
+          "8.000.000.000",
+          "20.000.000.000",
+          "20.000.000.000"
+        ]
+      },
+      {
+        "label": "Indonesia",
+        "penjelasan": "",
+        "row": [
+          "Indonesia",
+          "",
+          "100%",
+          "100%",
+          "100%",
+          "100%",
+          "100%"
+        ]
+      },
+      {
+        "label": "Asia (kecuali Singapura, Jepang, dan Hong Kong)",
+        "penjelasan": "",
+        "row": [
+          "Asia (kecuali Singapura, Jepang, dan Hong Kong)",
+          "",
+          "60%",
+          "60%",
+          "60%",
+          "60%",
+          "60%"
+        ]
+      },
+      {
+        "label": "Singapura, Jepang, dan Hong Kong",
+        "penjelasan": "",
+        "row": [
+          "Singapura, Jepang, dan Hong Kong",
+          "",
+          "20%",
+          "20%",
+          "20%",
+          "20%",
+          "20%"
+        ]
+      },
+      {
+        "label": "Seluruh Dunia kecuali Amerika Serikat",
+        "penjelasan": "",
+        "row": [
+          "Seluruh Dunia kecuali Amerika Serikat",
+          "",
+          "Tidak ditanggung",
+          "Tidak ditanggung",
+          "Tidak ditanggung",
+          "Tidak ditanggung",
+          "Tidak ditanggung"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "hanwha-life-hanwha-premier-health-care",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/hanwha-life/hanwha-life/hanwha-premier-health-care/RIPLAY-Hanwha-Premier-Health-Care-1024.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "jiwa-manulife-syariah-miultimate-healthcare-syariah",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/manulife/jiwa-manulife-syariah/miultimate-healthcare-syariah/MiUltimate HealthCare Syariah-Ringkasan Informasi Produk dan Layanan Versi Umum.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 2,
+    "unmapped_samples": [
+      {
+        "label": "dengan tetap memperhatikan Ketentuan Polis. Pembayaran Manfaat Asuransi akan dilakukan paling lambat 30 (tiga puluh) hari kalender sejak tanggal klaim disetujui oleh Manulife Syariah Indonesia serta apabila dokumen yang diperlukan sebagaimana yang tercantum pada bagian pengajuan klaim diatas, telah secara lengkap diterima dan setelah melalui proses pengujian kebenaran Polis/investigasi.",
+        "penjelasan": "",
+        "row": [
+          "Pembayaran Klaim",
+          "dengan tetap memperhatikan Ketentuan Polis. Pembayaran Manfaat Asuransi akan dilakukan paling lambat 30 (tiga puluh) hari kalender sejak tanggal klaim disetujui oleh Manulife Syariah Indonesia serta apabila dokumen yang diperlukan sebagaimana yang tercantum pada bagian pengajuan klaim diatas, telah secara lengkap diterima dan setelah melalui proses pengujian kebenaran Polis/investigasi."
+        ]
+      },
+      {
+        "label": "a) Pengaduan Secara Lisan Pengaduan secara lisan dapat diajukan secara langsung (tatap muka) kepada Manulife Syariah Indonesia ke Customer Service di alamat sebagaimana yang tercantum pada website Manulife Syariah Indonesia atau dapat diajukan melalui daring telepon ke nomor telepon yang tercantum pada website Manulife Syariah Indonesia. Pengelola akan melakukan tindak lanjut dan menyelesaikan pengaduan secara lisan paling lama dalam waktu 5 (lima) hari kerja sejak pengaduan diterima oleh Pengelola.",
+        "penjelasan": "",
+        "row": [
+          "Pengajuan Keluhan/Pertanyaan",
+          "a) Pengaduan Secara Lisan Pengaduan secara lisan dapat diajukan secara langsung (tatap muka) kepada Manulife Syariah Indonesia ke Customer Service di alamat sebagaimana yang tercantum pada website Manulife Syariah Indonesia atau dapat diajukan melalui daring telepon ke nomor telepon yang tercantum pada website Manulife Syariah Indonesia. Pengelola akan melakukan tindak lanjut dan menyelesaikan pengaduan secara lisan paling lama dalam waktu 5 (lima) hari kerja sejak pengaduan diterima oleh Pengelola."
+        ]
+      }
+    ]
   },
   {
     "product_id": "prudential-life-assurance-pruwell-health",
@@ -17,6 +746,230 @@
   {
     "product_id": "prudential-sharia-life-assurance-pruwell-health-syariah",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/prudential/prudential-sharia-life-assurance/pruwell-health-syariah/FA-PS-PRUWell-Health-Syariah-15052025.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "sequis-Sequis-Q-Infinite-Medcare-Shield-Rider",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/Sequis-Q-Infinite-Medcare-Shield-Rider/RIPLay Umum Sequis Q Infinite MedCare Shield_v1.6_102025.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "sequis-Sequis-Q-Infinite-Medcare-Rider-Series-Plan-X-Booster-",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/Sequis-Q-Infinite-Medcare-Rider-Series-Plan-X-Booster-/RIPLay Umum Sequis Q Infinite MedCare Rider X Booster_v1.3_102025.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "sequis-Sequis-Q-Infinite-Medcare-Rider-Series-Plan-Lite",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/Sequis-Q-Infinite-Medcare-Rider-Series-Plan-Lite/RIPLAY Umum Sequis Q Infinite MedCare Series_v1.3_102025.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "sequis-Q-Hospital-Rider",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/Q-Hospital-Rider/RIPLAY Umum Sequis Q Hospital Rider_SQL_V1_.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "sequis-CI-Coverage-Insurance",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/CI-Coverage-Insurance/RIPLay Umum CI Coverage- Insurance_V2_11032026.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "sequis-Sequis-Q-Early-Payout-Critical-Illness-Plus-Rider",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/Sequis-Q-Early-Payout-Critical-Illness-Plus-Rider/RIPLay Umum Sequis Q Early Payout Critical Illness Plus Rider.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "sequis-Sequis-payor-benefit-dread-disease-rider",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/Sequis-payor-benefit-dread-disease-rider/RIPLay Umum Sequis Payor Benefit Dread Disease Rider.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "sequis-SOFI-Series",
+    "reason": "no riplay PDF in product metadata"
+  },
+  {
+    "product_id": "sequis-asuransi-sequis-critical-care-plus",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/asuransi-sequis-critical-care-plus/RIPLAY Umum Sequis Critical Care Plus_SQL_V2.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "sequis-sequis-critical-illness-program",
+    "reason": "no riplay PDF in product metadata"
+  },
+  {
+    "product_id": "sun-life-sun-health-care-solution",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sun-life/sun-life/sun-health-care-solution/product-information-sun-healthcare-solution-sun-medical-saver-v02b.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 11,
+    "unmapped_samples": [
+      {
+        "label": "Sun Medical Saver*)",
+        "penjelasan": "",
+        "row": [
+          "Sun Medical Saver*)",
+          "Sesuai ketentuan pada Polis",
+          "",
+          "",
+          "(9.500)",
+          "(9.500)",
+          "(13.000)",
+          "(13.000)",
+          "(20.000)",
+          "(20.000)"
+        ]
+      },
+      {
+        "label": "Perawatan di Luar Wilayah Pertanggungan",
+        "penjelasan": "",
+        "row": [
+          "Perawatan di Luar Wilayah Pertanggungan",
+          "Perawatan di Luar Wilayah Pertanggungan",
+          "Perawatan di Luar Wilayah Pertanggungan",
+          "Perawatan di Luar Wilayah Pertanggungan",
+          "Perawatan di Luar Wilayah Pertanggungan",
+          "Perawatan di Luar Wilayah Pertanggungan",
+          "Perawatan di Luar Wilayah Pertanggungan",
+          "Perawatan di Luar Wilayah Pertanggungan",
+          "Perawatan di Luar Wilayah Pertanggungan",
+          "Perawatan di Luar Wilayah Pertanggungan"
+        ]
+      },
+      {
+        "label": "Perawatan di Wilayah Malaysia",
+        "penjelasan": "",
+        "row": [
+          "Perawatan di Wilayah Malaysia",
+          "Per Perawatan",
+          "85%total biaya Perawatan yang dijamin",
+          "85%total biaya Perawatan yang dijamin",
+          "85%total biaya Perawatan yang dijamin",
+          "85%total biaya Perawatan yang dijamin",
+          "85%total biaya Perawatan yang dijamin",
+          "85%total biaya Perawatan yang dijamin",
+          "100% total biaya Perawatan yang dijamin",
+          "100% total biaya Perawatan yang dijamin"
+        ]
+      },
+      {
+        "label": "Perawatan di Wilayah Singapura",
+        "penjelasan": "",
+        "row": [
+          "Perawatan di Wilayah Singapura",
+          "Per Perawatan",
+          "60%total biaya Perawatan yang dijamin",
+          "60%total biaya Perawatan yang dijamin",
+          "60%total biaya Perawatan yang dijamin",
+          "60%total biaya Perawatan yang dijamin",
+          "60%total biaya Perawatan yang dijamin",
+          "60%total biaya Perawatan yang dijamin",
+          "100% total biaya Perawatan yang dijamin",
+          "100% total biaya Perawatan yang dijamin"
+        ]
+      },
+      {
+        "label": "Perawatan di Wilayah Asia (kecuali Indonesia, Malaysia, dan Singapura)",
+        "penjelasan": "",
+        "row": [
+          "Perawatan di Wilayah Asia (kecuali Indonesia, Malaysia, dan Singapura)",
+          "Per Perawatan",
+          "35%total biaya Perawatan yang dijamin",
+          "35%total biaya Perawatan yang dijamin",
+          "35%total biaya Perawatan yang dijamin",
+          "35%total biaya Perawatan yang dijamin",
+          "35%total biaya Perawatan yang dijamin",
+          "35%total biaya Perawatan yang dijamin",
+          "55%total biaya Perawatan yang dijamin",
+          "55%total biaya Perawatan yang dijamin"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "zurich-topas-zurich-optimal-health-assurance",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/zurich-topas/zurich-topas/zurich-optimal-health-assurance/riplay-umum-zoha.tables.json",
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 11,
+    "unmapped_samples": [
+      {
+        "label": "Pertanggungan di luar Wilayah",
+        "penjelasan": "",
+        "row": [
+          "",
+          "Pertanggungan di luar Wilayah",
+          "Pertanggungan di luar Wilayah",
+          "Pertanggungan di luar Wilayah",
+          "Pertanggungan di luar Wilayah",
+          "Pertanggungan di luar Wilayah",
+          "Pertanggungan di luar Wilayah",
+          "Pertanggungan di luar Wilayah"
+        ]
+      },
+      {
+        "label": "Indonesia",
+        "penjelasan": "",
+        "row": [
+          "2.",
+          "Indonesia",
+          "100%",
+          "100%",
+          "100%",
+          "100%",
+          "100%",
+          "100%"
+        ]
+      },
+      {
+        "label": "Malaysia",
+        "penjelasan": "",
+        "row": [
+          "2.",
+          "Malaysia",
+          "60%",
+          "60%",
+          "100%",
+          "100%",
+          "100%",
+          "100%"
+        ]
+      },
+      {
+        "label": "Asia kecuali Singapura, Hongkong, & Jepang",
+        "penjelasan": "",
+        "row": [
+          "2.",
+          "Asia kecuali Singapura, Hongkong, & Jepang",
+          "40%",
+          "40%",
+          "40%",
+          "100%",
+          "100%",
+          "100%"
+        ]
+      },
+      {
+        "label": "Singapura, Hongkong, & Jepang",
+        "penjelasan": "",
+        "row": [
+          "2.",
+          "Singapura, Hongkong, & Jepang",
+          "0%",
+          "0%",
+          "30%",
+          "30%",
+          "100%",
+          "100%"
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "zurich-topas-sme-health",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/zurich-topas/zurich-topas/sme-health/riplay-sme-health.tables.json",
+    "reason": "no tabel manfaat detected"
+  },
+  {
+    "product_id": "zurich-topas-asuransi-kesehatan-medicillin",
+    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/zurich-topas/zurich-topas/asuransi-kesehatan-medicillin/riplay-asuransi-medicillin.tables.json",
     "reason": "no tabel manfaat detected"
   }
 ]
