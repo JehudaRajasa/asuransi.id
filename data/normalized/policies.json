@@ -137,6 +137,164 @@
     ]
   },
   {
+    "product_id": "aia-financial-aia-health-x",
+    "product_name": "AIA Health X",
+    "insurer_slug": "aia-financial",
+    "insurer_name": "PT AIA Financial",
+    "insurer_category": "asuransi_jiwa",
+    "product_type": "kesehatan_individu",
+    "jenis": "konvensional",
+    "product_page_url": "https://www.aia-financial.co.id/id/our-products/kesehatan/aia-health-x",
+    "source_pdfs": {
+      "riplay": "data/raw/insurers/aia-financial/aia-financial/aia-health-x/RIPLAY Umum AIA Health X_Essential X & Essential X-Tra - RP167R02-1125.pdf",
+      "brosur": "data/raw/insurers/aia-financial/aia-financial/aia-health-x/Brosur AIA Health X.pdf"
+    },
+    "source_pdf_urls": {
+      "riplay": "https://www.aia-financial.co.id/content/dam/id-wise/id/pdf/our-products/kesehatan/RIPLAY%20Umum%20AIA%20Health%20X_Essential%20X%20&%20Essential%20X-Tra%20-%20RP167R02-1125.pdf",
+      "brosur": "https://www.aia-financial.co.id/content/dam/id-wise/id/pdf/our-products/kesehatan/Brosur%20AIA%20Health%20X.pdf"
+    },
+    "scraped_at": "2026-05-17T14:29:11.644081+00:00",
+    "currency": "IDR",
+    "plans": [
+      {
+        "plan_name": "Essential X-Tra -",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "1 (satu) tempat tidur di Rumah Sakit dan terdapat kamar mandi di dalamnya",
+            "raw_label": "(satu) tempat tidur di Rumah Sakit dan terdapat kamar mandi di dalamnya",
+            "penjelasan": null
+          },
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Sesuai kuitansi, maksimal 365 (tiga termasuk untuk Biaya Unit Perawatan Kamar Rawat Jalan ( Day Ward ), kamar kamar mandi dalam senilai, mana yang 1. Harga kamar terendah dengan",
+            "raw_label": "Sesuai kuitansi, maksimal 365 (tiga termasuk untuk Biaya Unit Perawatan Kamar Rawat Jalan ( Day Ward ), kamar kamar mandi dalam senilai, mana yang 1. Harga kamar terendah dengan",
+            "penjelasan": null
+          },
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": "per_day",
+            "note": null,
+            "raw_cell": "2. Maksimal Nilai Penggantian per hari sebesar: Sesuai kuitansi selama Rawat Inap, maksimal 365 (tiga ratus enam puluh lima) hari kalender per tahun termasuk untuk Biaya Kamar. Khusus untuk Kondisi Vegetatif maksimal 150 (seratus lima puluh) hari kalender per Tahun Polis.",
+            "raw_label": "2. Maksimal Nilai Penggantian per hari sebesar: Sesuai kuitansi selama Rawat Inap, maksimal 365 (tiga ratus enam puluh lima) hari kalender per tahun termasuk untuk Biaya Kamar. Khusus untuk Kondisi Vegetatif maksimal 150 (seratus lima puluh) hari kalender per Tahun Polis.",
+            "penjelasan": null
+          },
+          {
+            "category": "obat_inpatient",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Sesuai kuitansi, termasuk biaya profesional Ahli Bedah, asisten operator, Ahli Anestesi, ruang bedah, ruang pemulihan, peralatan bedah dan Obat-obatan yang dilakukan sesuai dengan prosedur yang berlaku umum dan standar untuk pembedahan.",
+            "raw_label": "Sesuai kuitansi, termasuk biaya profesional Ahli Bedah, asisten operator, Ahli Anestesi, ruang bedah, ruang pemulihan, peralatan bedah dan Obat-obatan yang dilakukan sesuai dengan prosedur yang berlaku umum dan standar untuk pembedahan.",
+            "penjelasan": null
+          },
+          {
+            "category": "prostesis_implan",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Sesuai kuitansi. Prostesis dan/atau Implantasi tersebut mencakup: (i) Alat pacu jantung; (ii) Cincin untuk Percutaneous Transluminal Coronary Angioplasty ; (iii) Lensa buatan intraokular; (iv) Katup jantung buatan; (v) Sendi buatan atau sendi metalik; (vi) Implantasi ligamen buatan antar tulang; dan (vii) Cakram sendi intervertebral buatan.",
+            "raw_label": "Sesuai kuitansi. Prostesis dan/atau Implantasi tersebut mencakup: (i) Alat pacu jantung; (ii) Cincin untuk Percutaneous Transluminal Coronary Angioplasty ; (iii) Lensa buatan intraokular; (iv) Katup jantung buatan; (v) Sendi buatan atau sendi metalik; (vi) Implantasi ligamen buatan antar tulang; dan (vii) Cakram sendi intervertebral buatan.",
+            "penjelasan": null
+          },
+          {
+            "category": "obat_inpatient",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai kuitansi selama Rawat Inap, termasuk biaya pemeriksaan laboratorium / diagnostik, biaya Obat- obatan, biaya pelayanan umum, biaya Alat dan Suplai sesuai daftar yang ditanggung dalam Ketentuan Tambahan Polis.",
+            "raw_cell": "Sesuai kuitansi selama Rawat Inap, termasuk biaya pemeriksaan laboratorium / diagnostik, biaya Obat- obatan, biaya pelayanan umum, biaya Alat dan Suplai sesuai daftar yang ditanggung dalam Ketentuan Tambahan Polis.",
+            "raw_label": "Sesuai kuitansi selama Rawat Inap, termasuk biaya pemeriksaan laboratorium / diagnostik, biaya Obat- obatan, biaya pelayanan umum, biaya Alat dan Suplai sesuai daftar yang ditanggung dalam Ketentuan Tambahan Polis.",
+            "penjelasan": null
+          },
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Sesuai kuitansi selama Rawat Inap, sebesar biaya makanan yang disediakan Sakit dan biaya menginap bagi 1 (satu) orang dewasa yang menemani di kamar yang sama selama menjalani Rawat Inap; dengan maksimal",
+            "raw_label": "Sesuai kuitansi selama Rawat Inap, sebesar biaya makanan yang disediakan Sakit dan biaya menginap bagi 1 (satu) orang dewasa yang menemani di kamar yang sama selama menjalani Rawat Inap; dengan maksimal",
+            "penjelasan": null
+          },
+          {
+            "category": "rawat_jalan",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Manfaat Rawat Jalan",
+            "raw_label": "Manfaat Rawat Jalan",
+            "penjelasan": null
+          },
+          {
+            "category": "rehabilitasi",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Sesuai kuitansi, termasuk biaya konsultasi Dokter, Obat-obatan, pemeriksaan penunjang diagnostik dan biaya tindakan Perawatan (tidak termasuk biaya Fisioterapi); dengan maksimal 30 (tiga puluh) hari kalender sebelum Tertanggung menjalani Rawat Inap.",
+            "raw_label": "Sesuai kuitansi, termasuk biaya konsultasi Dokter, Obat-obatan, pemeriksaan penunjang diagnostik dan biaya tindakan Perawatan (tidak termasuk biaya Fisioterapi); dengan maksimal 30 (tiga puluh) hari kalender sebelum Tertanggung menjalani Rawat Inap.",
+            "penjelasan": null
+          },
+          {
+            "category": "rehabilitasi",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Sesuai kuitansi, termasuk biaya konsultasi Dokter, Obat-obatan, pemeriksaan penunjang diagnostik dan biaya tindakan Perawatan (tidak termasuk biaya Fisioterapi); dengan maksimal 90 (sembilan puluh) hari kalender sesudah Tertanggung selesai menjalani Rawat Inap.",
+            "raw_label": "Sesuai kuitansi, termasuk biaya konsultasi Dokter, Obat-obatan, pemeriksaan penunjang diagnostik dan biaya tindakan Perawatan (tidak termasuk biaya Fisioterapi); dengan maksimal 90 (sembilan puluh) hari kalender sesudah Tertanggung selesai menjalani Rawat Inap.",
+            "penjelasan": null
+          },
+          {
+            "category": "obat_inpatient",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Sesuai kuitansi; termasuk biaya Dokter, Obat-obatan, pemeriksaan penunjang diagnostik, dan biaya tindakan Perawatan yang berhubungan dengan Kecelakaan tersebut; Perawatan atau pelayanan yang dijalani tersebut harus dilakukan dalam waktu maksimal 48 (empat puluh delapan) jam setelah terjadinya Kecelakaan, dan termasuk biaya perawatan lanjutan selama 30 (tiga puluh hari) kalender setelah Kecelakaan.",
+            "raw_label": "Sesuai kuitansi; termasuk biaya Dokter, Obat-obatan, pemeriksaan penunjang diagnostik, dan biaya tindakan Perawatan yang berhubungan dengan Kecelakaan tersebut; Perawatan atau pelayanan yang dijalani tersebut harus dilakukan dalam waktu maksimal 48 (empat puluh delapan) jam setelah terjadinya Kecelakaan, dan termasuk biaya perawatan lanjutan selama 30 (tiga puluh hari) kalender setelah Kecelakaan.",
+            "penjelasan": null
+          },
+          {
+            "category": "perawatan_di_rumah",
+            "amount_rp": null,
+            "unit": "per_day",
+            "note": null,
+            "raw_cell": "Sesuai kuitansi, dengan Ketentuan Tertanggung telah di Rawat Inap minimal 5 (lima) hari berturut- turut di Rumah Sakit; termasuk Perawatan yang membutuhkan keahlian khusus oleh Perawat seperti terapi, Perawatan luka, penggunaan alat pernapasan, Perawatan diabetes, Perawatan kolostomi, penggunaan sonde ( tube feeding ), suntikan dan administrasi pengobatan lainnya kepada Tertanggung selama menjalani Perawatan di rumah; Perawatan adalah minimum 4 (empat) jam per hari dan dengan maksimal 180 (seratus delapan puluh) hari kalender per Tahun Polis.",
+            "raw_label": "Sesuai kuitansi, dengan Ketentuan Tertanggung telah di Rawat Inap minimal 5 (lima) hari berturut- turut di Rumah Sakit; termasuk Perawatan yang membutuhkan keahlian khusus oleh Perawat seperti terapi, Perawatan luka, penggunaan alat pernapasan, Perawatan diabetes, Perawatan kolostomi, penggunaan sonde ( tube feeding ), suntikan dan administrasi pengobatan lainnya kepada Tertanggung selama menjalani Perawatan di rumah; Perawatan adalah minimum 4 (empat) jam per hari dan dengan maksimal 180 (seratus delapan puluh) hari kalender per Tahun Polis.",
+            "penjelasan": null
+          },
+          {
+            "category": "dokter_inpatient",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Sesuai kuitansi, termasuk biaya konsultasi, pengobatan pendahuluan dan lanjutan, pemeriksaaan diagnostik, laboratorium, pemeriksaan patologi dan radiologi, Perawatan dan/atau Tindakan Bedah Rawat Jalan, Obat-obatan; dalam kurun waktu 30 (tiga puluh) hari kalender sebelum Tertanggung menjalani Perawatan dan/atau Tindakan Bedah Rawat Jalan, selama Perawatan dan/atau Tindakan Bedah Rawat Jalan, dan 90 (sembilan puluh) hari kalender setelah Tertanggung selesai menjalani Perawatan dan/atau Tindakan Bedah Rawat Jalan.",
+            "raw_label": "Sesuai kuitansi, termasuk biaya konsultasi, pengobatan pendahuluan dan lanjutan, pemeriksaaan diagnostik, laboratorium, pemeriksaan patologi dan radiologi, Perawatan dan/atau Tindakan Bedah Rawat Jalan, Obat-obatan; dalam kurun waktu 30 (tiga puluh) hari kalender sebelum Tertanggung menjalani Perawatan dan/atau Tindakan Bedah Rawat Jalan, selama Perawatan dan/atau Tindakan Bedah Rawat Jalan, dan 90 (sembilan puluh) hari kalender setelah Tertanggung selesai menjalani Perawatan dan/atau Tindakan Bedah Rawat Jalan.",
+            "penjelasan": null
+          }
+        ]
+      },
+      {
+        "plan_name": "Essential X Essential X-Tra",
+        "manfaat": [
+          {
+            "category": "dokter_inpatient",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Sesuai kuitansi, termasuk biaya konsultasi Dokter, pemeriksaan laboratorium / diagnostik, Obat - obatan, Biaya pelayanan umum, Biaya Alat dan Suplai dan perawatan (Manfaat ini berlaku untuk Rawat Inap dan Rawat Jalan). Perawatan kanker tersebut mencakup: (i) Kemoterapi; (ii) Radioterapi; (iii) Terapi Target (Targeted Therapy); dan (iv) Terapi Hormon; dan (v) Terapi Imun. Khusus untuk Perawatan Paliatif yang sehubungan dengan Penyakit kanker hanya dapat diberikan",
+            "raw_label": "Sesuai kuitansi, termasuk biaya konsultasi Dokter, pemeriksaan laboratorium / diagnostik, Obat - obatan, Biaya pelayanan umum, Biaya Alat dan Suplai dan perawatan (Manfaat ini berlaku untuk Rawat Inap dan Rawat Jalan). Perawatan kanker tersebut mencakup: (i) Kemoterapi; (ii) Radioterapi; (iii) Terapi Target (Targeted Therapy); dan (iv) Terapi Hormon; dan (v) Terapi Imun. Khusus untuk Perawatan Paliatif yang sehubungan dengan Penyakit kanker hanya dapat diberikan",
+            "penjelasan": null
+          }
+        ]
+      }
+    ]
+  },
+  {
     "product_id": "allianz-life-allianz-preferred-medical",
     "product_name": "Allianz Preferred Medical",
     "insurer_slug": "allianz-life",
@@ -18416,6 +18574,97 @@
     ]
   },
   {
+    "product_id": "sequis-Sequis-Q-Infinite-Medcare-Shield-Rider",
+    "product_name": "Asuransi kesehatan tambahan yang menyediakan perlindungan komprehensif untuk perawatan rawat inap, rawat jalan, dan manfaat tambahan lainnya. - Sequis - Your Better Tomorrow",
+    "insurer_slug": "sequis",
+    "insurer_name": "PT Asuransi Jiwa Sequis Life",
+    "insurer_category": "asuransi_jiwa",
+    "product_type": "kesehatan_individu",
+    "jenis": "konvensional",
+    "product_page_url": "https://www.sequis.co.id/id/asuransi-kesehatan/individu/asuransi-kesehatan/asuransi-kesehatan-rawat-inap/Sequis-Q-Infinite-Medcare-Shield-Rider",
+    "source_pdfs": {
+      "riplay": "data/raw/insurers/sequis/sequis/Sequis-Q-Infinite-Medcare-Shield-Rider/RIPLay Umum Sequis Q Infinite MedCare Shield_v1.6_102025.pdf",
+      "brosur": "data/raw/insurers/sequis/sequis/Sequis-Q-Infinite-Medcare-Shield-Rider/241014_E-brochure Q IMC Shield Rider Final.pdf"
+    },
+    "source_pdf_urls": {
+      "riplay": "https://www.sequis.co.id/Products/Sequis%20Q%20Infinite%20MedCare%20Shield%20Rider/RIPLay%20Umum%20Sequis%20Q%20Infinite%20MedCare%20Shield_v1.6_102025.pdf",
+      "brosur": "https://www.sequis.co.id/Products/Sequis%20Q%20Infinite%20MedCare%20Shield%20Rider/241014_E-brochure%20Q%20IMC%20Shield%20Rider%20Final.pdf"
+    },
+    "scraped_at": "2026-05-17T16:12:55.986946+00:00",
+    "currency": "IDR",
+    "plans": [
+      {
+        "plan_name": "Wood",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": "per_year",
+            "note": null,
+            "raw_cell": "Harga kamar terendah dengan 1 tempat tidur dengan kamar mandi di dalam atau Rp 1,000,000; mana yang lebih tinggi",
+            "raw_label": "Biaya Harian Kamar Rumah Sakit",
+            "penjelasan": "Maks 365 hari kalender per Tahun Polis"
+          },
+          {
+            "category": "icu",
+            "amount_rp": null,
+            "unit": "no_cap",
+            "note": "Sesuai Tagihan Biaya Wajar dan Biasa",
+            "raw_cell": "Sesuai Tagihan Biaya Wajar dan Biasa",
+            "raw_label": "Biaya Harian Perawatan Intensif (unit perawatan intensif (ICU), ruang isolasi, unit perawatan intensif koroner (ICCU), unit perawatan intensif pediatri (PICU) atau unit perawatan intensif medis (MICU), stroke unit , intermediate room atau kamar perawatan lainnya dengan peralatan setara dengan perawatan intensif)",
+            "penjelasan": "Maks 365 hari kalender per Tahun Polis"
+          }
+        ]
+      },
+      {
+        "plan_name": "Metal",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": "per_year",
+            "note": null,
+            "raw_cell": "Harga kamar terendah dengan 1 tempat tidur dengan kamar mandi di dalam atau Rp 1,000,000; mana yang lebih tinggi",
+            "raw_label": "Biaya Harian Kamar Rumah Sakit",
+            "penjelasan": "Maks 365 hari kalender per Tahun Polis"
+          },
+          {
+            "category": "icu",
+            "amount_rp": null,
+            "unit": "per_year",
+            "note": null,
+            "raw_cell": "sesuai dengan plan yang Batas Tahunan Keseluruhan",
+            "raw_label": "Biaya Harian Perawatan Intensif (unit perawatan intensif (ICU), ruang isolasi, unit perawatan intensif koroner (ICCU), unit perawatan intensif pediatri (PICU) atau unit perawatan intensif medis (MICU), stroke unit , intermediate room atau kamar perawatan lainnya dengan peralatan setara dengan perawatan intensif)",
+            "penjelasan": "Maks 365 hari kalender per Tahun Polis"
+          }
+        ]
+      },
+      {
+        "plan_name": "Force",
+        "manfaat": [
+          {
+            "category": "kamar_rs",
+            "amount_rp": null,
+            "unit": "per_year",
+            "note": null,
+            "raw_cell": "Harga kamar terendah dengan 1 tempat tidur dengan kamar mandi di dalam atau Rp 1,000,000; mana yang lebih tinggi",
+            "raw_label": "Biaya Harian Kamar Rumah Sakit",
+            "penjelasan": "Maks 365 hari kalender per Tahun Polis"
+          },
+          {
+            "category": "icu",
+            "amount_rp": null,
+            "unit": "per_year",
+            "note": null,
+            "raw_cell": "dipilih, terbatas pada",
+            "raw_label": "Biaya Harian Perawatan Intensif (unit perawatan intensif (ICU), ruang isolasi, unit perawatan intensif koroner (ICCU), unit perawatan intensif pediatri (PICU) atau unit perawatan intensif medis (MICU), stroke unit , intermediate room atau kamar perawatan lainnya dengan peralatan setara dengan perawatan intensif)",
+            "penjelasan": "Maks 365 hari kalender per Tahun Polis"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "product_id": "sequis-Sequis-Q-Infinite-Medcare-Rider-Series-Plan-X-Booster-",
     "product_name": "Asuransi Kesehatan dengan Perlindungan Terbaik di Seluruh Dunia - Sequis - Your Better Tomorrow",
     "insurer_slug": "sequis",
@@ -18773,6 +19022,42 @@
     ]
   },
   {
+    "product_id": "sequis-Sequis-Q-Infinite-Medcare-Rider-Series-Plan-Lite",
+    "product_name": "Sequis Q Infinite Medcare Rider Series (Plan Lite)",
+    "insurer_slug": "sequis",
+    "insurer_name": "PT Asuransi Jiwa Sequis Life",
+    "insurer_category": "asuransi_jiwa",
+    "product_type": "kesehatan_individu",
+    "jenis": "konvensional",
+    "product_page_url": "https://www.sequis.co.id/id/asuransi-kesehatan/individu/asuransi-kesehatan/asuransi-kesehatan-rawat-inap/Sequis-Q-Infinite-Medcare-Rider-Series-Plan-Lite",
+    "source_pdfs": {
+      "riplay": "data/raw/insurers/sequis/sequis/Sequis-Q-Infinite-Medcare-Rider-Series-Plan-Lite/RIPLAY Umum Sequis Q Infinite MedCare Series_v1.3_102025.pdf",
+      "brosur": "data/raw/insurers/sequis/sequis/Sequis-Q-Infinite-Medcare-Rider-Series-Plan-Lite/Per Agustus 2022_daftar RS Rekanan Plan Lite.pdf"
+    },
+    "source_pdf_urls": {
+      "riplay": "https://www.sequis.co.id/Products/Sequis%20Q%20Infinite%20Medcare%20Rider%20Series/RIPLAY%20Umum%20Sequis%20Q%20Infinite%20MedCare%20Series_v1.3_102025.pdf",
+      "brosur": "https://www.sequis.co.id/PDF/id/Brosur%20Produk/Sequis%20Q%20Infinited%20MedCare%20Plan%20Lite/Per%20Agustus%202022_daftar%20RS%20Rekanan%20Plan%20Lite.pdf"
+    },
+    "scraped_at": "2026-05-17T16:14:48.748262+00:00",
+    "currency": "IDR",
+    "plans": [
+      {
+        "plan_name": "Lite 2",
+        "manfaat": [
+          {
+            "category": "tindakan_bedah",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "Tahunan",
+            "raw_label": "Biaya Perawatan Sebelum Rawat Inap/Pembedahan (termasuk Pembedahan Pulang Hari dan Pembedahan Rekonstruktif)",
+            "penjelasan": "Maks 60 hari kalender sebelum masuk Rumah Sakit"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "product_id": "sequis-Q-Hospital-Rider",
     "product_name": "Q Hospital Rider",
     "insurer_slug": "sequis",
@@ -18915,6 +19200,49 @@
             "raw_cell": "Sesuai Tagihan Wajar dan Biasa sesuai dengan Plan yang dipilih, terbatas pada Batas Tahunan Keseluruhan",
             "raw_label": "Biaya Pemeriksaan Diagnostik& Laboratorium Sebelum Rawat Inap",
             "penjelasan": "Biaya Maks 1 konsultasi per Ketidakmampuan; Maks 30 hari kalender sebelum masuk Rumah Sakit"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "product_id": "sequis-asuransi-sequis-critical-care-plus",
+    "product_name": "Asuransi Sequis Critical Care Plus",
+    "insurer_slug": "sequis",
+    "insurer_name": "PT Asuransi Jiwa Sequis Life",
+    "insurer_category": "asuransi_jiwa",
+    "product_type": "kesehatan_individu",
+    "jenis": "konvensional",
+    "product_page_url": "https://www.sequis.co.id/id/asuransi-kesehatan/individu/asuransi-kesehatan/proteksi-penyakit-kritis/asuransi-sequis-critical-care-plus",
+    "source_pdfs": {
+      "riplay": "data/raw/insurers/sequis/sequis/asuransi-sequis-critical-care-plus/RIPLAY Umum Sequis Critical Care Plus_SQL_V2.pdf"
+    },
+    "source_pdf_urls": {
+      "riplay": "https://www.sequis.co.id/Products/Asuransi%20Sequis%20Critical%20Care%20Plus/RIPLAY%20Umum%20Sequis%20Critical%20Care%20Plus_SQL_V2.pdf"
+    },
+    "scraped_at": "2026-05-17T16:17:31.626875+00:00",
+    "currency": "IDR",
+    "plans": [
+      {
+        "plan_name": "Jumlah Penggantian",
+        "manfaat": [
+          {
+            "category": "penyakit_kritis",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "100% Uang Pertanggungan dan pengembalian dari total Premi yang telah dibayarkan",
+            "raw_label": "Manfaat Penyakit Kritis",
+            "penjelasan": null
+          },
+          {
+            "category": "pemakaman",
+            "amount_rp": null,
+            "unit": null,
+            "note": null,
+            "raw_cell": "150% pengembalian dari total Premi yang telah dibayarkan",
+            "raw_label": "Manfaat Meninggal Dunia",
+            "penjelasan": null
           }
         ]
       }

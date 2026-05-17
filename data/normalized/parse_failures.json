@@ -54,7 +54,65 @@
   {
     "product_id": "aia-financial-aia-health-x",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/aia-financial/aia-financial/aia-health-x/RIPLAY Umum AIA Health X_Essential X & Essential X-Tra - RP167R02-1125.tables.json",
-    "reason": "no tabel manfaat detected"
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 10,
+    "unmapped_samples": [
+      {
+        "label": "ASIA (Kecuali Singapura, Hong Kong, Jepang)",
+        "penjelasan": "",
+        "row": [
+          "",
+          "Area Pertanggungan",
+          "ASIA (Kecuali Singapura, Hong Kong, Jepang)",
+          "ASIA (Kecuali Singapura, Hong Kong, Jepang)",
+          "ASIA (Kecuali Singapura, Hong Kong, Jepang)"
+        ]
+      },
+      {
+        "label": "IDR 5.000.000.000",
+        "penjelasan": "",
+        "row": [
+          "",
+          "Batas Tahunan Total",
+          "IDR 5.000.000.000",
+          "IDR 5.000.000.000",
+          "IDR 5.000.000.000"
+        ]
+      },
+      {
+        "label": "IDR 12.000.000.000",
+        "penjelasan": "",
+        "row": [
+          "",
+          "Limit Booster (Selama Polis aktif dan berlaku sampai dengan Tertanggung berumur 99 tahun, maksimal manfaat yang diberikan adalah sebesar)",
+          "IDR 12.000.000.000",
+          "IDR 12.000.000.000",
+          "IDR 12.000.000.000"
+        ]
+      },
+      {
+        "label": "IDR 17.000.000.000",
+        "penjelasan": "",
+        "row": [
+          "",
+          "Total Manfaat",
+          "IDR 17.000.000.000",
+          "IDR 17.000.000.000",
+          "IDR 17.000.000.000"
+        ]
+      },
+      {
+        "label": "Sesuai kuitansi. Sesuai kuitansi.",
+        "penjelasan": "",
+        "row": [
+          "3 4",
+          "Biaya Kunjungan DokterUmum Biaya Kunjungan Dokter Spesialis",
+          "Sesuai kuitansi. Sesuai kuitansi.",
+          "Sesuai kuitansi. Sesuai kuitansi.",
+          "Sesuai kuitansi. Sesuai kuitansi."
+        ]
+      }
+    ]
   },
   {
     "product_id": "allianz-life-smarthealth-maxi-violet",
@@ -978,7 +1036,21 @@
   {
     "product_id": "sequis-Sequis-Q-Infinite-Medcare-Shield-Rider",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/Sequis-Q-Infinite-Medcare-Shield-Rider/RIPLay Umum Sequis Q Infinite MedCare Shield_v1.6_102025.tables.json",
-    "reason": "no tabel manfaat detected"
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 1,
+    "unmapped_samples": [
+      {
+        "label": "Sequis Keeper",
+        "penjelasan": "Per Rawat Inap",
+        "row": [
+          "Sequis Keeper",
+          "Per Rawat Inap",
+          "Opsi 1 : Rp 5,000,000 Opsi 2 : Rp 10,000,000 Opsi 3 : Rp 15,000,000 Opsi 4 : Rp 20,000,000 Opsi 5 : Rp 25,000,000",
+          "Opsi 1 : Rp 5,000,000 Opsi 2 : Rp 10,000,000 Opsi 3 : Rp 15,000,000 Opsi 4 : Rp 25,000,000 Opsi 5 : Rp 35,000,000",
+          "Opsi 1 : Rp 10,000,000 Opsi 2 : Rp 15,000,000 Opsi 3 : Rp 20,000,000 Opsi 4 : Rp 40,000,000 Opsi 5 : Rp 60,000,000"
+        ]
+      }
+    ]
   },
   {
     "product_id": "sequis-Sequis-Q-Infinite-Medcare-Rider-Series-Plan-X-Booster-",
@@ -1037,11 +1109,6 @@
     ]
   },
   {
-    "product_id": "sequis-Sequis-Q-Infinite-Medcare-Rider-Series-Plan-Lite",
-    "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/Sequis-Q-Infinite-Medcare-Rider-Series-Plan-Lite/RIPLAY Umum Sequis Q Infinite MedCare Series_v1.3_102025.tables.json",
-    "reason": "no tabel manfaat detected"
-  },
-  {
     "product_id": "sequis-Q-Hospital-Rider",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/Q-Hospital-Rider/RIPLAY Umum Sequis Q Hospital Rider_SQL_V1_.tables.json",
     "reason": "unmapped manfaat rows",
@@ -1095,7 +1162,26 @@
   {
     "product_id": "sequis-asuransi-sequis-critical-care-plus",
     "tables_path": "/Users/jehuda/Documents/projects/asuransi.id/data/parsed/insurers/sequis/sequis/asuransi-sequis-critical-care-plus/RIPLAY Umum Sequis Critical Care Plus_SQL_V2.tables.json",
-    "reason": "no tabel manfaat detected"
+    "reason": "unmapped manfaat rows",
+    "unmapped_count": 2,
+    "unmapped_samples": [
+      {
+        "label": "Manfaat Rawat Inap Jangka Panjang di Ruang Perawatan Intensif (Rawat Inap ≥ 8 hari)",
+        "penjelasan": "",
+        "row": [
+          "Manfaat Rawat Inap Jangka Panjang di Ruang Perawatan Intensif (Rawat Inap ≥ 8 hari)",
+          "20% Uang Pertanggungan (sampai dengan maksimal) Rp250.000.000 per jiwa"
+        ]
+      },
+      {
+        "label": "Manfaat Akhir Polis",
+        "penjelasan": "",
+        "row": [
+          "Manfaat Akhir Polis",
+          "150% pengembalian dari total Premi yang telah dibayarkan"
+        ]
+      }
+    ]
   },
   {
     "product_id": "sequis-sequis-critical-illness-program",
