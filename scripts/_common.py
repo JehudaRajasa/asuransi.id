@@ -14,7 +14,7 @@ _PERSERO = re.compile(r"\(persero\)", re.IGNORECASE)
 _TBK = re.compile(r"\btbk\.?\b", re.IGNORECASE)
 _NONWORD = re.compile(r"[^a-z0-9]+")
 
-DEFAULT_RIPLAY_MARKERS = ("riplay", "ringkasan", "ringkasan-informasi-produk", "product-summary")
+DEFAULT_RIPLAY_MARKERS = ("riplay", "ringkasan", "ringkasan-informasi-produk", "product-summary", "product-information")
 DEFAULT_BROSUR_MARKERS = ("brosur", "brochure")
 
 
