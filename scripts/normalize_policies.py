@@ -190,9 +190,14 @@ def is_plan_header(col: str) -> bool:
 
 
 def looks_like_tabel_manfaat(columns: list[str]) -> bool:
+    plan_count = sum(1 for c in columns if is_plan_header(c))
     has_manfaat = any(is_manfaat_header(c) for c in columns)
-    has_plan = sum(1 for c in columns if is_plan_header(c)) >= 1
-    return has_manfaat and has_plan
+    if has_manfaat and plan_count >= 1:
+        return True
+    # PRUWell Health and similar layouts drop the "manfaat" header label
+    # entirely; if a table has ≥2 plan-tier columns, treat the leftmost
+    # non-plan column as the benefit-label column.
+    return plan_count >= 2
 
 
 def detect_plan_columns(columns: list[str]) -> list[int]:
@@ -217,6 +222,13 @@ def detect_manfaat_column(columns: list[str], plan_cols: list[int] | None = None
     for i, c in enumerate(columns):
         if c.strip().lower() == "no.":
             return i + 1 if i + 1 < len(columns) else i
+    # No explicit manfaat / no. label — fall back to the leftmost non-plan
+    # non-empty column (PRUWell Health-style layouts).
+    for i, c in enumerate(columns):
+        if i in plan_cols:
+            continue
+        if c.strip():
+            return i
     return 0
 
 
@@ -462,10 +474,11 @@ def normalize_product(product_meta: dict) -> tuple[dict | None, dict | None]:
         if product_meta.get("plans"):
             # Pre-normalized record (e.g. BPJS hardcoded regulatory data).
             return product_meta, None
-        return None, {
-            "product_id": product_meta["product_id"],
-            "reason": "no riplay PDF in product metadata",
-        }
+        # Discovered URL matched the product prefix but yielded no RIPLAY PDF —
+        # almost always a non-product link (apply, brochure index, etc.) that
+        # slipped through discovery. Drop silently rather than report as a
+        # parse failure.
+        return None, None
     parsed_pdf = Path(str(PROJECT_ROOT / riplay_rel).replace("/data/raw/", "/data/parsed/"))
     tables_path = parsed_pdf.with_suffix(".tables.json")
     if not tables_path.exists():
