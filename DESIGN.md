@@ -142,13 +142,10 @@ All-caps reserved for **micro-labels** only (e.g. `SOURCE · RIPLAY p.4`). Never
 - Cells: mono body, tabular numerals, right-aligned for amounts, left-aligned for prose.
 - Empty cell renders mono `—` ink tertiary.
 
-### `manfaat-row` (expanded state)
-- Disclosure indent 24. Background `bg.sunken`. Mono small for raw_label and raw_cell.
-- Inline `citation-chip` at end of expanded block.
-
-### `citation-chip`
-- Inline. Mono micro. Background transparent, ink secondary, underline on hover.
-- Format: `RIPLAY · p.{n}` or `RIPLAY · §{section}`.
+### `source-link`
+- Inline link to the source PDF. Mono small. Ink secondary, underline on hover, ink primary on focus.
+- Used on the single-product detail page ("Buka RIPLAY", "Buka brosur") and inside `failure-banner`.
+- Format: `Buka RIPLAY ↗` / `Buka brosur ↗`. External-link glyph in mono.
 - Click target ≥ 24px.
 
 ### `failure-banner`
@@ -158,7 +155,7 @@ All-caps reserved for **micro-labels** only (e.g. `SOURCE · RIPLAY p.4`). Never
 ### `gemma-response-block`
 - Surface `bg.surface`, padding 32, max-width 720.
 - Summary in serif lead. Beneath: stacked structured cards (not paragraphs).
-- Every figure carries inline citation-chip. No streamed text effect on first paint.
+- Each product card carries a `source-link` to the RIPLAY (and brosur if available). No streamed text effect on first paint.
 
 ### `disclaimer-strip`
 - Inverse surface (`ink.primary` background, `ink.inverse` text).
@@ -193,9 +190,9 @@ No layered modals beyond a single overlay. No floating action buttons. Z-index u
 ## Do's and Don'ts
 
 **Do:**
-- Use mono for every Rupiah amount and every citation.
+- Use mono for every Rupiah amount.
 - Treat empty cells as `—` (em dash) in mono tertiary ink.
-- Show citation-chip inline with every amount the Gemma response surfaces.
+- Surface a `source-link` to the RIPLAY (and brosur, when available) on every single-product detail page and inside every parse-failure banner.
 - Render parse-failure products in a yellow `failure-banner` with a link to the original RIPLAY.
 - Let the page breathe — when in doubt, add whitespace not content.
 
@@ -205,7 +202,7 @@ No layered modals beyond a single overlay. No floating action buttons. Z-index u
 - Add drop shadows beyond `shadow.card`.
 - Animate the gemma-response-block as a streamed token effect — render the structured block once retrieval is done.
 - Use rounded corners larger than `md` (4px). No pill cards.
-- Render any Rp amount without a citation-chip.
+- Hide a product's source PDF behind more than one click from its detail page.
 - Show a chatbot avatar, mascot, or "AI is thinking" spinner.
 - Use lifestyle photography of families or happy patients. The product is text and tables, not aspiration.
 
