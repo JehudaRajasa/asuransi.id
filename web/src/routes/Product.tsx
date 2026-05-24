@@ -4,6 +4,7 @@ import { FailureBanner } from '../components/FailureBanner'
 import { InsurerMark } from '../components/InsurerMark'
 import { SourceLink } from '../components/SourceLink'
 import { Tag } from '../components/Tag'
+import { shortName } from '../data/derive'
 import {
   getParseFailure,
   getPolicy,
@@ -38,7 +39,7 @@ export function Product() {
 
   if (!policy) return <NotFound slug={slug ?? '?'} />
 
-  const insurerShort = policy.insurer_name.replace(/^PT\s+/, '')
+  const insurerShort = shortName(policy.insurer_slug, policy.insurer_name)
   const activePlan = policy.plans[activePlanIdx] ?? policy.plans[0]
   const groups = activePlan ? groupPlanManfaat(activePlan) : []
   const stats: [string, string, string][] = [
@@ -65,7 +66,7 @@ export function Product() {
             <div className="mb-6 flex items-center gap-3">
               <InsurerMark name={insurerShort} slug={policy.insurer_slug} size={44} />
               <div>
-                <div className="text-[13px] text-ink-secondary">{policy.insurer_name}</div>
+                <div className="text-[13px] text-ink-secondary">{insurerShort}</div>
                 <div className="font-mono text-[11px] text-ink-tertiary">
                   {policy.product_type.replace(/_/g, ' ')} ·{' '}
                   {policy.jenis === 'syariah' ? 'Syariah' : 'Konvensional'}

@@ -39,7 +39,7 @@ export function PenyediaSlug() {
         <div className="mb-6 flex items-center gap-3">
           <InsurerMark name={card.shortName} slug={card.slug} size={48} />
           <div>
-            <div className="text-[13px] text-ink-secondary">{insurer.name}</div>
+            <div className="text-[13px] text-ink-secondary">{card.shortName}</div>
             <div className="font-mono text-[11px] text-ink-tertiary">
               {insurer.city} · {insurer.jenis_perusahaan.replace(/_/g, ' ')}
             </div>

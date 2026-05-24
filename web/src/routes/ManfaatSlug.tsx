@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { SourceLink } from '../components/SourceLink'
 import { Tag } from '../components/Tag'
-import { BENEFIT_GROUPS, getBenefitCards } from '../data/derive'
+import { BENEFIT_GROUPS, getBenefitCards, shortName } from '../data/derive'
 import { getProductsByBenefitGroup } from '../data/compare'
 
 export function ManfaatSlug() {
@@ -65,7 +65,7 @@ export function ManfaatSlug() {
               >
                 <div>
                   <div className="font-mono text-[11px] uppercase tracking-[0.06em] text-ink-tertiary">
-                    {p.insurer_name.replace(/^PT\s+/, '')}
+                    {shortName(p.insurer_slug, p.insurer_name)}
                   </div>
                   <div className="mt-1 font-serif text-[20px] md:text-[22px]">
                     {p.product_name}

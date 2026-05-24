@@ -1,5 +1,6 @@
 import { Fragment } from 'react'
 import type { CompareCellData, CompareMatrix } from '../data/compare'
+import { shortName } from '../data/derive'
 import { InsurerMark } from './InsurerMark'
 import { SourceLink } from './SourceLink'
 import { Tag } from './Tag'
@@ -59,7 +60,7 @@ export function CompareTable({ matrix }: Props) {
               >
                 <div className="mb-2 flex items-center gap-2">
                   <InsurerMark name={p.insurer_name} slug={p.insurer_slug} size={22} />
-                  <span className="text-[13px] text-ink-secondary">{p.insurer_name.replace(/^PT\s+/, '')}</span>
+                  <span className="text-[13px] text-ink-secondary">{shortName(p.insurer_slug, p.insurer_name)}</span>
                   {p.insurer_slug === BPJS_SLUG && <Tag tone="public">Publik</Tag>}
                 </div>
                 <div className="mb-1 font-serif text-[18px] font-normal leading-[1.2] text-ink-primary">

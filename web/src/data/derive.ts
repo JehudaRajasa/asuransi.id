@@ -82,9 +82,9 @@ const SHORT_NAME_OVERRIDES: Record<string, string> = {
   'zurich-topas': 'Zurich Topas',
 }
 
-function shortName(slug: string, fallback: string): string {
+export function shortName(slug: string, fallback: string): string {
   if (slug in SHORT_NAME_OVERRIDES) return SHORT_NAME_OVERRIDES[slug]
-  return fallback.replace(/^PT\s+/, '')
+  return fallback.replace(/^PT\.?\s+/, '')
 }
 
 export function getInsurerCards(): InsurerCardData[] {
