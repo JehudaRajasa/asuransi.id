@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { TOTAL_INSURERS, TOTAL_PRODUCTS } from '../data/derive'
 
 export function Tentang() {
@@ -36,7 +35,7 @@ export function Tentang() {
       </h2>
       <ol className="mt-4 list-none p-0">
         {[
-          ['Cari dalam bahasa biasa', 'Tanya dalam Indonesia, dapatkan jawaban terstruktur dari Gemma 4.'],
+          ['Cari dalam bahasa biasa', 'Tanya dalam Indonesia, dapatkan jawaban terstruktur dari AI.'],
           ['Telusuri tabel manfaat', 'Setiap nilai diambil dari sel di RIPLAY. Sumber selalu disebut.'],
           ['Buka dokumen asli', 'Setiap halaman produk menautkan ke RIPLAY dan brosur dalam satu klik.'],
           ['Bandingkan 2–4 produk', 'Tabel side-by-side dengan sticky kolom dan baris yang sama.'],
@@ -63,22 +62,6 @@ export function Tentang() {
         <li>· Kami tidak menyimpan riwayat pencarian.</li>
       </ul>
 
-      <p className="mt-16 text-[15px] text-ink-secondary">
-        Dibangun untuk{' '}
-        <a
-          href="https://www.kaggle.com/competitions/google-gemma-4-good-hackathon"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-brand underline"
-        >
-          Kaggle Gemma 4 Good Hackathon
-        </a>{' '}
-        — Digital Equity &amp; Inclusivity. Kembali ke{' '}
-        <Link to="/" className="text-brand underline">
-          beranda
-        </Link>
-        .
-      </p>
     </main>
   )
 }
