@@ -206,8 +206,15 @@ export function Product() {
                       )}
                     </td>
                     <td className="py-3.5 pl-4 text-[13px] text-ink-secondary">
-                      {formatUnit(it.manfaat.unit)}
-                      {it.manfaat.note ? ` · ${it.manfaat.note}` : ''}
+                      {(() => {
+                        const unitLabel = formatUnit(it.manfaat.unit)
+                        const note = it.manfaat.note ?? ''
+                        const norm = (s: string) => s.trim().toLowerCase()
+                        const cellNorm = norm(it.manfaat.raw_cell ?? '')
+                        const showUnit = unitLabel && norm(unitLabel) !== cellNorm
+                        const showNote = note && norm(note) !== norm(unitLabel) && norm(note) !== cellNorm
+                        return [showUnit ? unitLabel : '', showNote ? note : ''].filter(Boolean).join(' · ')
+                      })()}
                     </td>
                   </tr>
                 ))}
