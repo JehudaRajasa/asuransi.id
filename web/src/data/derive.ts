@@ -93,7 +93,7 @@ const UNIT_LABELS: Record<string, string> = {
   per_visit: 'per kunjungan',
   per_event: 'per kejadian',
   per_2_years: 'per 2 tahun',
-  no_cap: 'tanpa batas',
+  no_cap: 'sesuai tagihan',
 }
 
 export function formatUnit(unit: string | null | undefined): string {
