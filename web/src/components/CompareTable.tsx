@@ -22,7 +22,7 @@ function Cell({ data }: { data: CompareCellData }) {
     <span>
       <span className="font-mono text-[15px] font-medium tnum text-ink-primary">{data.value}</span>
       {data.unit && (
-        <span className="ml-1 font-mono text-[11px] text-ink-tertiary">/ {formatUnit(data.unit)}</span>
+        <span className="ml-1 font-mono text-[11px] text-ink-secondary">/ {formatUnit(data.unit)}</span>
       )}
     </span>
   )
@@ -48,7 +48,7 @@ export function CompareTable({ matrix }: Props) {
               className="sticky left-0 top-0 z-[2] w-[240px] border-b border-ink-primary bg-page py-5 pl-0 pr-4 text-left align-bottom"
             >
               <div className="micro-label">Manfaat</div>
-              <div className="mt-1 font-mono text-[11px] text-ink-tertiary">
+              <div className="mt-1 font-mono text-[11px] text-ink-secondary">
                 {totalRowCount} baris · {groupCount} kategori
               </div>
             </th>
@@ -66,7 +66,7 @@ export function CompareTable({ matrix }: Props) {
                 <div className="mb-1 font-serif text-[18px] font-normal leading-[1.2] text-ink-primary">
                   {p.product_name}
                 </div>
-                <div className="mt-2 font-mono text-[11px] text-ink-tertiary">
+                <div className="mt-2 font-mono text-[11px] text-ink-secondary">
                   {p.jenis === 'syariah' ? 'Syariah' : 'Konvensional'}
                 </div>
               </th>
@@ -122,7 +122,7 @@ export function CompareTable({ matrix }: Props) {
               {p.source_pdf_urls?.riplay ? (
                 <SourceLink label="RIPLAY" href={p.source_pdf_urls.riplay} />
               ) : (
-                <span className="font-mono text-[12px] text-ink-tertiary">— tanpa dokumen</span>
+                <span className="font-mono text-[12px] text-ink-secondary">— tanpa dokumen</span>
               )}
             </div>
           ))}

@@ -34,7 +34,7 @@ export function ManfaatSlug() {
   return (
     <main className="pb-32">
       <section className="mx-auto max-w-[1180px] px-6 pb-10 pt-12 md:px-20 md:pt-16">
-        <div className="micro-label mb-5 text-ink-tertiary">
+        <div className="micro-label mb-5">
           <Link to="/" className="no-underline hover:underline">Beranda</Link>{' '}
           / <Link to="/manfaat" className="no-underline hover:underline">Manfaat</Link>{' '}
           / {card.label}
@@ -64,7 +64,7 @@ export function ManfaatSlug() {
                 className="grid grid-cols-1 gap-3 border-b border-hairline py-5 text-ink-primary no-underline hover:bg-brand-soft/30 md:grid-cols-[1fr_auto_auto] md:items-center md:gap-6"
               >
                 <div>
-                  <div className="font-mono text-[11px] uppercase tracking-[0.06em] text-ink-tertiary">
+                  <div className="font-mono text-[11px] uppercase tracking-[0.06em] text-ink-secondary">
                     {shortName(p.insurer_slug, p.insurer_name)}
                   </div>
                   <div className="mt-1 font-serif text-[20px] md:text-[22px]">

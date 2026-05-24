@@ -3,7 +3,6 @@ import { getBenefitCards } from '../data/derive'
 
 export function BrowseBenefits() {
   const cards = getBenefitCards()
-  const total = cards.length
 
   return (
     <section
@@ -17,19 +16,16 @@ export function BrowseBenefits() {
         >
           Telusuri menurut manfaat
         </h2>
-        <span className="micro-label">{total} kategori</span>
+        <span className="micro-label">{cards.length} kategori</span>
       </div>
 
       <ul className="grid list-none grid-cols-1 border-l border-t border-hairline p-0 md:grid-cols-3">
-        {cards.map((c, i) => (
+        {cards.map((c) => (
           <li key={c.slug} className="contents">
             <Link
               to={`/manfaat/${c.slug}`}
               className="flex flex-col gap-3 border-b border-r border-hairline p-8 text-ink-primary no-underline transition-colors hover:bg-brand-soft/30"
             >
-              <div className="font-mono text-[11px] uppercase tracking-[0.08em] text-ink-tertiary">
-                {String(i + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
-              </div>
               <div className="font-serif text-[24px] leading-[1.15] md:text-[26px]">{c.label}</div>
               <div className="text-[13px] text-ink-secondary">{c.sublabel}</div>
               <div className="mt-auto flex items-end justify-between border-t border-hairline pt-6">

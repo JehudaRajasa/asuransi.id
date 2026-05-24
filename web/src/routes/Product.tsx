@@ -52,7 +52,7 @@ export function Product() {
   return (
     <main className="pb-32">
       <section className="mx-auto max-w-[1180px] px-6 pb-8 pt-12 md:px-20 md:pb-10 md:pt-14">
-        <div className="micro-label mb-5 text-ink-tertiary">
+        <div className="micro-label mb-5">
           <Link to="/" className="no-underline hover:underline">Beranda</Link>{' '}
           /{' '}
           <Link to={`/penyedia/${policy.insurer_slug}`} className="no-underline hover:underline">
@@ -67,7 +67,7 @@ export function Product() {
               <InsurerMark name={insurerShort} slug={policy.insurer_slug} size={44} />
               <div>
                 <div className="text-[13px] text-ink-secondary">{insurerShort}</div>
-                <div className="font-mono text-[11px] text-ink-tertiary">
+                <div className="font-mono text-[11px] text-ink-secondary">
                   {policy.product_type.replace(/_/g, ' ')} ·{' '}
                   {policy.jenis === 'syariah' ? 'Syariah' : 'Konvensional'}
                 </div>
@@ -95,7 +95,7 @@ export function Product() {
                 <SourceLink label="Buka brosur produk" href={policy.source_pdf_urls.brosur} />
               )}
             </div>
-            <div className="font-mono text-[11px] leading-[1.6] text-ink-tertiary">
+            <div className="font-mono text-[11px] leading-[1.6] text-ink-secondary">
               Setiap nilai di halaman ini diambil dari sel di RIPLAY. Dokumen
               sumber tetap diutamakan.
             </div>
@@ -191,7 +191,7 @@ export function Product() {
                     <td className="w-[40%] py-3.5 pr-4 text-[14px] align-top">
                       <div>{it.label}</div>
                       {it.manfaat.raw_label && it.manfaat.raw_label !== it.label && (
-                        <div className="mt-1 font-mono text-[11px] text-ink-tertiary">
+                        <div className="mt-1 font-mono text-[11px] text-ink-secondary">
                           {it.manfaat.raw_label}
                         </div>
                       )}

@@ -40,7 +40,7 @@ export function BrowseInsurers() {
                 <div className="font-serif text-[20px] leading-[1.2] md:text-[22px]">
                   {c.shortName}
                 </div>
-                <div className="mt-1.5 font-mono text-[11px] tracking-[0.06em] text-ink-tertiary">
+                <div className="mt-1.5 font-mono text-[11px] tracking-[0.06em] text-ink-secondary">
                   {c.productCount} produk
                 </div>
               </div>
