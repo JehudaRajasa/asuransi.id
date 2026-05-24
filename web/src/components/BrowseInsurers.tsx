@@ -41,7 +41,7 @@ export function BrowseInsurers() {
                   {c.shortName}
                 </div>
                 <div className="mt-1.5 font-mono text-[11px] tracking-[0.06em] text-ink-tertiary">
-                  {String(c.productCount).padStart(2, '0')} produk
+                  {c.productCount} produk
                 </div>
               </div>
             </Link>

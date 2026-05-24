@@ -36,7 +36,7 @@ export function BrowseBenefits() {
                 <div>
                   <div className="micro-label mb-1">Produk tersedia</div>
                   <div className="font-mono text-[13px] tnum text-ink-primary">
-                    {String(c.productCount).padStart(2, '0')} dari 37
+                    {c.productCount} dari 37
                   </div>
                 </div>
                 <div className="font-mono text-[11px] text-ink-tertiary">→</div>
