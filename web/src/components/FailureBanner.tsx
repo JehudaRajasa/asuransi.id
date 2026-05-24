@@ -13,9 +13,9 @@ export function FailureBanner({ riplayUrl, brosurUrl, reason = DEFAULT_REASON }:
   return (
     <div
       role="status"
-      className="grid grid-cols-1 items-start gap-5 rounded-sm border border-warning bg-warning-soft px-6 py-5 md:grid-cols-[auto_1fr_auto] md:px-7 md:py-6"
+      className="grid grid-cols-1 items-start gap-5 rounded-sm border border-warning bg-warning-soft px-6 py-5 md:grid-cols-[auto_1fr] md:px-7 md:py-6"
     >
-      <div className="inline-block whitespace-nowrap border border-warning px-2 py-1 font-mono text-[10px] uppercase tracking-[0.1em] text-warning">
+      <div className="inline-block self-start whitespace-nowrap border border-warning px-2 py-1 font-mono text-[10px] uppercase tracking-[0.1em] text-warning">
         Belum dapat dibaca
       </div>
       <div>
@@ -24,11 +24,6 @@ export function FailureBanner({ riplayUrl, brosurUrl, reason = DEFAULT_REASON }:
           {riplayUrl && <SourceLink label="Buka RIPLAY" href={riplayUrl} />}
           {brosurUrl && <SourceLink label="Buka brosur" href={brosurUrl} />}
         </div>
-      </div>
-      <div className="hidden max-w-[200px] text-right font-mono text-[11px] leading-[1.6] text-ink-secondary md:block">
-        Kuning, bukan merah.
-        <br />
-        Gagal baca bukan gagal produk.
       </div>
     </div>
   )
