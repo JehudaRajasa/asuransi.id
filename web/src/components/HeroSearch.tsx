@@ -1,23 +1,30 @@
-import { useEffect, useRef, useState } from 'react'
+import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 'react'
 import { TOTAL_PRODUCTS } from '../data/derive'
 
 type Props = {
   onSubmit?: (q: string) => void
   placeholder?: string
-  initialValue?: string
+  value: string
+  onChange: (q: string) => void
+}
+
+export type HeroSearchHandle = {
+  focus: () => void
 }
 
 const DEFAULT_PLACEHOLDER =
-  'rawat inap di atas Rp 1 juta per hari, premi bulanan di bawah Rp 800 ribu…'
+  'rawat inap di atas Rp 1 juta per hari, kanker tak terbatas…'
 
-export function HeroSearch({
-  onSubmit,
-  placeholder = DEFAULT_PLACEHOLDER,
-  initialValue = '',
-}: Props) {
+export const HeroSearch = forwardRef<HeroSearchHandle, Props>(function HeroSearch(
+  { onSubmit, placeholder = DEFAULT_PLACEHOLDER, value, onChange },
+  ref,
+) {
   const inputRef = useRef<HTMLInputElement>(null)
-  const [value, setValue] = useState(initialValue)
   const [submitting, setSubmitting] = useState(false)
+
+  useImperativeHandle(ref, () => ({
+    focus: () => inputRef.current?.focus(),
+  }), [])
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -42,7 +49,9 @@ export function HeroSearch({
 
   return (
     <form onSubmit={handleSubmit} className="w-full" aria-label="Tanya dalam Bahasa Indonesia">
-      <div className="micro-label mb-3.5">Tanya dalam Bahasa Indonesia · Didukung oleh Gemma 4</div>
+      <div className="mb-3.5 font-mono text-[12px] tracking-[0.02em] text-ink-secondary">
+        Tanya dalam Bahasa Indonesia · Didukung oleh Gemma 4
+      </div>
       <div className="flex items-center gap-4 border-b-2 border-ink-primary py-4 focus-within:border-brand">
         <span className="font-mono text-[14px] text-ink-tertiary" aria-hidden="true">
           ?
@@ -51,7 +60,7 @@ export function HeroSearch({
           ref={inputRef}
           type="text"
           value={value}
-          onChange={(e) => setValue(e.target.value)}
+          onChange={(e) => onChange(e.target.value)}
           placeholder={placeholder}
           disabled={submitting}
           className="min-w-0 flex-1 bg-transparent text-[22px] font-normal tracking-[-0.01em] text-ink-primary placeholder:text-ink-tertiary focus:outline-none disabled:text-ink-tertiary md:text-[24px]"
@@ -63,11 +72,11 @@ export function HeroSearch({
       </div>
       <div className="mt-3 min-h-[1rem]" aria-live="polite">
         {submitting && (
-          <span className="font-mono text-[12px] text-ink-tertiary">
+          <span className="font-mono text-[12px] text-ink-secondary">
             mencari di {TOTAL_PRODUCTS} produk…
           </span>
         )}
       </div>
     </form>
   )
-}
+})

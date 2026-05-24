@@ -1,5 +1,6 @@
+import { useRef, useState } from 'react'
 import { LATEST_SCRAPE, TOTAL_INSURERS, TOTAL_PRODUCTS } from '../data/derive'
-import { HeroSearch } from './HeroSearch'
+import { HeroSearch, type HeroSearchHandle } from './HeroSearch'
 import { IntentPillRow } from './IntentPillRow'
 
 const READING_STEPS = [
@@ -26,12 +27,19 @@ type Props = { onSubmit: (q: string) => void }
 
 export function HomeHero({ onSubmit }: Props) {
   const scrapeLabel = formatScrapeDate(LATEST_SCRAPE)
+  const [query, setQuery] = useState('')
+  const searchRef = useRef<HeroSearchHandle>(null)
+
+  const handlePick = (q: string) => {
+    setQuery(q)
+    searchRef.current?.focus()
+  }
 
   return (
     <section className="mx-auto max-w-[1340px] px-6 pb-16 pt-12 md:px-20 md:pb-20 md:pt-24">
       <div className="grid grid-cols-1 items-end gap-16 md:grid-cols-[1fr_360px] md:gap-24">
         <div>
-          <div className="micro-label mb-6">
+          <div className="mb-6 font-mono text-[12px] tracking-[0.02em] text-ink-secondary">
             Database RIPLAY · {TOTAL_PRODUCTS} produk · {TOTAL_INSURERS} penyedia
             {scrapeLabel && ` · diperbarui ${scrapeLabel}`}
           </div>
@@ -65,9 +73,9 @@ export function HomeHero({ onSubmit }: Props) {
       </div>
 
       <div className="mt-16 md:mt-20">
-        <HeroSearch onSubmit={onSubmit} />
+        <HeroSearch ref={searchRef} value={query} onChange={setQuery} onSubmit={onSubmit} />
         <div className="mt-5">
-          <IntentPillRow examples={EXAMPLES} onPick={onSubmit} />
+          <IntentPillRow examples={EXAMPLES} onPick={handlePick} />
         </div>
       </div>
     </section>
