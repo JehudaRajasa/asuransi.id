@@ -54,7 +54,7 @@ export function Product() {
         <div className="micro-label mb-5 text-ink-tertiary">
           <Link to="/" className="no-underline hover:underline">Beranda</Link>{' '}
           /{' '}
-          <Link to="/penyedia" className="no-underline hover:underline">
+          <Link to={`/penyedia/${policy.insurer_slug}`} className="no-underline hover:underline">
             {insurerShort}
           </Link>{' '}
           / {policy.product_name}
