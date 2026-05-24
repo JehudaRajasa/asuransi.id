@@ -41,8 +41,8 @@ export function HeroSearch({
   }
 
   return (
-    <form onSubmit={handleSubmit} className="w-full" aria-label="Tanya dalam bahasa Indonesia">
-      <div className="micro-label mb-3.5">Tanya dalam bahasa Indonesia · Didukung oleh Gemma 4</div>
+    <form onSubmit={handleSubmit} className="w-full" aria-label="Tanya dalam Bahasa Indonesia">
+      <div className="micro-label mb-3.5">Tanya dalam Bahasa Indonesia · Didukung oleh Gemma 4</div>
       <div className="flex items-center gap-4 border-b-2 border-ink-primary py-4 focus-within:border-brand">
         <span className="font-mono text-[14px] text-ink-tertiary" aria-hidden="true">
           ?

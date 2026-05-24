@@ -35,7 +35,7 @@ export function Tentang() {
       </h2>
       <ol className="mt-4 list-none p-0">
         {[
-          ['Cari dalam bahasa biasa', 'Tanya dalam Indonesia, dapatkan jawaban terstruktur dari AI.'],
+          ['Cari dalam bahasa biasa', 'Tanya dalam Bahasa Indonesia, dapatkan jawaban terstruktur dari AI.'],
           ['Telusuri tabel manfaat', 'Setiap nilai diambil dari sel di RIPLAY. Sumber selalu disebut.'],
           ['Buka dokumen asli', 'Setiap halaman produk menautkan ke RIPLAY dan brosur dalam satu klik.'],
           ['Bandingkan 2–4 produk', 'Tabel side-by-side dengan sticky kolom dan baris yang sama.'],
