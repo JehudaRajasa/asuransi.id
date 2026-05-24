@@ -64,6 +64,12 @@ export type BenefitCardData = {
   productCount: number
 }
 
+const insurerBySlug = new Map(allInsurers.map((i) => [i.slug, i]))
+
+export function getInsurer(slug: string): Insurer | undefined {
+  return insurerBySlug.get(slug)
+}
+
 const SHORT_NAME_OVERRIDES: Record<string, string> = {
   'aia-financial': 'AIA',
   'allianz-life': 'Allianz',
@@ -107,11 +113,10 @@ export function getInsurerCards(): InsurerCardData[] {
     productCounts.set(p.insurer_slug, (productCounts.get(p.insurer_slug) ?? 0) + 1)
   }
 
-  const insurerBySlug = new Map(allInsurers.map((i) => [i.slug, i]))
   const cards: InsurerCardData[] = []
 
   for (const [slug, count] of productCounts) {
-    const insurer = insurerBySlug.get(slug)
+    const insurer = getInsurer(slug)
     const name = insurer?.name ?? slug
     cards.push({
       slug,

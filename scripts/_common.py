@@ -18,6 +18,22 @@ DEFAULT_RIPLAY_MARKERS = ("riplay", "ringkasan", "ringkasan-informasi-produk", "
 DEFAULT_BROSUR_MARKERS = ("brosur", "brochure")
 
 
+# Map the raw slugify output of selected OJK official names to the
+# shorter consumer-facing slug used in product scrapes and URLs.
+# Without this override, e.g. "PT Asuransi Jiwa BCA" → "jiwa-bca" would
+# never match the product-side "bca-life", and the insurer record would
+# orphan from its policies.
+_SLUG_OVERRIDES = {
+    "jiwa-bca": "bca-life",
+    "bni-life-insurance": "bni-life",
+    "central-asia-financial": "car",
+    "jiwa-generali": "generali",
+    "jiwa-sequis-life": "sequis",
+    "sun-life-financial": "sun-life",
+    "zurich-topas-life": "zurich-topas",
+}
+
+
 def slugify_insurer(name: str) -> str:
     s = name.lower()
     s = _PT_PREFIX.sub("", s)
@@ -26,7 +42,8 @@ def slugify_insurer(name: str) -> str:
     s = _PERSERO.sub("", s)
     s = _TBK.sub("", s)
     s = _NONWORD.sub("-", s)
-    return s.strip("-")
+    raw = s.strip("-")
+    return _SLUG_OVERRIDES.get(raw, raw)
 
 
 def fetch_html(url: str, timeout: int = 30) -> str:

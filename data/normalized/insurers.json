@@ -109,7 +109,7 @@
     "phone": "021-21888000",
     "email": "secretariat@bcalife.co.id",
     "website": "www.bcalife.co.id",
-    "slug": "jiwa-bca"
+    "slug": "bca-life"
   },
   {
     "category": "asuransi_jiwa",
@@ -125,7 +125,7 @@
     "phone": "021-29539999",
     "email": "corporate.secretary@bni-life.co.id",
     "website": "www.bni-life.co.id",
-    "slug": "bni-life-insurance"
+    "slug": "bni-life"
   },
   {
     "category": "asuransi_jiwa",
@@ -141,7 +141,7 @@
     "phone": "021-29621622",
     "email": "legal.compliance@jagadiri.co.id",
     "website": "www.jagadiri.co.id",
-    "slug": "central-asia-financial"
+    "slug": "car"
   },
   {
     "category": "asuransi_jiwa",
@@ -189,7 +189,7 @@
     "phone": "021-29963700",
     "email": "legal&compliance@generali.co.id",
     "website": "www.generali.co.id",
-    "slug": "jiwa-generali"
+    "slug": "generali"
   },
   {
     "category": "asuransi_jiwa",
@@ -621,7 +621,7 @@
     "phone": "021-52890000",
     "email": "SLI_Corporate_Secretary@sunlife.com",
     "website": "www.sunlife.co.id",
-    "slug": "sun-life-financial"
+    "slug": "sun-life"
   },
   {
     "category": "asuransi_jiwa",
@@ -717,7 +717,7 @@
     "phone": "021-5223123",
     "email": "compliance@sequislife.com",
     "website": "www.sequislife.com",
-    "slug": "jiwa-sequis-life"
+    "slug": "sequis"
   },
   {
     "category": "asuransi_jiwa",
@@ -765,7 +765,7 @@
     "phone": "021-29667373",
     "email": "compliance.indonesia@zurich.co.id",
     "website": "www.zurich.co.id",
-    "slug": "zurich-topas-life"
+    "slug": "zurich-topas"
   },
   {
     "category": "asuransi_jiwa",

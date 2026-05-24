@@ -3,16 +3,16 @@ import { Link, useParams } from 'react-router-dom'
 import { InsurerMark } from '../components/InsurerMark'
 import { SourceLink } from '../components/SourceLink'
 import { Tag } from '../components/Tag'
-import { allInsurers, getInsurerCards, policies } from '../data/derive'
+import { getInsurer, getInsurerCards, policies } from '../data/derive'
 
 export function PenyediaSlug() {
   const { slug = '' } = useParams<{ slug: string }>()
 
-  const insurer = useMemo(() => allInsurers.find((i) => i.slug === slug), [slug])
+  const insurer = useMemo(() => getInsurer(slug), [slug])
   const card = useMemo(() => getInsurerCards().find((c) => c.slug === slug), [slug])
   const products = useMemo(() => policies.filter((p) => p.insurer_slug === slug), [slug])
 
-  if (!insurer || !card) {
+  if (!card) {
     return (
       <main className="mx-auto max-w-[720px] px-6 py-20 md:px-20">
         <div className="micro-label mb-6">Tidak ditemukan</div>
@@ -31,7 +31,7 @@ export function PenyediaSlug() {
   return (
     <main className="pb-32">
       <section className="mx-auto max-w-[1180px] px-6 pb-10 pt-12 md:px-20 md:pt-16">
-        <div className="micro-label mb-5 text-ink-tertiary">
+        <div className="micro-label mb-5">
           <Link to="/" className="no-underline hover:underline">Beranda</Link>{' '}
           / <Link to="/penyedia" className="no-underline hover:underline">Penyedia</Link>{' '}
           / {card.shortName}
@@ -40,9 +40,13 @@ export function PenyediaSlug() {
           <InsurerMark name={card.shortName} slug={card.slug} size={48} />
           <div>
             <div className="text-[13px] text-ink-secondary">{card.shortName}</div>
-            <div className="font-mono text-[11px] text-ink-tertiary">
-              {insurer.city} · {insurer.jenis_perusahaan.replace(/_/g, ' ')}
-            </div>
+            {insurer && (
+              <div className="font-mono text-[11px] text-ink-secondary">
+                {[insurer.city, insurer.jenis_perusahaan?.replace(/_/g, ' ')]
+                  .filter(Boolean)
+                  .join(' · ')}
+              </div>
+            )}
           </div>
         </div>
         <h1 className="m-0 font-serif text-[36px] font-normal leading-[1.05] tracking-[-0.025em] text-ink-primary md:text-[56px]">
@@ -68,7 +72,7 @@ export function PenyediaSlug() {
                 to={`/produk/${p.product_id}`}
                 className="flex flex-col gap-3 border-b border-r border-hairline p-6 text-ink-primary no-underline hover:bg-brand-soft/30 md:p-8"
               >
-                <div className="font-mono text-[11px] uppercase tracking-[0.06em] text-ink-tertiary">
+                <div className="font-mono text-[11px] uppercase tracking-[0.06em] text-ink-secondary">
                   {p.jenis === 'syariah' ? 'Syariah' : 'Konvensional'} · {p.plans.length} plan
                 </div>
                 <div className="font-serif text-[22px] leading-[1.2] md:text-[26px]">
