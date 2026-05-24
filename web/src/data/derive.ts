@@ -87,6 +87,20 @@ export function shortName(slug: string, fallback: string): string {
   return fallback.replace(/^PT\.?\s+/, '')
 }
 
+const UNIT_LABELS: Record<string, string> = {
+  per_year: 'per tahun',
+  per_day: 'per hari',
+  per_visit: 'per kunjungan',
+  per_event: 'per kejadian',
+  per_2_years: 'per 2 tahun',
+  no_cap: 'tanpa batas',
+}
+
+export function formatUnit(unit: string | null | undefined): string {
+  if (!unit) return ''
+  return UNIT_LABELS[unit] ?? unit.replace(/_/g, ' ')
+}
+
 export function getInsurerCards(): InsurerCardData[] {
   const productCounts = new Map<string, number>()
   for (const p of policies) {

@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
 import type { CompareCellData, CompareMatrix } from '../data/compare'
-import { shortName } from '../data/derive'
+import { formatUnit, shortName } from '../data/derive'
 import { InsurerMark } from './InsurerMark'
 import { SourceLink } from './SourceLink'
 import { Tag } from './Tag'
@@ -22,7 +22,7 @@ function Cell({ data }: { data: CompareCellData }) {
     <span>
       <span className="font-mono text-[15px] font-medium tnum text-ink-primary">{data.value}</span>
       {data.unit && (
-        <span className="ml-1 font-mono text-[11px] text-ink-tertiary">/ {data.unit}</span>
+        <span className="ml-1 font-mono text-[11px] text-ink-tertiary">/ {formatUnit(data.unit)}</span>
       )}
     </span>
   )

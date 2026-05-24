@@ -4,7 +4,7 @@ import { FailureBanner } from '../components/FailureBanner'
 import { InsurerMark } from '../components/InsurerMark'
 import { SourceLink } from '../components/SourceLink'
 import { Tag } from '../components/Tag'
-import { shortName } from '../data/derive'
+import { formatUnit, shortName } from '../data/derive'
 import {
   getParseFailure,
   getPolicy,
@@ -206,7 +206,7 @@ export function Product() {
                       )}
                     </td>
                     <td className="py-3.5 pl-4 text-[13px] text-ink-secondary">
-                      {it.manfaat.unit ?? ''}
+                      {formatUnit(it.manfaat.unit)}
                       {it.manfaat.note ? ` · ${it.manfaat.note}` : ''}
                     </td>
                   </tr>
