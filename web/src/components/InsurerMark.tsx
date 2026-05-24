@@ -16,7 +16,7 @@ export function InsurerMark({ name, slug, size = 32 }: Props) {
   return (
     <div
       aria-hidden="true"
-      className="inline-flex items-center justify-center bg-ink-primary text-ink-inverse font-mono font-medium tnum"
+      className="inline-flex items-center justify-center bg-brand text-ink-inverse font-mono font-medium tnum"
       style={{
         width: size,
         height: size,
